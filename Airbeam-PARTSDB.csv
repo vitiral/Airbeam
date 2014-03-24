@@ -1,44 +1,48 @@
-Mfg Part Num	Mfg Name	Description	VID	Vendor Part Num	Pkg Code	Price
-AtMega32U4-XUAU	Atmel	Microcontroller	http://www.mouser.com/ProductDetail/Atmel/ATMEGA32U4-MU/?qs=sGAEpiMZZMvAvBNgSS9LqtMxt75eRjif			0.1
-67997-206HLF	FCI	Connector ISP	http://www.digikey.com/product-detail/en/67997-206HLF/609-3234-ND/1878491	609-3234-ND		0.1
-ECS	ECS-160-20-3X-TR	Crystal	http://www.digikey.com/product-detail/en/ECS-160-20-3X-TR/XC1776CT-ND/2676640	XC1776CT-ND		0.1
-550-1307F	Dialight	LED – Green	http://www.digikey.com/product-detail/en/550-1307F/350-1627-ND/809025	350-1627-ND		0.1
-NVC-MDCS42A	iNova	BT Module	n/a	#VALUE!		0.1
-						0.1
-RHT03	Maxdetect	Sensor Temp-Humidity 	http://www.ebay.com/itm/NEW-DHT22-AM2302-Digital-Temperature-Humidity-Sensor-Replace-SHT11-SHT15-Logger-/271175728425?pt=LH_DefaultDomain_0&hash=item3f23553d29			0.1
-PPD60PV-T2	SHINYEI	Sensor Dust 	n/a			0.1
-F16FB-05LLC /E	Copol	Fan Copol	http://www.digikey.com/product-search/en?vendor=0&keywords=copal+blower	#VALUE!		0.1
-S4B-EH	JST Sales America	Connector (Dust Sensor)	http://www.digikey.com/product-detail/en/S4B-EH/455-1030-ND/527254	455-1030-ND		0.1
-						0.1
-10103594-0001LF	FCI	Connector USB Micro	http://www.digikey.com/product-detail/en/10103594-0001LF/609-4050-1-ND/2350357	609-4050-1-ND		0.1
-LC2259EENP	E-Switch	Power Button	http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=LC2259EENPESWITCH6265227&IM=0			0.1
-585460_2000mAh	UnionFortune	Battery – Lion	http://www.jayconsystems.com/3-7-volt-rechargeable-lithium-battery-2000-mah.html			0.1
-CONN-08352	Sparkfun	Conn Battery	https://www.sparkfun.com/products/8612			0.1
-RT6150BGQW	Richtek USA	Voltage Reg Buck-Boost	http://www.digikey.com/product-detail/en/RT6150BGQW/1028-1260-1-ND/4733184	1028-1260-1-ND		0.1
-MCP73831T-2ACI/OT	Miocrochip	Volteage Reg USB	http://www.digikey.com/product-detail/en/MCP73831T-2ACI%2FOT/MCP73831T-2ACI%2FOTCT-ND/1979802	MCP73831T-2ACI%2FOTCT-ND		0.1
-BRL3225T2R2M	Taiyo Yuden	Inductor 2.2uH	http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863	587-2165-1-ND		0.1
-NRS5020T6R8MMGJ	Taiyo Yuden	Inductor 6uH	http://www.digikey.com/product-detail/en/NRS5020T6R8MMGJ/587-2408-1-ND/2230274	587-2408-1-ND		0.1
-RT9819C-26GV	Richtek	Low Voltage Detect	http://www.digikey.com/product-detail/en/RT9819C-26GV/1028-1022-1-ND/2470081	1028-1022-1-ND		0.1
-0ZCJ0100FF2E	Bel Fuse Inc.	Fuse Resetable	http://www.digikey.com/product-detail/en/0ZCJ0100FF2E/507-1806-1-ND/4156243	507-1806-1-ND		0.1
-						0.1
-IRLML2246TRPBF	International Rectifier	MOSFET–P	http://www.digikey.com/product-detail/en/IRLML2246TRPBF/IRLML2246TRPBFCT-ND/2639576	IRLML2246TRPBFCT-ND		0.1
-B130LAW-7-F	Diodes Incorporated	Diode Schottkey	http://www.digikey.com/product-detail/en/B130LAW-7-F/B130LAW-FDICT-ND/725052	B130LAW-FDICT-ND		0.1
-MH2029-300Y	Bourns Inc.	Ferite Bead	http://www.digikey.com/product-detail/en/MH2029-300Y/MH2029-300YCT-ND/3741761	MH2029-300YCT-ND		0.1
-CG0603MLC-05E	Bourns Inc.	Varistor	http://www.digikey.com/product-detail/en/CG0603MLC-05E/CG0603MLC-05ECT-ND/3438061	CG0603MLC-05ECT-ND		0.1
-						0.1
-CL10C200JB8NNNC	Samsung	Capacitor 0603 20pF	http://www.digikey.com/product-detail/en/CL10C200JB8NNNC/1276-1187-1-ND/3889273	1276-1187-1-ND		0.1
-C1608X7R1E104K080AA	TDK	Capacitor 0603 100nF	http://www.digikey.com/product-detail/en/C1608X7R1E104K080AA/445-1316-1-ND/567697	445-1316-1-ND		0.1
-C1608X5R1C105K080AA	TDK	Capacitor 0603 1uF	http://www.digikey.com/product-detail/en/C1608X5R1C105K080AA/445-1416-1-ND/569082	445-1416-1-ND		0.1
-C2012X5R1C106K085AC	TDK	Capacitor 0805 10uF	http://www.digikey.com/product-detail/en/C2012X5R1C106K085AC/445-7644-1-ND/2733716	445-7644-1-ND		0.1
-						0.1
-RC0603JR-070RL	Yageo	Resistor 0603 0 Ohm	http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622	311-0.0GRCT-ND		0.1
-RC0603JR-0722RL	Yageo	Resistor 0603 22 Ohm	http://www.digikey.com/product-detail/en/RC0603JR-0722RL/311-22GRCT-ND/729690	311-22GRCT-ND		0.1
-RC0603FR-072KL	Yageo	Resistor 0603 2k	http://www.digikey.com/product-detail/en/RC0603FR-072KL/311-2.00KHRCT-ND/729956	311-2.00KHRCT-ND		0.1
-RC0603JR-0710KL	Yageo	Resistor 0603 10k	http://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647	311-10KGRCT-ND		0.1
-RC0805FR-0753K6L	Yageo	Resistor 0603 53.6 	http://www.digikey.com/product-detail/en/RC0805FR-0753K6L/311-53.6KCRCT-ND/730972	311-53.6KCRCT-ND		0.1
-ERJ-3EKF8662V	Panasonic	Resistor 0603 86.6k	http://www.digikey.com/product-detail/en/ERJ-3EKF8662V/P86.6KHCT-ND/198534	P86.6KHCT-ND		0.1
-ERJ-3EKF4873V	Panasonic	Resistor 0603 487k	http://www.digikey.com/product-detail/en/ERJ-3EKF4873V/P487KHCT-ND/198411	P487KHCT-ND		0.1
-RC0603FR-071ML	Yageo	Resistor 0603 1M	http://www.digikey.com/product-detail/en/RC0603FR-071ML/311-1.00MHRCT-ND/729791	311-1.00MHRCT-ND		0.1
-						0.1
-NDS331N	Fairchild	MOSFET – N	http://www.digikey.com/product-detail/en/NDS331N/NDS331NCT-ND/458997	NDS331NCT-ND		0.1
-DNP	DO NOT POPULATE	DO NOT POPULATE	DO NOT POPULATE			0.1
+Mfg Part Num	Mfg Name	Description	Value	Pkg Code	VID	Vendor Part Num	Price	Height	Link
+AtMega32U4-XUAU	Atmel	Microcontroller							http://www.mouser.com/ProductDetail/Atmel/ATMEGA32U4-MU/?qs=sGAEpiMZZMvAvBNgSS9LqtMxt75eRjif
+67997-206HLF	FCI	Connector ISP				609-3234-ND			http://www.digikey.com/product-detail/en/67997-206HLF/609-3234-ND/1878491
+ECS	ECS-160-20-3X-TR	Crystal	16MHz			XC1776CT-ND			http://www.digikey.com/product-detail/en/ECS-160-20-3X-TR/XC1776CT-ND/2676640
+550-1307F	Dialight	LED – Green	Green			350-1627-ND			http://www.digikey.com/product-detail/en/550-1307F/350-1627-ND/809025
+550-1107F	Dialight	LED -  Red	Red			350-1620-ND			http://www.digikey.com/product-detail/en/550-1107F/350-1620-ND/809018
+NVC-MDCS42A	iNova	BT Module				n/a			n/a
+									
+RHT03	Maxdetect	Sensor Temp-Humidity 							http://www.ebay.com/itm/NEW-DHT22-AM2302-Digital-Temperature-Humidity-Sensor-Replace-SHT11-SHT15-Logger-/271175728425?pt=LH_DefaultDomain_0&hash=item3f23553d29
+PPD60PV-T2	SHINYEI	Sensor Dust 							n/a
+F16FB-05LLC /E	Copol	Fan Copol				563-1106-ND			http://www.digikey.com/product-detail/en/F16EA-03LLC%20%2FE/563-1106-ND/1165500
+22-05-7025	Molex	Connector Fan	2 pin			538-22-05-7025			http://www.mouser.com/ProductDetail/Molex/22-05-7025/?qs=xrDmMQn67Z5jplgrvRQ%20IpQ==
+S4B-EH	JST Sales America	Connector (Dust Sensor)				455-1030-ND			http://www.digikey.com/product-detail/en/S4B-EH/455-1030-ND/527254
+									
+PPTC051LGBN-RC	Sullins Connector	Connector (addon board)	5 pin			S5441-ND			http://www.digikey.com/product-detail/en/PPTC051LGBN-RC/S5441-ND/775899
+									
+10103594-0001LF	FCI	Connector USB Micro				609-4050-1-ND			http://www.digikey.com/product-detail/en/10103594-0001LF/609-4050-1-ND/2350357
+LC2259EENP	E-Switch	Power Button							http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=LC2259EENPESWITCH6265227&IM=0
+585460_2000mAh	UnionFortune	Battery – Lion	2000mAh						http://www.jayconsystems.com/3-7-volt-rechargeable-lithium-battery-2000-mah.html
+CONN-08352	Sparkfun	Conn Battery							https://www.sparkfun.com/products/8612
+RT6150BGQW	Richtek USA	Voltage Reg Buck-Boost				1028-1260-1-ND			http://www.digikey.com/product-detail/en/RT6150BGQW/1028-1260-1-ND/4733184
+MCP73831T-2ACI/OT	Miocrochip	Volteage Reg USB				MCP73831T-2ACI%2FOTCT-ND			http://www.digikey.com/product-detail/en/MCP73831T-2ACI%2FOT/MCP73831T-2ACI%2FOTCT-ND/1979802
+BRL3225T2R2M	Taiyo Yuden	Inductor 2.2uH	2.2uH			587-2165-1-ND			http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863
+NRS5020T6R8MMGJ	Taiyo Yuden	Inductor 6uH	6uH			587-2408-1-ND			http://www.digikey.com/product-detail/en/NRS5020T6R8MMGJ/587-2408-1-ND/2230274
+RT9819C-26GV	Richtek	Low Voltage Detect	2.9V			1028-1023-1-ND			http://www.digikey.com/product-detail/en/RT9819C-29GV/1028-1023-1-ND/2470082
+0ZCJ0100FF2E	Bel Fuse Inc.	Fuse Resetable	1A			507-1806-1-ND			http://www.digikey.com/product-detail/en/0ZCJ0100FF2E/507-1806-1-ND/4156243
+									
+IRLML2246TRPBF	International Rectifier	MOSFET–P				IRLML2246TRPBFCT-ND			http://www.digikey.com/product-detail/en/IRLML2246TRPBF/IRLML2246TRPBFCT-ND/2639576
+B130LAW-7-F	Diodes Incorporated	Diode Schottkey				B130LAW-FDICT-ND			http://www.digikey.com/product-detail/en/B130LAW-7-F/B130LAW-FDICT-ND/725052
+MH2029-300Y	Bourns Inc.	Ferite Bead				MH2029-300YCT-ND			http://www.digikey.com/product-detail/en/MH2029-300Y/MH2029-300YCT-ND/3741761
+CG0603MLC-05E	Bourns Inc.	Varistor				CG0603MLC-05ECT-ND			http://www.digikey.com/product-detail/en/CG0603MLC-05E/CG0603MLC-05ECT-ND/3438061
+									
+CL10C200JB8NNNC	Samsung	Capacitor	20pF	0603		1276-1187-1-ND			http://www.digikey.com/product-detail/en/CL10C200JB8NNNC/1276-1187-1-ND/3889273
+C1608X7R1E104K080AA	TDK	Capacitor	100nF	0603		445-1316-1-ND			http://www.digikey.com/product-detail/en/C1608X7R1E104K080AA/445-1316-1-ND/567697
+C1608X5R1C105K080AA	TDK	Capacitor	1uF	0603		445-1416-1-ND			http://www.digikey.com/product-detail/en/C1608X5R1C105K080AA/445-1416-1-ND/569082
+C2012X5R1C106K085AC	TDK	Capacitor	10uF	0805		445-7644-1-ND			http://www.digikey.com/product-detail/en/C2012X5R1C106K085AC/445-7644-1-ND/2733716
+									
+RC0603JR-070RL	Yageo	Resistor	0	0603		311-0.0GRCT-ND			http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622
+RC0603JR-0722RL	Yageo	Resistor	22	0603		311-22GRCT-ND			http://www.digikey.com/product-detail/en/RC0603JR-0722RL/311-22GRCT-ND/729690
+RC0603FR-072KL	Yageo	Resistor	2k	0603		311-2.00KHRCT-ND			http://www.digikey.com/product-detail/en/RC0603FR-072KL/311-2.00KHRCT-ND/729956
+RC0603JR-0710KL	Yageo	Resistor	10k	0603		311-10KGRCT-ND			http://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647
+RC0805FR-0753K6L	Yageo	Resistor	53.6k	0603		311-53.6KCRCT-ND			http://www.digikey.com/product-detail/en/RC0805FR-0753K6L/311-53.6KCRCT-ND/730972
+ERJ-3EKF8662V	Panasonic	Resistor	86.6k	0603		P86.6KHCT-ND			http://www.digikey.com/product-detail/en/ERJ-3EKF8662V/P86.6KHCT-ND/198534
+ERJ-3EKF4873V	Panasonic	Resistor	487k	0603		P487KHCT-ND			http://www.digikey.com/product-detail/en/ERJ-3EKF4873V/P487KHCT-ND/198411
+RC0603FR-071ML	Yageo	Resistor	1M	0603		311-1.00MHRCT-ND			http://www.digikey.com/product-detail/en/RC0603FR-071ML/311-1.00MHRCT-ND/729791
+									
+NDS331N	Fairchild	MOSFET – N				NDS331NCT-ND			http://www.digikey.com/product-detail/en/NDS331N/NDS331NCT-ND/458997
+DNP	DO NOT POPULATE	DO NOT POPULATE							DO NOT POPULATE

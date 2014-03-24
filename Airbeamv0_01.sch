@@ -2307,11 +2307,26 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <wire x1="2" y1="2" x2="2" y2="1" width="0.127" layer="21"/>
 <text x="-3" y="-5.5" size="1.27" layer="21">&gt;NAME</text>
 </package>
-<package name="FAN">
-<pad name="VCC" x="-1.5" y="0" drill="1" shape="square"/>
-<pad name="GND" x="1.5" y="0" drill="1" shape="square"/>
-<text x="-1" y="1" size="1.27" layer="21" rot="R90">VCC</text>
-<text x="2" y="1" size="1.27" layer="21" rot="R90">GND</text>
+<package name="MOLEX_2PIN_SIDE">
+<pad name="P$1" x="-1.25" y="0" drill="0.9" shape="square"/>
+<pad name="P$2" x="1.25" y="0" drill="0.9" shape="square"/>
+<wire x1="-1.25" y1="0" x2="-3" y2="0" width="0.127" layer="21"/>
+<wire x1="-3" y1="0" x2="-3" y2="6.6" width="0.127" layer="21"/>
+<wire x1="1.25" y1="0" x2="3" y2="0" width="0.127" layer="22"/>
+<wire x1="3" y1="0" x2="3" y2="6.6" width="0.127" layer="22"/>
+<wire x1="-3" y1="6.6" x2="3" y2="6.6" width="0.127" layer="21"/>
+<text x="-3" y="-2.5" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="BERG-5X1_SIDE">
+<pad name="P$1" x="-5.08" y="0" drill="1.016" shape="square"/>
+<pad name="P$2" x="-2.54" y="0" drill="1.016" shape="square"/>
+<pad name="P$3" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="P$4" x="2.54" y="0" drill="1.016" shape="square"/>
+<pad name="P$5" x="5.08" y="0" drill="1.016" shape="square"/>
+<wire x1="-7.239" y1="0" x2="-7.239" y2="8.509" width="0.127" layer="21"/>
+<wire x1="7.239" y1="0" x2="7.239" y2="8.509" width="0.127" layer="21"/>
+<wire x1="-7.239" y1="8.509" x2="7.239" y2="8.509" width="0.127" layer="21"/>
+<text x="-7.62" y="-2.54" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2550,6 +2565,18 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <text x="-5.08" y="0" size="1.27" layer="95">G</text>
 <text x="1.016" y="-2.54" size="1.27" layer="95">S</text>
 <text x="1.016" y="2.54" size="1.27" layer="95">D</text>
+</symbol>
+<symbol name="BERG_1X5">
+<pin name="P$1" x="-5.08" y="0" length="point" rot="R270"/>
+<pin name="P$2" x="-2.54" y="0" length="point" rot="R270"/>
+<pin name="P$3" x="0" y="0" length="point" rot="R270"/>
+<pin name="P$4" x="2.54" y="0" length="point" rot="R270"/>
+<pin name="P$5" x="5.08" y="0" length="point" rot="R270"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-6.604" y="5.588" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2815,15 +2842,13 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <gate name="G$1" symbol="FAN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FAN">
+<device name="" package="MOLEX_2PIN_SIDE">
 <connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="VCC" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PARTNO" value="F16FB-05LLC /E" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2843,6 +2868,25 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <technology name="">
 <attribute name="PARTNO" value="IRLML2246TRPBF " constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BERG_1X5">
+<gates>
+<gate name="G$1" symbol="BERG_1X5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BERG-5X1_SIDE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5381,21 +5425,30 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="CON_FAN" library="Airbeam" deviceset="FAN" device=""/>
+<part name="CON_FAN" library="Airbeam" deviceset="FAN" device="">
+<attribute name="PARTNO" value="22-05-7025"/>
+</part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="LED_R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="LED_ON" library="Airbeam" deviceset="LED" device=""/>
 <part name="LED_R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="LED_BT" library="Airbeam" deviceset="LED" device=""/>
+<part name="LED_BT" library="Airbeam" deviceset="LED" device="">
+<attribute name="PARTNO" value="550-1107F
+"/>
+</part>
 <part name="VR_MOS-P1" library="Airbeam" deviceset="MOSFET-P" device=""/>
 <part name="UR_C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="U_FUSE" library="SparkFun-PowerIC" deviceset="PTC" device="SMD-W" value="1.8A">
-<attribute name="PARTNO" value="0ZCJ0100FF2E
+<attribute name="PARTNO" value="0ZCJ0100FF2E "/>
+</part>
+<part name="CON_ADDON" library="Airbeam" deviceset="BERG_1X5" device="">
+<attribute name="PARTNO" value="PPTC051LGBN-RC
 "/>
 </part>
+<part name="GND33" library="supply1" deviceset="GND" device=""/>
+<part name="P+5" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5698,12 +5751,14 @@ CON = connector</text>
 <attribute name="PARTNO" x="-96.52" y="-172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="-106.68" y="-157.48"/>
-<instance part="CON_FAN" gate="G$1" x="-76.2" y="-162.56"/>
+<instance part="CON_FAN" gate="G$1" x="-76.2" y="-162.56">
+<attribute name="PARTNO" x="-76.2" y="-162.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND14" gate="1" x="-63.5" y="-165.1"/>
-<instance part="LED_R1" gate="G$1" x="71.12" y="-139.7" rot="R90"/>
-<instance part="LED_ON" gate="G$1" x="71.12" y="-127" rot="R270"/>
-<instance part="LED_R2" gate="G$1" x="83.82" y="-139.7" rot="R90"/>
-<instance part="LED_BT" gate="G$1" x="83.82" y="-127" rot="R270"/>
+<instance part="LED_R2" gate="G$1" x="76.2" y="-134.62" rot="R90"/>
+<instance part="LED_BT" gate="G$1" x="76.2" y="-121.92" rot="R270">
+<attribute name="PARTNO" x="76.2" y="-121.92" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="VR_MOS-P1" gate="G$1" x="68.58" y="-22.86" rot="R270"/>
 <instance part="UR_C1" gate="G$1" x="38.1" y="-27.94">
 <attribute name="PARTNO" x="38.1" y="-27.94" size="1.778" layer="96" display="off"/>
@@ -5712,6 +5767,14 @@ CON = connector</text>
 <instance part="U_FUSE" gate="G$1" x="-50.8" y="-22.86">
 <attribute name="PARTNO" x="-50.8" y="-22.86" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="CON_ADDON" gate="G$1" x="-127" y="-127">
+<attribute name="PARTNO" x="-127" y="-127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND33" gate="1" x="-121.92" y="-137.16"/>
+<instance part="P+5" gate="1" x="-124.46" y="-142.24" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-126.365" y="-144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="-127" y="-137.16" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5802,6 +5865,11 @@ CON = connector</text>
 <wire x1="-78.74" y1="-129.54" x2="-66.04" y2="-129.54" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="-129.54" x2="-66.04" y2="-127" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="CON_ADDON" gate="G$1" pin="P$4"/>
+<wire x1="-124.46" y1="-127" x2="-124.46" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -6100,6 +6168,11 @@ CON = connector</text>
 <wire x1="-15.24" y1="-121.92" x2="-30.48" y2="-121.92" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="CON_ADDON" gate="G$1" pin="P$5"/>
+<wire x1="-121.92" y1="-127" x2="-121.92" y2="-134.62" width="0.1524" layer="91"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="AREF" class="4">
 <segment>
@@ -6243,6 +6316,11 @@ CON = connector</text>
 <wire x1="-101.6" y1="-162.56" x2="-106.68" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="-162.56" x2="-106.68" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="CON_ADDON" gate="G$1" pin="P$3"/>
+<wire x1="-127" y1="-127" x2="-127" y2="-134.62" width="0.1524" layer="91"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -6570,6 +6648,11 @@ CON = connector</text>
 <label x="213.36" y="58.42" size="1.778" layer="95"/>
 <pinref part="ATMEGA32U4-T" gate="G$1" pin="(ADC5/TMS)PF5"/>
 </segment>
+<segment>
+<pinref part="CON_ADDON" gate="G$1" pin="P$2"/>
+<wire x1="-129.54" y1="-127" x2="-129.54" y2="-139.7" width="0.1524" layer="91"/>
+<label x="-129.54" y="-139.7" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="A1" class="0">
 <segment>
@@ -6583,6 +6666,11 @@ CON = connector</text>
 <wire x1="210.82" y1="60.96" x2="228.6" y2="60.96" width="0.1524" layer="91"/>
 <label x="213.36" y="60.96" size="1.778" layer="95"/>
 <pinref part="ATMEGA32U4-T" gate="G$1" pin="(ADC6/TDO)PF6"/>
+</segment>
+<segment>
+<pinref part="CON_ADDON" gate="G$1" pin="P$1"/>
+<wire x1="-132.08" y1="-127" x2="-132.08" y2="-139.7" width="0.1524" layer="91"/>
+<label x="-132.08" y="-139.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -7111,18 +7199,11 @@ CON = connector</text>
 <pinref part="CON_FAN" gate="G$1" pin="VCC"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="LED_R1" gate="G$1" pin="2"/>
-<pinref part="LED_ON" gate="G$1" pin="CATH"/>
-<wire x1="71.12" y1="-129.54" x2="71.12" y2="-134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="LED_R2" gate="G$1" pin="2"/>
 <pinref part="LED_BT" gate="G$1" pin="CATH"/>
-<wire x1="83.82" y1="-129.54" x2="83.82" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-124.46" x2="76.2" y2="-129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
