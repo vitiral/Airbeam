@@ -1,10 +1,12 @@
-Mfg Part Num	Mfg Name	Description	Value	Pkg Code	VID	Vendor Part Num	Price	Height	Link
+Mfg Part Num	Mfg Name	Description	Value	Pkg Code	VID	Vendor Part Num	Price @ 500	Height	Link
 AtMega32U4-XUAU	Atmel	Microcontroller							http://www.mouser.com/ProductDetail/Atmel/ATMEGA32U4-MU/?qs=sGAEpiMZZMvAvBNgSS9LqtMxt75eRjif
+TL3315NF250Q	E-Switch	Switch				EG4622CT-ND			http://www.digikey.com/product-detail/en/TL3315NF250Q/EG4622CT-ND/1870402
 67997-206HLF	FCI	Connector ISP				609-3234-ND			http://www.digikey.com/product-detail/en/67997-206HLF/609-3234-ND/1878491
-ECS	ECS-160-20-3X-TR	Crystal	16MHz			XC1776CT-ND			http://www.digikey.com/product-detail/en/ECS-160-20-3X-TR/XC1776CT-ND/2676640
+ECS-160-20-3X-TR	ECS	Crystal	16MHz			XC1776CT-ND			http://www.digikey.com/product-detail/en/ECS-160-20-3X-TR/XC1776CT-ND/2676640
 550-1307F	Dialight	LED – Green	Green			350-1627-ND			http://www.digikey.com/product-detail/en/550-1307F/350-1627-ND/809025
 550-1107F	Dialight	LED -  Red	Red			350-1620-ND			http://www.digikey.com/product-detail/en/550-1107F/350-1620-ND/809018
 NVC-MDCS42A	iNova	BT Module				n/a			n/a
+SN74LVC1G125DBVR	Texas Instruments	Voltage Buffer	<5	SOT23-5		296-11603-1-ND	0.1482		http://www.digikey.com/product-detail/en/SN74LVC1G125DBVR/296-11603-1-ND/385742
 									
 RHT03	Maxdetect	Sensor Temp-Humidity 							http://www.ebay.com/itm/NEW-DHT22-AM2302-Digital-Temperature-Humidity-Sensor-Replace-SHT11-SHT15-Logger-/271175728425?pt=LH_DefaultDomain_0&hash=item3f23553d29
 PPD60PV-T2	SHINYEI	Sensor Dust 							n/a
@@ -19,10 +21,11 @@ LC2259EENP	E-Switch	Power Button							http://www.futureelectronics.com/en/Techn
 585460_2000mAh	UnionFortune	Battery – Lion	2000mAh						http://www.jayconsystems.com/3-7-volt-rechargeable-lithium-battery-2000-mah.html
 CONN-08352	Sparkfun	Conn Battery							https://www.sparkfun.com/products/8612
 RT6150BGQW	Richtek USA	Voltage Reg Buck-Boost				1028-1260-1-ND			http://www.digikey.com/product-detail/en/RT6150BGQW/1028-1260-1-ND/4733184
-MCP73831T-2ACI/OT	Miocrochip	Volteage Reg USB				MCP73831T-2ACI%2FOTCT-ND			http://www.digikey.com/product-detail/en/MCP73831T-2ACI%2FOT/MCP73831T-2ACI%2FOTCT-ND/1979802
+MC34673AEPR2	Freescale Semiconductor	Voltage Reg USB				MC34673AEPR2CT-ND			http://www.digikey.com/product-detail/en/MC34673AEPR2/MC34673AEPR2CT-ND/1867915
 BRL3225T2R2M	Taiyo Yuden	Inductor 2.2uH	2.2uH			587-2165-1-ND			http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863
 NRS5020T6R8MMGJ	Taiyo Yuden	Inductor 6uH	6uH			587-2408-1-ND			http://www.digikey.com/product-detail/en/NRS5020T6R8MMGJ/587-2408-1-ND/2230274
 RT9819C-26GV	Richtek	Low Voltage Detect	2.9V			1028-1023-1-ND			http://www.digikey.com/product-detail/en/RT9819C-29GV/1028-1023-1-ND/2470082
+APX809-31SAG-7	Diodes Incorporated	Low Voltage Detect	3.08V			APX809-31SAGDICT-ND			http://www.digikey.com/product-detail/en/APX809-31SAG-7/APX809-31SAGDICT-ND/1844722
 0ZCJ0100FF2E	Bel Fuse Inc.	Fuse Resetable	1A			507-1806-1-ND			http://www.digikey.com/product-detail/en/0ZCJ0100FF2E/507-1806-1-ND/4156243
 									
 IRLML2246TRPBF	International Rectifier	MOSFET–P				IRLML2246TRPBFCT-ND			http://www.digikey.com/product-detail/en/IRLML2246TRPBF/IRLML2246TRPBFCT-ND/2639576
@@ -37,6 +40,7 @@ C2012X5R1C106K085AC	TDK	Capacitor	10uF	0805		445-7644-1-ND			http://www.digikey.
 									
 RC0603JR-070RL	Yageo	Resistor	0	0603		311-0.0GRCT-ND			http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622
 RC0603JR-0722RL	Yageo	Resistor	22	0603		311-22GRCT-ND			http://www.digikey.com/product-detail/en/RC0603JR-0722RL/311-22GRCT-ND/729690
+RC0603FR-071K4L	Yageo	Resistor	1.4k	0603		311-2.00KHRCT-ND			http://www.digikey.com/product-detail/en/RC0603FR-071K4L/311-1.40KHRCT-ND/729808
 RC0603FR-072KL	Yageo	Resistor	2k	0603		311-2.00KHRCT-ND			http://www.digikey.com/product-detail/en/RC0603FR-072KL/311-2.00KHRCT-ND/729956
 RC0603JR-0710KL	Yageo	Resistor	10k	0603		311-10KGRCT-ND			http://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647
 RC0805FR-0753K6L	Yageo	Resistor	53.6k	0603		311-53.6KCRCT-ND			http://www.digikey.com/product-detail/en/RC0805FR-0753K6L/311-53.6KCRCT-ND/730972

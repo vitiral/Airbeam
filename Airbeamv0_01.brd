@@ -14185,7 +14185,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="VR_U" library="Airbeam" package="SOT23-5" value="VREG-MCP73831" x="32.5" y="77" rot="R270">
 <attribute name="PARTNO" value="MCP73831T-2ACI/OT" x="32.5" y="77" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="UR_R1" library="SparkFun-Passives" package="0603-RES" value="1.4k" x="24.5" y="77.5"/>
+<element name="R_LED_CH" library="SparkFun-Passives" package="0603-RES" value="1.4k" x="24.5" y="77.5">
+<attribute name="PARTNO" value="RC0603FR-071K4L" x="24.5" y="77.5" size="1.778" layer="27" display="off"/>
+</element>
 <element name="UR_R2" library="SparkFun-Passives" package="0603-RES" value="2K" x="25" y="74">
 <attribute name="PARTNO" value="RC0603FR-072KL" x="25" y="74" size="1.778" layer="27" display="off"/>
 </element>
@@ -14207,7 +14209,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="VR_R3" library="SparkFun-Resistors" package="0603-RES" value="DNP" x="19.5" y="53.5" rot="R90">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="19.5" y="53.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="CON_DUST" library="Airbeam" package="S4B-EH" value="CON_DUST" x="75.02" y="6.7" locked="yes"/>
+<element name="CON_DUST" library="Airbeam" package="S4B-EH" value="CON_DUST" x="75.02" y="6.7" locked="yes">
+<attribute name="PARTNO" value="S4B-EH" x="75.02" y="6.7" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED_CH" library="Airbeam" package="LED_550" value="LED" x="7.62" y="55.245" rot="R90">
 <attribute name="PARTNO" value="550-1307F" x="7.62" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -14230,10 +14234,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PARTNO" value="C1608X5R1C105K080AA" x="50" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="UC_C5" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="70" y="17" rot="R270">
-<attribute name="PARTNO" value="C2012X5R1C106K085AC" x="70" y="17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="C1608X5R1C105K080AA" x="70" y="17" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="UC_C6" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="58.5" y="31.5">
-<attribute name="PARTNO" value="C2012X5R1C106K085AC" x="58.5" y="31.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="C1608X7R1E104K080AA" x="58.5" y="31.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="UC_C4" library="SparkFun-Passives" package="0603-CAP" value="20pF" x="61.5" y="13" rot="R180">
 <attribute name="PARTNO" value="CL10C200JB8NNNC" x="61.5" y="13" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14254,7 +14258,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="CON_FAN" library="Airbeam" package="MOLEX_2PIN_SIDE" value="FAN" x="32.49995" y="7.235" locked="yes">
 <attribute name="PARTNO" value="22-05-7025" x="32.49995" y="7.235" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED_R2" library="SparkFun-Passives" package="0603-RES" value="" x="60.5" y="70" rot="R90"/>
+<element name="R_LED_BT" library="SparkFun-Passives" package="0603-RES" value="1.4k" x="60.5" y="70" rot="R90">
+<attribute name="PARTNO" value="RC0603FR-071K4L" x="60.5" y="70" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="LED_BT" library="Airbeam" package="LED_550" value="LED" x="65.405" y="70.8025">
 <attribute name="PARTNO" value="550-1107F " x="65.405" y="70.8025" size="1.778" layer="27" display="off"/>
 </element>
@@ -14288,7 +14294,15 @@ Please make sure your boards conform to these design rules.</description>
 <element name="VR5_0R2" library="SparkFun-Passives" package="0603-RES" value="0" x="31" y="19.5">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="31" y="19.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RESET_SWITCH" library="Airbeam" package="SWITCH_TACTILE" value="SWITCH" x="45.5" y="7.5" rot="R180"/>
+<element name="RESET_SWITCH" library="Airbeam" package="SWITCH_TACTILE" value="SWITCH" x="45.5" y="7.5" rot="R180">
+<attribute name="PARTNO" value="TL3315NF250Q" x="45.5" y="7.5" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U_Z3" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="-3.5" y="-3.5">
+<attribute name="PARTNO" value="CG0603MLC-05E" x="-3.5" y="-3.5" size="1.778" layer="27" font="vector" display="off"/>
+</element>
+<element name="U_Z4" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="-3.5" y="-8.5">
+<attribute name="PARTNO" value="CG0603MLC-05E" x="-3.5" y="-8.5" size="1.778" layer="27" font="vector" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="+5V" class="3">
@@ -14413,7 +14427,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="UR_C1" pad="2"/>
 <contactref element="UBT" pad="P$2"/>
 <contactref element="CON_ADDON" pad="P$5"/>
-<contactref element="LED_R2" pad="1"/>
+<contactref element="R_LED_BT" pad="1"/>
 <contactref element="U$3" pad="3"/>
 <contactref element="U$3" pad="1"/>
 <contactref element="U$1" pad="3"/>
@@ -15071,12 +15085,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="18.6" y1="20" x2="17.5" y2="18.9" width="0.3" layer="1"/>
 </signal>
 <signal name="N$14">
-<contactref element="UR_R1" pad="2"/>
+<contactref element="R_LED_CH" pad="2"/>
 <contactref element="LED_CH" pad="CATHODE"/>
 <wire x1="7.62" y1="53.975" x2="25.35" y2="77.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
-<contactref element="UR_R1" pad="1"/>
+<contactref element="R_LED_CH" pad="1"/>
 <contactref element="VR_U" pad="1"/>
 <wire x1="23.65" y1="77.5" x2="31.1999" y2="77.95" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -15171,7 +15185,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="31.25" y1="4.35" x2="31" y2="4.6" width="0.2" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="LED_R2" pad="2"/>
+<contactref element="R_LED_BT" pad="2"/>
 <contactref element="LED_BT" pad="CATHODE"/>
 <wire x1="64.135" y1="70.8025" x2="60.5475" y2="70.8025" width="0.2" layer="1"/>
 <wire x1="60.5475" y1="70.8025" x2="60.5" y2="70.85" width="0.2" layer="1"/>

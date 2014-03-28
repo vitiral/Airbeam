@@ -2900,7 +2900,9 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <connect gate="G$1" pin="P$4" pad="P4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="TL3315NF250Q" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5370,7 +5372,9 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="VR_U" library="Airbeam" deviceset="VREG-MCP73831" device=""/>
-<part name="UR_R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.4k"/>
+<part name="R_LED_CH" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.4k">
+<attribute name="PARTNO" value="RC0603FR-071K4L"/>
+</part>
 <part name="UR_R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="2K">
 <attribute name="PARTNO" value="RC0603FR-072KL"/>
 </part>
@@ -5390,7 +5394,9 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="CON_DUST" library="Airbeam" deviceset="CON_DUST" device=""/>
+<part name="CON_DUST" library="Airbeam" deviceset="CON_DUST" device="">
+<attribute name="PARTNO" value="S4B-EH"/>
+</part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
@@ -5416,10 +5422,10 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="PARTNO" value="C1608X5R1C105K080AA"/>
 </part>
 <part name="UC_C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF">
-<attribute name="PARTNO" value="C2012X5R1C106K085AC"/>
+<attribute name="PARTNO" value="C1608X5R1C105K080AA"/>
 </part>
 <part name="UC_C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100nF">
-<attribute name="PARTNO" value="C2012X5R1C106K085AC"/>
+<attribute name="PARTNO" value="C1608X7R1E104K080AA"/>
 </part>
 <part name="UC_C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="20pF">
 <attribute name="PARTNO" value="CL10C200JB8NNNC"/>
@@ -5443,7 +5449,9 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="PARTNO" value="22-05-7025"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="LED_R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R_LED_BT" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.4k">
+<attribute name="PARTNO" value="RC0603FR-071K4L"/>
+</part>
 <part name="LED_BT" library="Airbeam" deviceset="LED" device="">
 <attribute name="PARTNO" value="550-1107F "/>
 </part>
@@ -5484,6 +5492,12 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="RESET_SWITCH" library="Airbeam" deviceset="SWITCH" device=""/>
+<part name="U_Z3" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E">
+<attribute name="PARTNO" value="CG0603MLC-05E"/>
+</part>
+<part name="U_Z4" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E">
+<attribute name="PARTNO" value="CG0603MLC-05E"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5714,7 +5728,9 @@ CON = connector</text>
 </instance>
 <instance part="GND26" gate="1" x="71.12" y="-71.12"/>
 <instance part="VR_U" gate="G$1" x="17.78" y="-25.4"/>
-<instance part="UR_R1" gate="G$1" x="0" y="-38.1" rot="R90"/>
+<instance part="R_LED_CH" gate="G$1" x="0" y="-43.18" rot="R90">
+<attribute name="PARTNO" x="0" y="-43.18" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="UR_R2" gate="G$1" x="30.48" y="-30.48" rot="R90">
 <attribute name="PARTNO" x="30.48" y="-30.48" size="1.778" layer="96" display="off"/>
 </instance>
@@ -5734,7 +5750,9 @@ CON = connector</text>
 <attribute name="PARTNO" x="68.58" y="-33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="-30.48" y="66.04"/>
-<instance part="CON_DUST" gate="G$1" x="-78.74" y="-132.08" rot="R90"/>
+<instance part="CON_DUST" gate="G$1" x="-78.74" y="-132.08" rot="R90">
+<attribute name="PARTNO" x="-78.74" y="-132.08" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND31" gate="1" x="-66.04" y="-139.7"/>
 <instance part="P+8" gate="1" x="-66.04" y="-124.46" smashed="yes">
 <attribute name="VALUE" x="-64.135" y="-121.92" size="1.778" layer="96" rot="R180"/>
@@ -5788,7 +5806,9 @@ CON = connector</text>
 <attribute name="PARTNO" x="-76.2" y="-162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="-63.5" y="-165.1"/>
-<instance part="LED_R2" gate="G$1" x="76.2" y="-134.62" rot="R90"/>
+<instance part="R_LED_BT" gate="G$1" x="76.2" y="-134.62" rot="R90">
+<attribute name="PARTNO" x="76.2" y="-134.62" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="LED_BT" gate="G$1" x="76.2" y="-121.92" rot="R270">
 <attribute name="PARTNO" x="76.2" y="-121.92" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
@@ -5833,6 +5853,16 @@ CON = connector</text>
 <instance part="GND21" gate="1" x="152.4" y="-43.18"/>
 <instance part="GND38" gate="1" x="152.4" y="-109.22"/>
 <instance part="RESET_SWITCH" gate="G$1" x="-104.14" y="170.18"/>
+<instance part="U_Z3" gate="G$1" x="-132.08" y="-177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="-134.62" y="-180.34" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-127" y="-185.42" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="-132.08" y="-177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U_Z4" gate="G$1" x="-121.92" y="-177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="-124.46" y="-180.34" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-116.84" y="-185.42" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="-121.92" y="-177.8" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6209,7 +6239,7 @@ CON = connector</text>
 <pinref part="GND33" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED_R2" gate="G$1" pin="1"/>
+<pinref part="R_LED_BT" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="-139.7" x2="76.2" y2="-154.94" width="0.1524" layer="91"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 </segment>
@@ -7178,16 +7208,16 @@ CON = connector</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="UR_R1" gate="G$1" pin="2"/>
+<pinref part="R_LED_CH" gate="G$1" pin="2"/>
 <pinref part="LED_CH" gate="G$1" pin="CATH"/>
-<wire x1="0" y1="-27.94" x2="0" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="0" y1="-27.94" x2="0" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="UR_R1" gate="G$1" pin="1"/>
-<wire x1="0" y1="-43.18" x2="7.62" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-43.18" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="R_LED_CH" gate="G$1" pin="1"/>
+<wire x1="0" y1="-48.26" x2="7.62" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-48.26" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="VR_U" gate="G$1" pin="STAT"/>
 <wire x1="7.62" y1="-27.94" x2="15.24" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
@@ -7305,7 +7335,7 @@ CON = connector</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LED_R2" gate="G$1" pin="2"/>
+<pinref part="R_LED_BT" gate="G$1" pin="2"/>
 <pinref part="LED_BT" gate="G$1" pin="CATH"/>
 <wire x1="76.2" y1="-124.46" x2="76.2" y2="-129.54" width="0.1524" layer="91"/>
 </segment>
