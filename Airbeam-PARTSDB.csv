@@ -14,7 +14,7 @@ F16FB-05LLC /E	Copol	Fan Copol				563-1106-ND			http://www.digikey.com/product-d
 22-05-7025	Molex	Connector Fan	2 pin			538-22-05-7025			http://www.mouser.com/ProductDetail/Molex/22-05-7025/?qs=xrDmMQn67Z5jplgrvRQ%20IpQ==
 S4B-EH	JST Sales America	Connector (Dust Sensor)				455-1030-ND			http://www.digikey.com/product-detail/en/S4B-EH/455-1030-ND/527254
 									
-PPTC051LGBN-RC	Sullins Connector	Connector (addon board)	5 pin			S5441-ND			http://www.digikey.com/product-detail/en/PPTC051LGBN-RC/S5441-ND/775899
+950505-5002-AR	3M	Connector (addon board)	5 pin			#VALUE!			http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&KeyWords=3M9368-ND
 									
 10103594-0001LF	FCI	Connector USB Micro				609-4050-1-ND			http://www.digikey.com/product-detail/en/10103594-0001LF/609-4050-1-ND/2350357
 LC2259EENP	E-Switch	Power Button							http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=LC2259EENPESWITCH6265227&IM=0
@@ -22,7 +22,7 @@ LC2259EENP	E-Switch	Power Button							http://www.futureelectronics.com/en/Techn
 CONN-08352	Sparkfun	Conn Battery							https://www.sparkfun.com/products/8612
 RT6150BGQW	Richtek USA	Voltage Reg Buck-Boost				1028-1260-1-ND			http://www.digikey.com/product-detail/en/RT6150BGQW/1028-1260-1-ND/4733184
 MC34673AEPR2	Freescale Semiconductor	Voltage Reg USB				MC34673AEPR2CT-ND			http://www.digikey.com/product-detail/en/MC34673AEPR2/MC34673AEPR2CT-ND/1867915
-BRL3225T2R2M	Taiyo Yuden	Inductor 2.2uH	2.2uH			587-2165-1-ND			http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863
+BRL3225T2R2M	Taiyo Yuden	Inductor 2.2uH	2.2uH			609-4050-1-ND			http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863
 NRS5020T6R8MMGJ	Taiyo Yuden	Inductor 6uH	6uH			587-2408-1-ND			http://www.digikey.com/product-detail/en/NRS5020T6R8MMGJ/587-2408-1-ND/2230274
 RT9819C-26GV	Richtek	Low Voltage Detect	2.9V			1028-1023-1-ND			http://www.digikey.com/product-detail/en/RT9819C-29GV/1028-1023-1-ND/2470082
 APX809-31SAG-7	Diodes Incorporated	Low Voltage Detect	3.08V			APX809-31SAGDICT-ND			http://www.digikey.com/product-detail/en/APX809-31SAG-7/APX809-31SAGDICT-ND/1844722
@@ -40,8 +40,9 @@ C2012X5R1C106K085AC	TDK	Capacitor	10uF	0805		445-7644-1-ND			http://www.digikey.
 									
 RC0603JR-070RL	Yageo	Resistor	0	0603		311-0.0GRCT-ND			http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622
 RC0603JR-0722RL	Yageo	Resistor	22	0603		311-22GRCT-ND			http://www.digikey.com/product-detail/en/RC0603JR-0722RL/311-22GRCT-ND/729690
-RC0603FR-071K4L	Yageo	Resistor	1.4k	0603		311-2.00KHRCT-ND			http://www.digikey.com/product-detail/en/RC0603FR-071K4L/311-1.40KHRCT-ND/729808
+RC0603FR-071K4L	Yageo	Resistor	1.4k	0603		311-1.40KHRCT-ND			http://www.digikey.com/product-detail/en/RC0603FR-071K4L/311-1.40KHRCT-ND/729808
 RC0603FR-072KL	Yageo	Resistor	2k	0603		311-2.00KHRCT-ND			http://www.digikey.com/product-detail/en/RC0603FR-072KL/311-2.00KHRCT-ND/729956
+RC0603FR-076K65L	Yageo	Resistor	6.65k	0603		311-6.65KHRCT-ND			http://www.digikey.com/product-detail/en/RC0603FR-076K65L/311-6.65KHRCT-ND/730269
 RC0603JR-0710KL	Yageo	Resistor	10k	0603		311-10KGRCT-ND			http://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647
 RC0805FR-0753K6L	Yageo	Resistor	53.6k	0603		311-53.6KCRCT-ND			http://www.digikey.com/product-detail/en/RC0805FR-0753K6L/311-53.6KCRCT-ND/730972
 ERJ-3EKF8662V	Panasonic	Resistor	86.6k	0603		P86.6KHCT-ND			http://www.digikey.com/product-detail/en/ERJ-3EKF8662V/P86.6KHCT-ND/198534

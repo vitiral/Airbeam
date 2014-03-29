@@ -5309,7 +5309,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="U_Z2" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E">
 <attribute name="PARTNO" value="CG0603MLC-05E"/>
 </part>
-<part name="U_FB2" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805" value="MH2029-300Y">
+<part name="U_FB2" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805">
 <attribute name="PARTNO" value="MH2029-300Y"/>
 </part>
 <part name="U$25" library="MyPOW" deviceset="VUSB" device=""/>
@@ -5549,7 +5549,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="U_Z6" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E">
 <attribute name="PARTNO" value="CG0603MLC-05E"/>
 </part>
-<part name="U_FB1" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805" value="MH2029-300Y">
+<part name="U_FB1" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805">
 <attribute name="PARTNO" value="MH2029-300Y"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>

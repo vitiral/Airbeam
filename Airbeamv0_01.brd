@@ -14103,7 +14103,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="28" y="41.9999" size="1.016" layer="27" rot="R270"/>
 <attribute name="PARTNO" value="CG0603MLC-05E" x="30" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U_FB2" library="wuerth-elektronik" package="0805" value="MH2029-300Y" x="15" y="39" rot="R270">
+<element name="U_FB2" library="wuerth-elektronik" package="0805" value="" x="15" y="39" rot="R270">
 <attribute name="PARTNO" value="MH2029-300Y" x="15" y="39" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="UC_F1" library="wuerth-elektronik" package="0805" value="MH2029-300Y" x="71.17" y="19.755" smashed="yes" rot="R180">
@@ -14320,7 +14320,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U_Z6" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="9.5" y="17.5" rot="R270">
 <attribute name="PARTNO" value="CG0603MLC-05E" x="9.5" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U_FB1" library="wuerth-elektronik" package="0805" value="MH2029-300Y" x="6.5" y="20.5">
+<element name="U_FB1" library="wuerth-elektronik" package="0805" value="" x="6.5" y="20.5">
 <attribute name="PARTNO" value="MH2029-300Y" x="6.5" y="20.5" size="1.778" layer="27" display="off"/>
 </element>
 </elements>

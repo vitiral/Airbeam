@@ -1,47 +1,48 @@
 Qty-1,Part References,Value,Package,Mfg Part Num,Mfg Name,Description,Value,Pkg Code,VID,Vendor Part Num,Price @ 500,Height,Link,XREF
 1,"CON_BAT",,JST-2-SMD,CONN-08352,Sparkfun,Conn Battery,*,*,*,*,*,*,https://www.sparkfun.com/products/8612,REF21
-1,"UC_CRYSTAL",,HC49UP,ECS-160-20-3X-TR,ECS,Crystal,16MHz,*,*,XC1776CT-ND,*,*,http://www.digikey.com/product-detail/en/ECS-160-20-3X-TR/XC1776CT-ND/2676640,REF4
+2,"U_FB1, U_FB2",,0805,MH2029-300Y,Bourns Inc.,Ferite Bead,*,*,*,MH2029-300YCT-ND,*,*,http://www.digikey.com/product-detail/en/MH2029-300Y/MH2029-300YCT-ND/3741761,REF32
 1,"VR_R4",0,0603-RES,RC0603JR-070RL,Yageo,Resistor,0,0603,*,311-0.0GRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622,REF40
 2,"VR3_0R1, VR5_0R2",0,0603-RES,RC0603JR-070RL,Yageo,Resistor,0,0603,*,311-0.0GRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622,REF40
-2,"R_LED_BT, R_LED_CH",1.4k,0603-RES,RC0603FR-071K4L,Yageo,Resistor,1.4k,0603,*,311-2.00KHRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603FR-071K4L/311-1.40KHRCT-ND/729808,REF42
+2,"R_LED_BT, R_LED_CH",1.4k,0603-RES,RC0603FR-071K4L,Yageo,Resistor,1.4k,0603,*,311-1.40KHRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603FR-071K4L/311-1.40KHRCT-ND/729808,REF42
 1,"U_FUSE",1.8A,PTC-1206-WIDE,0ZCJ0100FF2E,Bel Fuse Inc.,Fuse Resetable,1A,*,*,507-1806-1-ND,*,*,http://www.digikey.com/product-detail/en/0ZCJ0100FF2E/507-1806-1-ND/4156243,REF28
-1,"UC_R1",1M,0603-RES,RC0603FR-071ML,Yageo,Resistor,1M,0603,*,311-1.00MHRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603FR-071ML/311-1.00MHRCT-ND/729791,REF48
-2,"UC_C5, UC_C7",1uF,0603-CAP,C1608X5R1C105K080AA,TDK,Capacitor,1uF,0603,*,445-1416-1-ND,*,*,http://www.digikey.com/product-detail/en/C1608X5R1C105K080AA/445-1416-1-ND/569082,REF37
-1,"VR3_L1",2.2uH,1210,BRL3225T2R2M,Taiyo Yuden,Inductor 2.2uH,2.2uH,*,*,587-2165-1-ND,*,*,http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863,REF24
-1,"UR_R2",2K,0603-RES,RC0603FR-072KL,Yageo,Resistor,2k,0603,*,311-2.00KHRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603FR-072KL/311-2.00KHRCT-ND/729956,REF43
+1,"UC_R1",1M,0603-RES,RC0603FR-071ML,Yageo,Resistor,1M,0603,*,311-1.00MHRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603FR-071ML/311-1.00MHRCT-ND/729791,REF49
+3,"UC_C5, UC_C7, UC_C8",1uF,0603-CAP,C1608X5R1C105K080AA,TDK,Capacitor,1uF,0603,*,445-1416-1-ND,*,*,http://www.digikey.com/product-detail/en/C1608X5R1C105K080AA/445-1416-1-ND/569082,REF37
+1,"VR3_L1",2.2uH,1210,BRL3225T2R2M,Taiyo Yuden,Inductor 2.2uH,2.2uH,*,*,609-4050-1-ND,*,*,http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863,REF24
+1,"UR_R2",6.65k,0603-RES,RC0603FR-076K65L,Yageo,Resistor,6.65k,0603,*,311-6.65KHRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603FR-076K65L/311-6.65KHRCT-ND/730269,REF44
 1,"VR5_L1",6uH,1210,NRS5020T6R8MMGJ,Taiyo Yuden,Inductor 6uH,6uH,*,*,587-2408-1-ND,*,*,http://www.digikey.com/product-detail/en/NRS5020T6R8MMGJ/587-2408-1-ND/2230274,REF25
-1,"VR_R1",10k,0603-RES,RC0603JR-0710KL,Yageo,Resistor,10k,0603,*,311-10KGRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647,REF44
-2,"UC_R2, UC_R4",10k,0603-RES,RC0603JR-0710KL,Yageo,Resistor,10k,0603,*,311-10KGRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647,REF44
+1,"VR_R1",10k,0603-RES,RC0603JR-0710KL,Yageo,Resistor,10k,0603,*,311-10KGRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647,REF45
+2,"UC_R2, UC_R4",10k,0603-RES,RC0603JR-0710KL,Yageo,Resistor,10k,0603,*,311-10KGRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647,REF45
 8,"UR_C1, U_C1, VR3_C1, VR3_C2, VR3_C3, VR5_C1, VR5_C2, VR5_C3",10uF,0805,C2012X5R1C106K085AC,TDK,Capacitor,10uF,0805,*,445-7644-1-ND,*,*,http://www.digikey.com/product-detail/en/C2012X5R1C106K085AC/445-7644-1-ND/2733716,REF38
+1,"UC_CRYSTAL",16MHz,HC49UP,ECS-160-20-3X-TR,ECS,Crystal,16MHz,*,*,XC1776CT-ND,*,*,http://www.digikey.com/product-detail/en/ECS-160-20-3X-TR/XC1776CT-ND/2676640,REF4
 2,"UC_C3, UC_C4",20pF,0603-CAP,CL10C200JB8NNNC,Samsung,Capacitor,20pF,0603,*,1276-1187-1-ND,*,*,http://www.digikey.com/product-detail/en/CL10C200JB8NNNC/1276-1187-1-ND/3889273,REF35
 2,"U_R1, U_R2",22,0603-RES,RC0603JR-0722RL,Yageo,Resistor,22,0603,*,311-22GRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603JR-0722RL/311-22GRCT-ND/729690,REF41
-1,"VR5_R2",53.6k,0603-RES,RC0805FR-0753K6L,Yageo,Resistor,53.6k,0603,*,311-53.6KCRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0805FR-0753K6L/311-53.6KCRCT-ND/730972,REF45
-1,"VR3_R2",86.6k,0603-RES,ERJ-3EKF8662V,Panasonic,Resistor,86.6k,0603,*,P86.6KHCT-ND,*,*,http://www.digikey.com/product-detail/en/ERJ-3EKF8662V/P86.6KHCT-ND/198534,REF46
+1,"VR5_R2",53.6k,0603-RES,RC0805FR-0753K6L,Yageo,Resistor,53.6k,0603,*,311-53.6KCRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0805FR-0753K6L/311-53.6KCRCT-ND/730972,REF46
+1,"VR3_R2",86.6k,0603-RES,ERJ-3EKF8662V,Panasonic,Resistor,86.6k,0603,*,P86.6KHCT-ND,*,*,http://www.digikey.com/product-detail/en/ERJ-3EKF8662V/P86.6KHCT-ND/198534,REF47
 2,"UC_C1, UC_C2",100n,0603-CAP,C1608X7R1E104K080AA,TDK,Capacitor,100nF,0603,*,445-1316-1-ND,*,*,http://www.digikey.com/product-detail/en/C1608X7R1E104K080AA/445-1316-1-ND/567697,REF36
 2,"UC_C6, U_C2",100nF,0603-CAP,C1608X7R1E104K080AA,TDK,Capacitor,100nF,0603,*,445-1316-1-ND,*,*,http://www.digikey.com/product-detail/en/C1608X7R1E104K080AA/445-1316-1-ND/567697,REF36
-3,"VR3_R1, VR5_R1, VR_R2",487k,0603-RES,ERJ-3EKF4873V,Panasonic,Resistor,487k,0603,*,P487KHCT-ND,*,*,http://www.digikey.com/product-detail/en/ERJ-3EKF4873V/P487KHCT-ND/198411,REF47
+3,"VR3_R1, VR5_R1, VR_R2",487k,0603-RES,ERJ-3EKF4873V,Panasonic,Resistor,487k,0603,*,P487KHCT-ND,*,*,http://www.digikey.com/product-detail/en/ERJ-3EKF4873V/P487KHCT-ND/198411,REF48
 1,"ATMEGA32U4-T",ATMEGA32U4-XUAU,TQFP44-PAD,***PART# 'ATMEGA32U4-XUAU' NOT FOUND***,*,*,*,*,*,*,*,*,*,*
-1,"U_MEGA32U-Q",ATMEGA32U4-XUMU,QFN44ML7X7,DNP,DO NOT POPULATE,DO NOT POPULATE,*,*,*,*,*,*,DO NOT POPULATE,REF51
-1,"CON_ADDON",BERG_1X5,BERG-5X1_SIDE,PPTC051LGBN-RC,Sullins Connector,Connector (addon board),5 pin,*,*,S5441-ND,*,*,http://www.digikey.com/product-detail/en/PPTC051LGBN-RC/S5441-ND/775899,REF16
+1,"U_MEGA32U-Q",ATMEGA32U4-XUMU,QFN44ML7X7,DNP,DO NOT POPULATE,DO NOT POPULATE,*,*,*,*,*,*,DO NOT POPULATE,REF52
 1,"UBT",BT-NVC-MDCS42A,BT_NVC-MDCS42A,NVC-MDCS42A,iNova,BT Module,*,*,*,n/a,*,*,n/a,REF7
-4,"U_Z1, U_Z2, U_Z3, U_Z4",CG0603MLC-05E,CT/CN0603,CG0603MLC-05E,Bourns Inc.,Varistor,*,*,*,CG0603MLC-05ECT-ND,*,*,http://www.digikey.com/product-detail/en/CG0603MLC-05E/CG0603MLC-05ECT-ND/3438061,REF33
+6,"U_Z1, U_Z2, U_Z3, U_Z4, U_Z5, U_Z6",CG0603MLC-05E,CT/CN0603,CG0603MLC-05E,Bourns Inc.,Varistor,*,*,*,CG0603MLC-05ECT-ND,*,*,http://www.digikey.com/product-detail/en/CG0603MLC-05E/CG0603MLC-05ECT-ND/3438061,REF33
+1,"CON_ADDON",CON_1X52MM,CON_5_2MM,***PART# 'PPTC051LGBN-RC' NOT FOUND***,*,*,*,*,*,*,*,*,*,*
 1,"CON_DUST",CON_DUST,S4B-EH,S4B-EH,JST Sales America,Connector (Dust Sensor),*,*,*,455-1030-ND,*,*,http://www.digikey.com/product-detail/en/S4B-EH/455-1030-ND/527254,REF14
 1,"VR_D1",DIODE,SOD123_DIODE,B130LAW-7-F,Diodes Incorporated,Diode Schottkey,*,*,*,B130LAW-FDICT-ND,*,*,http://www.digikey.com/product-detail/en/B130LAW-7-F/B130LAW-FDICT-ND/725052,REF31
 1,"FAN_MOS-N1",DNP,SOT23,IRLML2246TRPBF,International Rectifier,MOSFET–P,*,*,*,IRLML2246TRPBFCT-ND,*,*,http://www.digikey.com/product-detail/en/IRLML2246TRPBF/IRLML2246TRPBFCT-ND/2639576,REF30
 1,"VR_R3",DNP,0603-RES,RC0603JR-070RL,Yageo,Resistor,0,0603,*,311-0.0GRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622,REF40
 3,"UC_R3, VR3_0R2, VR5_0R1",DNP,0603-RES,RC0603JR-070RL,Yageo,Resistor,0,0603,*,311-0.0GRCT-ND,*,*,http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622,REF40
 1,"CON_FAN",FAN,MOLEX_2PIN_SIDE,22-05-7025,Molex,Connector Fan,2 pin,*,*,538-22-05-7025,*,*,http://www.mouser.com/ProductDetail/Molex/22-05-7025/?qs=xrDmMQn67Z5jplgrvRQ%20IpQ==,REF13
-3,"FID1, FID2, FID3",FIDUCIALMOUNT,FIDUCIA-MOUNT,DNP,DO NOT POPULATE,DO NOT POPULATE,*,*,*,*,*,*,DO NOT POPULATE,REF51
+3,"FID1, FID2, FID3",FIDUCIALMOUNT,FIDUCIA-MOUNT,DNP,DO NOT POPULATE,DO NOT POPULATE,*,*,*,*,*,*,DO NOT POPULATE,REF52
 1,"CON_ICSP",ICSP,2X03,67997-206HLF,FCI,Connector ISP,*,*,*,609-3234-ND,*,*,http://www.digikey.com/product-detail/en/67997-206HLF/609-3234-ND/1878491,REF3
 1,"LED_BT",LED,LED_550,550-1107F,Dialight,LED -  Red,Red,*,*,350-1620-ND,*,*,http://www.digikey.com/product-detail/en/550-1107F/350-1620-ND/809018,REF6
 1,"LED_CH",LED,LED_550,550-1307F,Dialight,LED – Green,Green,*,*,350-1627-ND,*,*,http://www.digikey.com/product-detail/en/550-1307F/350-1627-ND/809025,REF5
-2,"UC_F1, U_FB2",MH2029-300Y,0805,MH2029-300Y,Bourns Inc.,Ferite Bead,*,*,*,MH2029-300YCT-ND,*,*,http://www.digikey.com/product-detail/en/MH2029-300Y/MH2029-300YCT-ND/3741761,REF32
+1,"UC_F1",MH2029-300Y,0805,MH2029-300Y,Bourns Inc.,Ferite Bead,*,*,*,MH2029-300YCT-ND,*,*,http://www.digikey.com/product-detail/en/MH2029-300Y/MH2029-300YCT-ND/3741761,REF32
 1,"VR_MOS-P1",MOSFET-P,SOT23,IRLML2246TRPBF,International Rectifier,MOSFET–P,*,*,*,IRLML2246TRPBFCT-ND,*,*,http://www.digikey.com/product-detail/en/IRLML2246TRPBF/IRLML2246TRPBFCT-ND/2639576,REF30
 1,"U_ONOFF",PUSHBUTTON,PUSHBUTTON,LC2259EENP,E-Switch,Power Button,*,*,*,*,*,*,http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=LC2259EENPESWITCH6265227&IM=0,REF19
 1,"U_TEMP-HUM",RHT03,RHT03,RHT03,Maxdetect,Sensor Temp-Humidity ,*,*,*,*,*,*,http://www.ebay.com/itm/NEW-DHT22-AM2302-Digital-Temperature-Humidity-Sensor-Replace-SHT11-SHT15-Logger-/271175728425?pt=LH_DefaultDomain_0&hash=item3f23553d29,REF10
 1,"RESET_SWITCH",SWITCH,SWITCH_TACTILE,TL3315NF250Q,E-Switch,Switch,*,*,*,EG4622CT-ND,*,*,http://www.digikey.com/product-detail/en/TL3315NF250Q/EG4622CT-ND/1870402,REF2
 1,"CON_USB",USB-FCI,USB-FCI,10103594-0001LF,FCI,Connector USB Micro,*,*,*,609-4050-1-ND,*,*,http://www.digikey.com/product-detail/en/10103594-0001LF/609-4050-1-ND/2350357,REF18
 1,"VDETECT",VDETEC_APX,SOT23,APX809-31SAG-7,Diodes Incorporated,Low Voltage Detect,3.08V,*,*,APX809-31SAGDICT-ND,*,*,http://www.digikey.com/product-detail/en/APX809-31SAG-7/APX809-31SAGDICT-ND/1844722,REF27
-1,"VR_U",VREG-MCP73831,SOT23-5,***PART# 'MCP73831T-2ACI/OT' NOT FOUND***,*,*,*,*,*,*,*,*,*,*
 2,"U_VR3, U_VR5",VREG-RTEC6150,WFDFN-10,RT6150BGQW,Richtek USA,Voltage Reg Buck-Boost,*,*,*,1028-1260-1-ND,*,*,http://www.digikey.com/product-detail/en/RT6150BGQW/1028-1260-1-ND/4733184,REF22
+1,"U$2",VREG_MC34673,UFDFN-8,MC34673AEPR2,Freescale Semiconductor,Voltage Reg USB,*,*,*,MC34673AEPR2CT-ND,*,*,http://www.digikey.com/product-detail/en/MC34673AEPR2/MC34673AEPR2CT-ND/1867915,REF23
 2,"U$1, U$3",V_BUFFER,SOT23-5,SN74LVC1G125DBVR,Texas Instruments,Voltage Buffer,<5,SOT23-5,*,296-11603-1-ND,0.1482,*,http://www.digikey.com/product-detail/en/SN74LVC1G125DBVR/296-11603-1-ND/385742,REF8
