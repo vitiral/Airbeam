@@ -13696,6 +13696,8 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <smd name="P$9" x="0.5" y="0" dx="3" dy="1" layer="1"/>
 <text x="-2" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="EMPTY">
+</package>
 </packages>
 </library>
 <library name="SparkFun-FreqCtrl">
@@ -14189,7 +14191,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="CON_BAT" library="SparkFun-Connectors" package="JST-2-SMD" value="" x="22" y="34" locked="yes">
 <attribute name="PROD_ID" value="CONN-08352" x="22" y="34" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="PARTNO" value="CONN-08352" x="22" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="S2B-PH-SM4-TB(LF)(SN)" x="22" y="34" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R_LED_CH" library="SparkFun-Passives" package="0603-RES" value="1.4k" x="12.5" y="57.5" rot="R90">
 <attribute name="PARTNO" value="RC0603FR-071K4L" x="12.5" y="57.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -14322,6 +14324,15 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U_FB1" library="wuerth-elektronik" package="0805" value="" x="6.5" y="20.5">
 <attribute name="PARTNO" value="MH2029-300Y" x="6.5" y="20.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="DUST_SENSOR" library="Airbeam" package="EMPTY" value="OFF_BOARD" x="-1" y="-1.5">
+<attribute name="PARTNO" value="PPD60PV-T2" x="-1" y="-1.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="3_3V_FAN_COPOL" library="Airbeam" package="EMPTY" value="OFF_BOARD" x="-2" y="-3">
+<attribute name="PARTNO" value="F16FB-05LLC/E" x="-2" y="-3" size="1.778" layer="27" display="off"/>
+</element>
+<element name="LION_BATTERY" library="Airbeam" package="EMPTY" value="OFF_BOARD" x="-3" y="-4.5">
+<attribute name="PARTNO" value="585460_2000mAh" x="-3" y="-4.5" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

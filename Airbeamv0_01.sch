@@ -2282,6 +2282,8 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <smd name="P$9" x="0.5" y="0" dx="3" dy="1" layer="1"/>
 <text x="-2" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="EMPTY">
+</package>
 </packages>
 <symbols>
 <symbol name="BT_NVC-MDCS42A">
@@ -2580,6 +2582,14 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <pin name="EPAD" x="0" y="-5.08" visible="pin" length="point" rot="R270"/>
+</symbol>
+<symbol name="PART_OFFBOARD">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.588" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.032" y="-1.016" size="1.27" layer="95">&gt;NAME</text>
+<wire x1="5.588" y1="-2.54" x2="6.604" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="5.588" y1="2.54" x2="6.604" y2="1.524" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2944,6 +2954,20 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="PARTNO" value="MC34673AEPR2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PART_OFFBOARD" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PART_OFFBOARD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="OFF_BOARD" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5407,7 +5431,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="CON_BAT" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="">
-<attribute name="PARTNO" value="CONN-08352"/>
+<attribute name="PARTNO" value="S2B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="R_LED_CH" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.4k">
@@ -5553,6 +5577,15 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="PARTNO" value="MH2029-300Y"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="DUST_SENSOR" library="Airbeam" deviceset="PART_OFFBOARD" device="" value="OFF_BOARD">
+<attribute name="PARTNO" value="PPD60PV-T2"/>
+</part>
+<part name="3_3V_FAN_COPOL" library="Airbeam" deviceset="PART_OFFBOARD" device="" value="OFF_BOARD">
+<attribute name="PARTNO" value="F16FB-05LLC/E"/>
+</part>
+<part name="LION_BATTERY" library="Airbeam" deviceset="PART_OFFBOARD" device="" value="OFF_BOARD">
+<attribute name="PARTNO" value="585460_2000mAh"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5644,6 +5677,7 @@ CON = connector</text>
 <wire x1="198.12" y1="-190.5" x2="193.04" y2="-185.42" width="0.1524" layer="97"/>
 <wire x1="193.04" y1="-185.42" x2="193.04" y2="-170.18" width="0.1524" layer="97"/>
 <wire x1="193.04" y1="-170.18" x2="124.46" y2="-170.18" width="0.1524" layer="97"/>
+<text x="228.6" y="0" size="3.81" layer="94" ratio="10" rot="MR180" align="top-left">OFF BOARD PARTS</text>
 </plain>
 <instances>
 <instance part="CON_ICSP" gate="A" x="-58.42" y="165.1" smashed="yes">
@@ -5943,6 +5977,15 @@ CON = connector</text>
 <attribute name="PARTNO" x="-149.86" y="-218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="-175.26" y="-193.04" rot="R270"/>
+<instance part="DUST_SENSOR" gate="G$1" x="238.76" y="-5.08">
+<attribute name="PARTNO" x="238.76" y="-5.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="3_3V_FAN_COPOL" gate="G$1" x="238.76" y="-15.24">
+<attribute name="PARTNO" x="238.76" y="-15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LION_BATTERY" gate="G$1" x="238.76" y="-25.4">
+<attribute name="PARTNO" x="238.76" y="-25.4" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
