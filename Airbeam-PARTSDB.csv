@@ -9,7 +9,7 @@ NVC-MDCS42A	iNova	BT Module				n/a			n/a
 SN74LVC1G125DBVR	Texas Instruments	Voltage Buffer	<5	SOT23-5		296-11603-1-ND	0.1482		http://www.digikey.com/product-detail/en/SN74LVC1G125DBVR/296-11603-1-ND/385742
 									
 RHT03	Maxdetect	Sensor Temp-Humidity 					6.55		http://www.ebay.com/itm/NEW-DHT22-AM2302-Digital-Temperature-Humidity-Sensor-Replace-SHT11-SHT15-Logger-/271175728425?pt=LH_DefaultDomain_0&hash=item3f23553d29
-PPD60PV-T2	SHINYEI	Sensor Dust 							n/a
+PPD60PV-T2	SHINYEI	Sensor Dust 					25		n/a
 F16FB-05LLC/E	Copol	Fan Copol				563-1106-ND	6.46552		http://www.digikey.com/product-detail/en/F16EA-03LLC%20%2FE/563-1106-ND/1165500
 22-05-7025	Molex	Connector Fan	2 pin			538-22-05-7025	0.347		http://www.mouser.com/ProductDetail/Molex/22-05-7025/?qs=xrDmMQn67Z5jplgrvRQ%20IpQ==
 S4B-EH	JST Sales America	Connector (Dust Sensor)				455-1627-ND	0.09906		http://www.digikey.com/product-detail/en/S4B-EH(LF)(SN)/455-1627-ND/926535

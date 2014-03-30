@@ -5349,7 +5349,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="PARTNO" value="C1608X7R1E104K080AA"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="U_MEGA32U-Q" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="MU">
+<part name="U_MEGA32U-Q" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="MU" value="DNP">
 <attribute name="PARTNO" value="DNP"/>
 </part>
 <part name="ATMEGA32U4-T" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="AU">
