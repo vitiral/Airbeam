@@ -2118,6 +2118,7 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <wire x1="7.55" y1="6.5" x2="7.55" y2="-3" width="0.127" layer="21"/>
 <wire x1="-7.55" y1="6.5" x2="7.55" y2="6.5" width="0.127" layer="21"/>
 <wire x1="-7.55" y1="-3" x2="7.55" y2="-3" width="0.127" layer="21"/>
+<text x="-3.81" y="-5.08" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="USB-FCI">
 <smd name="BPBR" x="-0.9625" y="-1.25" dx="2.5" dy="1.425" layer="1" rot="R270"/>
@@ -5295,20 +5296,20 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0.6096">
-<clearance class="0" value="0.254"/>
+<class number="0" name="default" width="0.1524" drill="0.3302">
+<clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="power" width="0.254" drill="0.6096">
-<clearance class="1" value="0.254"/>
+<class number="1" name="power" width="0.1524" drill="0.3302">
+<clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="gnd" width="0.254" drill="0.6096">
-<clearance class="2" value="0.254"/>
+<class number="2" name="gnd" width="0.1524" drill="0.3302">
+<clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="usbvcc" width="0.254" drill="0.6096">
-<clearance class="3" value="0.254"/>
+<class number="3" name="usbvcc" width="0.1524" drill="0.3302">
+<clearance class="3" value="0.1524"/>
 </class>
-<class number="4" name="aref" width="0.254" drill="0.6096">
-<clearance class="4" value="0.254"/>
+<class number="4" name="aref" width="0.1524" drill="0.3302">
+<clearance class="4" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -5333,7 +5334,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="U_Z2" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E">
 <attribute name="PARTNO" value="CG0603MLC-05E"/>
 </part>
-<part name="U_FB2" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805">
+<part name="U_FB2" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805" value="U_FB2">
 <attribute name="PARTNO" value="MH2029-300Y"/>
 </part>
 <part name="U$25" library="MyPOW" deviceset="VUSB" device=""/>
@@ -5430,7 +5431,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="CON_BAT" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="">
+<part name="CON_BAT" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="" value="CON_BAT">
 <attribute name="PARTNO" value="S2B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
@@ -5529,8 +5530,8 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="Airbeam" deviceset="V_BUFFER" device=""/>
-<part name="U$3" library="Airbeam" deviceset="V_BUFFER" device=""/>
+<part name="U_BT_TX" library="Airbeam" deviceset="V_BUFFER" device=""/>
+<part name="U_BT_RX" library="Airbeam" deviceset="V_BUFFER" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
@@ -5573,7 +5574,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="U_Z6" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E">
 <attribute name="PARTNO" value="CG0603MLC-05E"/>
 </part>
-<part name="U_FB1" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805">
+<part name="U_FB1" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805" value="U_FB1">
 <attribute name="PARTNO" value="MH2029-300Y"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -5586,6 +5587,10 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="LION_BATTERY" library="Airbeam" deviceset="PART_OFFBOARD" device="" value="OFF_BOARD">
 <attribute name="PARTNO" value="585460_2000mAh"/>
 </part>
+<part name="BT_C1" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF">
+<attribute name="PARTNO" value="C1608X5R1C105K080AA"/>
+</part>
+<part name="GND33" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5635,8 +5640,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <text x="322.58" y="132.08" size="2.54" layer="94">ALT2</text>
 <text x="335.28" y="132.08" size="2.54" layer="94">ALT3</text>
 <text x="-104.14" y="-114.3" size="3.81" layer="94">SENSORS</text>
-<text x="-370.84" y="-20.32" size="7.62" layer="94">TODO:
-</text>
+<text x="-360.68" y="27.94" size="7.62" layer="94">TODO:</text>
 <text x="48.26" y="-60.96" size="3.81" layer="94" ratio="10" rot="MR180" align="top-left">BATTERY</text>
 <text x="-139.7" y="0" size="6.35" layer="94">POWER</text>
 <text x="-363.22" y="-132.08" size="6.35" layer="94">Key:
@@ -5690,14 +5694,14 @@ CON = connector</text>
 </instance>
 <instance part="GND1" gate="1" x="-35.56" y="162.56" rot="R90"/>
 <instance part="GND12" gate="1" x="-93.98" y="175.26"/>
-<instance part="FID1" gate="G$1" x="20.32" y="33.02">
-<attribute name="PARTNO" x="20.32" y="33.02" size="1.778" layer="96" display="off"/>
+<instance part="FID1" gate="G$1" x="238.76" y="-60.96">
+<attribute name="PARTNO" x="238.76" y="-60.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="FID2" gate="G$1" x="27.94" y="33.02">
-<attribute name="PARTNO" x="27.94" y="33.02" size="1.778" layer="96" display="off"/>
+<instance part="FID2" gate="G$1" x="246.38" y="-60.96">
+<attribute name="PARTNO" x="246.38" y="-60.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="FID3" gate="G$1" x="35.56" y="33.02">
-<attribute name="PARTNO" x="35.56" y="33.02" size="1.778" layer="96" display="off"/>
+<instance part="FID3" gate="G$1" x="254" y="-60.96">
+<attribute name="PARTNO" x="254" y="-60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U_Z1" gate="G$1" x="-96.52" y="-68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="-99.06" y="-71.12" size="1.778" layer="95" rot="R90"/>
@@ -5917,8 +5921,8 @@ CON = connector</text>
 </instance>
 <instance part="+3V5" gate="G$1" x="-127" y="-198.12" rot="R180"/>
 <instance part="GND34" gate="1" x="76.2" y="-157.48"/>
-<instance part="U$1" gate="G$1" x="38.1" y="-147.32"/>
-<instance part="U$3" gate="G$1" x="38.1" y="-172.72" rot="R180"/>
+<instance part="U_BT_TX" gate="G$1" x="38.1" y="-147.32"/>
+<instance part="U_BT_RX" gate="G$1" x="38.1" y="-172.72" rot="R180"/>
 <instance part="+3V6" gate="G$1" x="43.18" y="-182.88" rot="R270"/>
 <instance part="GND35" gate="1" x="45.72" y="-165.1" rot="R90"/>
 <instance part="GND36" gate="1" x="43.18" y="-154.94" rot="R90"/>
@@ -5986,6 +5990,10 @@ CON = connector</text>
 <instance part="LION_BATTERY" gate="G$1" x="238.76" y="-25.4">
 <attribute name="PARTNO" x="238.76" y="-25.4" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="BT_C1" gate="G$1" x="-35.56" y="-154.94">
+<attribute name="PARTNO" x="-35.56" y="-154.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND33" gate="1" x="-35.56" y="-165.1"/>
 </instances>
 <busses>
 </busses>
@@ -6084,7 +6092,7 @@ CON = connector</text>
 <junction x="-124.46" y="-205.74"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U_BT_TX" gate="G$1" pin="VCC"/>
 <wire x1="38.1" y1="-144.78" x2="38.1" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-139.7" x2="40.64" y2="-139.7" width="0.1524" layer="91"/>
 <pinref part="P+9" gate="1" pin="+5V"/>
@@ -6376,20 +6384,20 @@ CON = connector</text>
 <pinref part="GND34" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="U_BT_RX" gate="G$1" pin="GND"/>
 <wire x1="38.1" y1="-170.18" x2="38.1" y2="-165.1" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-165.1" x2="40.64" y2="-165.1" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="OE_N"/>
+<pinref part="U_BT_RX" gate="G$1" pin="OE_N"/>
 <wire x1="40.64" y1="-165.1" x2="43.18" y2="-165.1" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-170.18" x2="40.64" y2="-165.1" width="0.1524" layer="91"/>
 <junction x="40.64" y="-165.1"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U_BT_TX" gate="G$1" pin="GND"/>
 <wire x1="38.1" y1="-149.86" x2="38.1" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-154.94" x2="40.64" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="OE_N"/>
+<pinref part="U_BT_TX" gate="G$1" pin="OE_N"/>
 <wire x1="35.56" y1="-149.86" x2="35.56" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-154.94" x2="38.1" y2="-154.94" width="0.1524" layer="91"/>
 <pinref part="GND36" gate="1" pin="GND"/>
@@ -6512,6 +6520,11 @@ CON = connector</text>
 <wire x1="149.86" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
 <label x="142.24" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="BT_C1" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="-157.48" x2="-35.56" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="AREF" class="4">
 <segment>
@@ -6622,8 +6635,12 @@ CON = connector</text>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <pinref part="UBT" gate="G$1" pin="P$12"/>
 <wire x1="-38.1" y1="-144.78" x2="-38.1" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-147.32" x2="-15.24" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-147.32" x2="-35.56" y2="-147.32" width="0.1524" layer="91"/>
 <label x="-35.56" y="-147.32" size="1.778" layer="95"/>
+<pinref part="BT_C1" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="-147.32" x2="-15.24" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-149.86" x2="-35.56" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="-35.56" y="-147.32"/>
 </segment>
 <segment>
 <pinref part="U_VR3" gate="G$1" pin="VOUT"/>
@@ -6663,7 +6680,7 @@ CON = connector</text>
 <junction x="-127" y="-193.04"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
+<pinref part="U_BT_RX" gate="G$1" pin="VCC"/>
 <wire x1="38.1" y1="-175.26" x2="38.1" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-182.88" x2="40.64" y2="-182.88" width="0.1524" layer="91"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
@@ -6924,7 +6941,7 @@ CON = connector</text>
 <pinref part="ATMEGA32U4-T" gate="G$1" pin="(PCINT7/OC0A/OC1C/#RTS)PB7"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="A"/>
+<pinref part="U_BT_RX" gate="G$1" pin="A"/>
 <wire x1="40.64" y1="-172.72" x2="53.34" y2="-172.72" width="0.1524" layer="91"/>
 <label x="48.26" y="-172.72" size="1.778" layer="95"/>
 </segment>
@@ -6968,7 +6985,7 @@ CON = connector</text>
 <pinref part="ATMEGA32U4-T" gate="G$1" pin="(PCINT6/OC1B/OC4B/ADC13)PB6"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="Y"/>
+<pinref part="U_BT_TX" gate="G$1" pin="Y"/>
 <wire x1="40.64" y1="-147.32" x2="53.34" y2="-147.32" width="0.1524" layer="91"/>
 <label x="48.26" y="-147.32" size="1.778" layer="95"/>
 </segment>
@@ -7531,12 +7548,12 @@ CON = connector</text>
 </segment>
 <segment>
 <pinref part="VR3_0R2" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="-60.96" x2="152.4" y2="-63.5" width="0.1524" layer="91"/>
-<label x="154.94" y="-83.82" size="1.778" layer="95" rot="R90"/>
+<wire x1="152.4" y1="-60.96" x2="152.4" y2="-66.04" width="0.1524" layer="91"/>
+<label x="154.94" y="-73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="VR5_0R2" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="-127" x2="149.86" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-127" x2="149.86" y2="-134.62" width="0.1524" layer="91"/>
 <label x="152.4" y="-137.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -7577,7 +7594,7 @@ CON = connector</text>
 <segment>
 <pinref part="UBT" gate="G$1" pin="P$21"/>
 <label x="17.78" y="-147.32" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="A"/>
+<pinref part="U_BT_TX" gate="G$1" pin="A"/>
 <wire x1="2.54" y1="-147.32" x2="35.56" y2="-147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7587,7 +7604,7 @@ CON = connector</text>
 <wire x1="2.54" y1="-149.86" x2="27.94" y2="-149.86" width="0.1524" layer="91"/>
 <label x="17.78" y="-149.86" size="1.778" layer="95"/>
 <wire x1="27.94" y1="-149.86" x2="27.94" y2="-172.72" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="Y"/>
+<pinref part="U_BT_RX" gate="G$1" pin="Y"/>
 <wire x1="27.94" y1="-172.72" x2="35.56" y2="-172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7628,6 +7645,28 @@ CON = connector</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,-53.34,40.64,GND1,UGND,,,,"/>
+<approved hash="102,1,-111.76,-55.88,GND1,UGND,,,,"/>
+<approved hash="104,1,-7.62,104.14,U_MEGA32U-Q,AVCC1,AVCC,,,"/>
+<approved hash="104,1,-7.62,88.9,U_MEGA32U-Q,GND1,GND,,,"/>
+<approved hash="104,1,-7.62,86.36,U_MEGA32U-Q,GND2,GND,,,"/>
+<approved hash="104,1,-7.62,124.46,U_MEGA32U-Q,GND3,GND,,,"/>
+<approved hash="104,1,-7.62,50.8,U_MEGA32U-Q,PAD,GND,,,"/>
+<approved hash="104,1,-7.62,81.28,U_MEGA32U-Q,UVCC,+5V,,,"/>
+<approved hash="104,1,-7.62,93.98,U_MEGA32U-Q,VCC,+5V,,,"/>
+<approved hash="104,1,-7.62,127,U_MEGA32U-Q,VCC1,+5V,,,"/>
+<approved hash="104,1,149.86,104.14,ATMEGA32U4-T,AVCC1,AVCC,,,"/>
+<approved hash="104,1,149.86,88.9,ATMEGA32U4-T,GND1,GND,,,"/>
+<approved hash="104,1,149.86,86.36,ATMEGA32U4-T,GND2,GND,,,"/>
+<approved hash="104,1,149.86,124.46,ATMEGA32U4-T,GND3,GND,,,"/>
+<approved hash="104,1,149.86,50.8,ATMEGA32U4-T,PAD,GND,,,"/>
+<approved hash="104,1,149.86,81.28,ATMEGA32U4-T,UVCC,+5V,,,"/>
+<approved hash="104,1,149.86,93.98,ATMEGA32U4-T,VCC,+5V,,,"/>
+<approved hash="104,1,149.86,127,ATMEGA32U4-T,VCC1,+5V,,,"/>
+<approved hash="105,1,-110.49,-40.64,USBID,,,,,"/>
+<approved hash="105,1,154.94,-218.44,VIN,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
