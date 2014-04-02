@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="ReferenceLC" color="13" fill="1" visible="no" active="yes"/>
+<layer number="49" name="ReferenceLC" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -13120,7 +13120,7 @@
 <wire x1="4.058" y1="48.049" x2="4.058" y2="49.874" width="0.025" layer="49"/>
 <wire x1="4.308" y1="49.874" x2="4.308" y2="47.929" width="0.025" layer="49"/>
 <wire x1="4.308" y1="44.019" x2="4.308" y2="42.074" width="0.025" layer="49"/>
-<wire x1="4.54025" y1="35.02025" x2="4.54025" y2="22.32025" width="0.025" layer="49"/>
+<wire x1="4.54025" y1="35.02025" x2="4.54025" y2="22.32025" width="0.025" layer="20"/>
 <wire x1="5.708" y1="44.474" x2="5.708" y2="44.874" width="0.025" layer="49"/>
 <wire x1="5.708" y1="45.124" x2="5.708" y2="45.524" width="0.025" layer="49"/>
 <wire x1="5.708" y1="45.774" x2="5.708" y2="46.174" width="0.025" layer="49"/>
@@ -13130,13 +13130,13 @@
 <wire x1="5.768" y1="47.929" x2="5.768" y2="49.874" width="0.025" layer="49"/>
 <wire x1="3.175" y1="51.17338125" x2="2.159" y2="50.15738125" width="0.025" layer="20"/>
 <wire x1="12.065" y1="0" x2="91.44" y2="0" width="0.025" layer="20"/>
-<wire x1="14.70025" y1="22.32025" x2="14.70025" y2="35.02025" width="0.025" layer="49"/>
+<wire x1="14.70025" y1="22.32025" x2="14.70025" y2="35.02025" width="0.025" layer="20"/>
 <wire x1="3.175" y1="58.293" x2="31.115" y2="66.675" width="0.025" layer="20"/>
 <wire x1="0" y1="10.91438125" x2="1.15061875" y2="10.91438125" width="0.025" layer="20"/>
 <wire x1="91.44" y1="20.12195" x2="85.09" y2="20.12195" width="0.025" layer="20"/>
-<wire x1="4.54025" y1="22.32025" x2="14.70025" y2="22.32025" width="0.025" layer="49"/>
+<wire x1="4.54025" y1="22.32025" x2="14.70025" y2="22.32025" width="0.025" layer="20"/>
 <wire x1="46.53788125" y1="74.295" x2="46.53788125" y2="66.675" width="0.025" layer="20"/>
-<wire x1="14.70025" y1="35.02025" x2="4.54025" y2="35.02025" width="0.025" layer="49"/>
+<wire x1="14.70025" y1="35.02025" x2="4.54025" y2="35.02025" width="0.025" layer="20"/>
 <wire x1="3.358" y1="42.074" x2="4.058" y2="42.074" width="0.025" layer="49"/>
 <wire x1="4.308" y1="42.074" x2="5.768" y2="42.074" width="0.025" layer="49"/>
 <wire x1="0.808" y1="42.599" x2="3.358" y2="42.599" width="0.025" layer="49"/>
@@ -14748,7 +14748,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="58.4" y1="17.28" x2="58.4" y2="17.2" width="0.2" layer="1"/>
 <via x="28" y="8" extent="1-16" drill="0.6" shape="square"/>
 <via x="13" y="19.5" extent="1-16" drill="0.6" shape="square"/>
-<via x="13" y="22" extent="1-16" drill="0.6" shape="square"/>
 <via x="57" y="11.5" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="63.21" y1="28.79" x2="63.21" y2="31.71" width="0.4" layer="1"/>
 <wire x1="63.21" y1="31.71" x2="64" y2="32.5" width="0.4" layer="1"/>
@@ -14791,9 +14790,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="63.21" y1="28.79" x2="63.21" y2="28.63" width="0.2" layer="1"/>
 <wire x1="63.21" y1="28.63" x2="63.2" y2="28.62" width="0.2" layer="1"/>
 <contactref element="BT_C1" pad="2"/>
-<via x="12" y="29" extent="1-16" drill="0.6" shape="square"/>
-<via x="6.5" y="27" extent="1-16" drill="0.6" shape="square"/>
-<via x="4.5" y="32" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="5.01" y1="43.074" x2="3.7675" y2="43.074" width="0.8" layer="1"/>
 <wire x1="3.7675" y1="43.074" x2="3.68" y2="42.9865" width="0.8" layer="1"/>
 <polygon width="0.4" layer="1" isolate="0.3" thermals="no" rank="2">
@@ -15479,8 +15475,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="31" y1="12.85" x2="32.8" y2="12.85" width="0.6" layer="1"/>
 <wire x1="32.8" y1="12.85" x2="33.05" y2="13.1" width="0.2" layer="1"/>
 <wire x1="2.8575" y1="16.51" x2="4.51" y2="16.51" width="0.6" layer="16"/>
-<wire x1="4.51" y1="16.51" x2="12" y2="24" width="0.4" layer="16"/>
-<wire x1="12" y1="24" x2="16" y2="24" width="0.4" layer="16"/>
+<wire x1="4.51" y1="16.51" x2="4.5" y2="16.5" width="0.4" layer="16"/>
+<wire x1="4.51" y1="16.51" x2="9.5" y2="21" width="0.4" layer="16"/>
+<wire x1="9.5" y1="21" x2="15" y2="21" width="0.4" layer="16"/>
+<wire x1="15" y1="21" x2="16" y2="22" width="0.4" layer="16"/>
+<wire x1="16" y1="22" x2="16" y2="24" width="0.4" layer="16"/>
 <via x="16" y="24" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="16" y1="24" x2="18.4" y2="24" width="0.3" layer="1"/>
 <wire x1="18.4" y1="24" x2="18.5" y2="24.1" width="0.3" layer="1"/>
