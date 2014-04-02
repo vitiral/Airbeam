@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -14564,10 +14564,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="54" y="5" extent="1-16" drill="0.6" shape="square"/>
 <polygon width="0.4" layer="16">
 <vertex x="53" y="4"/>
-<vertex x="53" y="10.5"/>
-<vertex x="55" y="10.5"/>
-<vertex x="55.4" y="13.5"/>
-<vertex x="53" y="13.5"/>
 <vertex x="53" y="15"/>
 <vertex x="57.5" y="15"/>
 <vertex x="57.5" y="12.5"/>
