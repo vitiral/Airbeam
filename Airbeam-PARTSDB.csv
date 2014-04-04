@@ -51,3 +51,16 @@ RC0603FR-071ML	Yageo	Resistor	1M	0603		311-1.00MHRCT-ND	0.00364		http://www.digi
 									
 NDS331N	Fairchild	MOSFET – N				NDS331NCT-ND	0.1407		http://www.digikey.com/product-detail/en/NDS331N/NDS331NCT-ND/458997
 DNP	DO NOT POPULATE	DO NOT POPULATE							DO NOT POPULATE
+									
+Mechanical Parts									
+enc-bot	Quickparts	Enclosure-bottom	black STL				225		TBD
+enc-top	Quickparts	Enclosure-top	black STL				225		TBD
+enc-sw	Quickparts	switch cap	black STL				75		TBD
+enc-bf	Quickparts	fan baffle	black STL				75		TBD
+91772A145	McMaster	enclosure screw	zinc plated steel				0.05		
+99461A310 	McMaster	PCB/fan screw	zinc plated steel				0.41		http://www.fastenal.com
+99461A409 	McMaster	Dust sensor screw	zinc plated steel				0.44		http://www.fastenal.com
+90295A400	McMaster	Dust sensor washer	PE				0.06		
+93365A132	McMaster	long insert	brass				0.16		
+93365A130	McMaster	short insert	brass				0.13		
+93505A151	McMaster	standoff	aluminum				3		http://www.fastenersuperstore.com 
