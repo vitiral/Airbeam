@@ -1,0 +1,13 @@
+rm *#*
+mv *.tsp Gerber
+mv *.top Gerber
+mv *.smt Gerber
+mv *.smb Gerber
+mv *.oln Gerber
+mv *.gpi Gerber
+mv *.dri Gerber
+mv *.bsp Gerber
+mv *.bot Gerber
+mv *.drd Gerber
+mv *.slk Gerber
+mv *.bsk Gerber
