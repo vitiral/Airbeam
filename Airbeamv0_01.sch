@@ -2048,16 +2048,6 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <wire x1="4" y1="1.5" x2="4" y2="0.5" width="0.127" layer="21"/>
 <text x="-3" y="-5.5" size="1.27" layer="21">&gt;NAME</text>
 </package>
-<package name="MOLEX_2PIN_SIDE">
-<pad name="P$1" x="-1.25" y="0" drill="0.9" shape="square"/>
-<pad name="P$2" x="1.25" y="0" drill="0.9" shape="square"/>
-<wire x1="-1.25" y1="0" x2="-3" y2="0" width="0.127" layer="21"/>
-<wire x1="-3" y1="0" x2="-3" y2="6.6" width="0.127" layer="21"/>
-<wire x1="1.25" y1="0" x2="3" y2="0" width="0.127" layer="22"/>
-<wire x1="3" y1="0" x2="3" y2="6.6" width="0.127" layer="22"/>
-<wire x1="-3" y1="6.6" x2="3" y2="6.6" width="0.127" layer="21"/>
-<text x="-3" y="-2.5" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="CON_5_2MM">
 <pad name="P$1" x="-4" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="-2" y="0" drill="0.8" shape="square"/>
@@ -2148,6 +2138,20 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <wire x1="1.7" y1="0.8" x2="1.7" y2="-0.7" width="0.127" layer="21"/>
+</package>
+<package name="JST-0.8MM">
+<smd name="PAD2" x="1.1" y="0" dx="1.2" dy="1.7" layer="1"/>
+<smd name="PAD1" x="-1.1" y="0" dx="1.2" dy="1.7" layer="1"/>
+<smd name="P2" x="0.4" y="1.95" dx="0.5" dy="1" layer="1"/>
+<smd name="P1" x="-0.4" y="1.95" dx="0.5" dy="1" layer="1"/>
+<text x="-3.4" y="-0.3" size="0.54" layer="51" rot="R90">&gt;NAME</text>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="1.3" y1="1" x2="1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="1.3" y1="2" x2="0.9" y2="2" width="0.127" layer="21"/>
+<wire x1="0.9" y1="2" x2="0.9" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="2.2" x2="-0.9" y2="2" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="2" x2="-1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="2" x2="-1.3" y2="1" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2356,15 +2360,6 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <wire x1="1.524" y1="2.54" x2="1.27" y2="3.048" width="0.254" layer="94"/>
 <text x="-2.54" y="-3.556" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="FAN">
-<pin name="VCC" x="-2.54" y="0" visible="pin" length="point" rot="R180"/>
-<pin name="GND" x="2.54" y="0" visible="pin" length="point"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="3.048" size="1.27" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="MOSFET-P">
 <pin name="P$1" x="-2.54" y="0" visible="off" length="point"/>
 <pin name="P$2" x="0" y="-2.54" visible="off" length="point"/>
@@ -2504,6 +2499,25 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <wire x1="0" y1="0.508" x2="0" y2="2.54" width="0.254" layer="94"/>
 <text x="2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="0" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="SUR_2PIN">
+<pin name="P1" x="-2.54" y="2.54" visible="pin" length="point" rot="R90"/>
+<pin name="P2" x="2.54" y="2.54" visible="pin" length="point" rot="R90"/>
+<pin name="PAD1" x="-5.08" y="-2.54" visible="pin" length="point" rot="R270"/>
+<pin name="PAD2" x="5.08" y="-2.54" visible="pin" length="point" rot="R270"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-4.572" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-4.572" y1="-2.54" x2="4.572" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.572" y1="-1.016" x2="-4.572" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-4.572" y1="-1.016" x2="4.572" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-1.016" x2="4.572" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2735,22 +2749,6 @@ Source: www.epcos.com .. 01430148.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FAN">
-<gates>
-<gate name="G$1" symbol="FAN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MOLEX_2PIN_SIDE">
-<connects>
-<connect gate="G$1" pin="GND" pad="P$1"/>
-<connect gate="G$1" pin="VCC" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOSFET-P">
 <gates>
 <gate name="G$1" symbol="MOSFET-P" x="0" y="0"/>
@@ -2953,6 +2951,26 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="PARTNO" value="T491D107K010AT " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SUR_2PIN">
+<gates>
+<gate name="G$1" symbol="SUR_2PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST-0.8MM">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="PAD1" pad="PAD1"/>
+<connect gate="G$1" pin="PAD2" pad="PAD2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="SM02B-SURS-TF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5467,9 +5485,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="CON_FAN" library="Airbeam" deviceset="FAN" device="">
-<attribute name="PARTNO" value="22-05-7025"/>
-</part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="R_LED_BT" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.4k">
 <attribute name="PARTNO" value="RC0603FR-071K4L"/>
@@ -5593,6 +5608,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="VR_C1" library="Airbeam" deviceset="CAP_POL" device="120UF" value="DNP"/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="VR_FUSE" library="SparkFun-PowerIC" deviceset="PTC" device="SMD-W"/>
+<part name="U$2" library="Airbeam" deviceset="SUR_2PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5888,10 +5904,7 @@ CON = connector</text>
 <attribute name="PARTNO" x="-96.52" y="-172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="-106.68" y="-157.48"/>
-<instance part="CON_FAN" gate="G$1" x="-76.2" y="-162.56">
-<attribute name="PARTNO" x="-76.2" y="-162.56" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="GND14" gate="1" x="-63.5" y="-165.1"/>
+<instance part="GND14" gate="1" x="-63.5" y="-187.96"/>
 <instance part="R_LED_BT" gate="G$1" x="76.2" y="-134.62" rot="R90">
 <attribute name="PARTNO" x="76.2" y="-134.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -6028,6 +6041,7 @@ CON = connector</text>
 <instance part="VR_C1" gate="G$1" x="147.32" y="-25.4"/>
 <instance part="GND48" gate="1" x="147.32" y="-33.02"/>
 <instance part="VR_FUSE" gate="G$1" x="104.14" y="-22.86"/>
+<instance part="U$2" gate="G$1" x="-76.2" y="-167.64"/>
 </instances>
 <busses>
 </busses>
@@ -6416,11 +6430,6 @@ CON = connector</text>
 <pinref part="UC_C4" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="CON_FAN" gate="G$1" pin="GND"/>
-<wire x1="-73.66" y1="-162.56" x2="-63.5" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="UBT" gate="G$1" pin="P$2"/>
 <wire x1="-15.24" y1="-121.92" x2="-30.48" y2="-121.92" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
@@ -6601,6 +6610,23 @@ CON = connector</text>
 <pinref part="VR_C1" gate="G$1" pin="-"/>
 <wire x1="147.32" y1="-27.94" x2="147.32" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="GND48" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P2"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="-73.66" y1="-165.1" x2="-73.66" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-162.56" x2="-63.5" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-162.56" x2="-63.5" y2="-180.34" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="PAD1"/>
+<wire x1="-63.5" y1="-180.34" x2="-63.5" y2="-185.42" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-170.18" x2="-81.28" y2="-180.34" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-180.34" x2="-71.12" y2="-180.34" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="PAD2"/>
+<wire x1="-71.12" y1="-180.34" x2="-71.12" y2="-170.18" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="-180.34" x2="-63.5" y2="-180.34" width="0.1524" layer="91"/>
+<junction x="-71.12" y="-180.34"/>
+<junction x="-63.5" y="-180.34"/>
+<label x="-68.58" y="-162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AREF" class="4">
@@ -7697,10 +7723,11 @@ CON = connector</text>
 <wire x1="-93.98" y1="-162.56" x2="-91.44" y2="-162.56" width="0.1524" layer="91"/>
 <pinref part="VR_R4" gate="G$1" pin="2"/>
 <wire x1="-91.44" y1="-162.56" x2="-91.44" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="-162.56" x2="-78.74" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="CON_FAN" gate="G$1" pin="VCC"/>
-<junction x="-91.44" y="-162.56"/>
 <pinref part="U$1" gate="G$1" pin="P$3"/>
+<pinref part="U$2" gate="G$1" pin="P1"/>
+<wire x1="-91.44" y1="-162.56" x2="-78.74" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="-162.56" x2="-78.74" y2="-165.1" width="0.1524" layer="91"/>
+<label x="-86.36" y="-162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
