@@ -6,46 +6,46 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0196850394" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="2" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="5" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="2" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="5" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="ReferenceLC" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="13" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="13" fill="1" visible="no" active="yes"/>
+<layer number="50" name="ReferenceLS" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -79,15 +79,15 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="15" fill="1" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="no"/>
@@ -119,7 +119,7 @@
 </layers>
 <board>
 <plain>
-<text x="25.24" y="10.938" size="0.5" layer="21" font="vector" ratio="12">-</text>
+<text x="25.24" y="10.938" size="0.508" layer="21" font="vector" ratio="27">-</text>
 <rectangle x1="42.545" y1="38.608" x2="43.053" y2="38.862" layer="43"/>
 <rectangle x1="35.814" y1="35.179" x2="36.449" y2="35.687" layer="43"/>
 <rectangle x1="44.45" y1="35.179" x2="45.212" y2="35.687" layer="43"/>
@@ -13230,8 +13230,8 @@
 <wire x1="13.5" y1="65.88" x2="13.5" y2="76.14" width="0.2" layer="50"/>
 <wire x1="13.5" y1="76.14" x2="3.24" y2="76.14" width="0.2" layer="50"/>
 <text x="2.16" y="76.68" size="1.778" layer="50">Offboard Parts</text>
-<text x="82.5" y="12.5" size="5" layer="25" rot="R90">Airbeam</text>
-<text x="85" y="12.5" size="2" layer="25" rot="R90">v1.0</text>
+<text x="82.5" y="12.5" size="5" layer="25" ratio="15" rot="R90">Airbeam</text>
+<text x="85" y="12.5" size="2" layer="25" ratio="20" rot="R90">v1.0</text>
 <circle x="9.5" y="40" radius="4.1275" width="0.8" layer="41"/>
 <circle x="9.5" y="40" radius="4.1275" width="0.8" layer="42"/>
 <circle x="24.765" y="60.96" radius="4.1275" width="0.8" layer="42"/>
@@ -14128,7 +14128,7 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="CON_ICSP" library="SmartPrj" package="2X03" value="ICSP" x="42.9" y="16.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="45.847" y="19.021" size="0.5" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="45.847" y="19.021" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
 <attribute name="PARTNO" value="67997-206HLF " x="42.9" y="16.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="FID1" library="SmartPrj" package="FIDUCIA-MOUNT" value="FIDUCIALMOUNT" x="2.92" y="38.02" smashed="yes">
@@ -14142,18 +14142,18 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U_Z1" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="30" y="36.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CG0603MLC-05E" x="30" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28.5" y="37" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="28.5" y="37" size="0.508" layer="25" ratio="27" rot="R270"/>
 </element>
 <element name="U_Z2" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="30" y="40.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CG0603MLC-05E" x="30" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="UC_C2" library="SparkFun-Passives" package="0603-CAP" value="100n" x="54.9" y="13.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA" x="54.9" y="13.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="53.662" y="14.389" size="0.5" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="53.662" y="14.389" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="UC_C1" library="SparkFun-Passives" package="0603-CAP" value="100n" x="53.2" y="31" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA" x="53.2" y="31" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="52.111" y="33.062" size="0.5" layer="25" font="vector"/>
+<attribute name="NAME" x="52.111" y="33.062" size="0.508" layer="25" font="vector" ratio="27"/>
 </element>
 <element name="U_MEGA32U-Q" library="SmartPrj" package="QFN44ML7X7" value="DNP" x="60.01" y="22.99" smashed="yes">
 <attribute name="PARTNO" value="DNP" x="60.01" y="22.99" size="1.778" layer="27" display="off"/>
@@ -14163,11 +14163,11 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="UBT" library="Airbeam" package="BT_NVC-MDCS42A" value="BT-NVC-MDCS42A" x="76.2325" y="51.715" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="NVC-MDCS42A" x="76.2325" y="51.715" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="77.5025" y="59.335" size="0.5" layer="25"/>
+<attribute name="NAME" x="77.5025" y="59.335" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="U_TEMP-HUM" library="Airbeam" package="RHT03" value="RHT03" x="50.165" y="62.5983" locked="yes" smashed="yes">
 <attribute name="PARTNO" value="RHT03 " x="50.165" y="62.5983" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48.855" y="58.5183" size="0.54" layer="25"/>
+<attribute name="NAME" x="48.855" y="58.5183" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="U$6" library="Airbeam" package="EAGLE_FREESPACE" value="" x="0" y="0" smashed="yes"/>
 <element name="CON_USB" library="Airbeam" package="USB-FCI" value="USB-FCI" x="0.48" y="45.974" locked="yes" smashed="yes" rot="R90">
@@ -14175,262 +14175,262 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="UC_CRYSTAL" library="SparkFun-FreqCtrl" package="HC49UP" value="16MHz" x="59.5" y="9" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ECS-160-20-3X-TR " x="59.5" y="9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="64.215" y="5.706" size="0.5" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="64.215" y="5.706" size="0.508" layer="25" ratio="27" rot="R180"/>
 </element>
 <element name="U_R1" library="SparkFun-Passives" package="0603-RES" value="22" x="32" y="40.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603JR-0722RL" x="32" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32.762" y="41.389" size="0.5" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="30.857" y="41.516" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="32.762" y="41.389" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="30.857" y="41.516" size="0.508" layer="27" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="U_R2" library="SparkFun-Passives" package="0603-RES" value="22" x="32" y="36.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603JR-0722RL" x="32" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32.762" y="37.389" size="0.5" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="30.857" y="37.516" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="32.762" y="37.389" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="30.857" y="37.516" size="0.508" layer="27" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="U_VR3" library="Airbeam" package="WFDFN-10" value="VREG-RTEC6150" x="22" y="20.5" smashed="yes">
 <attribute name="PARTNO" value="RT6150BGQW" x="22" y="20.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.2" y="22" size="0.5" layer="25"/>
+<attribute name="NAME" x="23.2" y="22" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="VR3_C1" library="SparkFun-Passives" package="0805" value="10uF" x="20.5" y="17" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC" x="20.5" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="19.1255" y="17.962" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.1255" y="17.962" size="0.508" layer="25" ratio="27" rot="R270"/>
 </element>
 <element name="VR3_R1" library="SparkFun-Resistors" package="0603-RES" value="487k" x="26" y="27" smashed="yes">
 <attribute name="PARTNO" value="ERJ-3EKF4873V" x="26" y="27" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.611" y="27.762" size="0.5" layer="25" font="vector"/>
-<attribute name="VALUE" x="25.484" y="25.857" size="0.4064" layer="27" font="vector"/>
+<attribute name="NAME" x="23.611" y="27.762" size="0.508" layer="25" font="vector" ratio="27"/>
+<attribute name="VALUE" x="25.484" y="25.857" size="0.508" layer="27" font="vector" ratio="27"/>
 </element>
 <element name="VR3_R2" library="SparkFun-Resistors" package="0603-RES" value="86.6k" x="28.5" y="17" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ERJ-3EKF8662V" x="28.5" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.262" y="18.189" size="0.5" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="27.262" y="18.189" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="VR3_L1" library="SparkFun-Passives" package="1210" value="2.2uH" x="18" y="20.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="BRL3225T2R2M" x="18" y="20.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16" y="21.4" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="16" y="21.4" size="0.508" layer="25" ratio="27" rot="R270"/>
 </element>
 <element name="U_VR5" library="Airbeam" package="WFDFN-10" value="VREG-RTEC6150" x="23.5" y="7.5" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="RT6150BGQW" x="23.5" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22" y="5.7" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="22" y="5.7" size="0.508" layer="25" ratio="27" rot="R90"/>
 </element>
 <element name="VR5_C1" library="SparkFun-Passives" package="0805" value="10uF" x="26.5" y="6" smashed="yes">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC" x="26.5" y="6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="25.738" y="6.8255" size="0.5" layer="25"/>
-<attribute name="VALUE" x="25.484" y="4.603" size="0.4064" layer="27"/>
+<attribute name="NAME" x="25.738" y="6.8255" size="0.508" layer="25" ratio="27"/>
+<attribute name="VALUE" x="25.484" y="4.603" size="0.508" layer="27" ratio="27"/>
 </element>
 <element name="VR5_R1" library="SparkFun-Resistors" package="0603-RES" value="487k" x="27.38" y="2.92" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="ERJ-3EKF4873V" x="27.38" y="2.92" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="26.618" y="1.531" size="0.5" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="28.523" y="1.904" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="NAME" x="26.618" y="1.531" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="28.523" y="1.904" size="0.508" layer="27" font="vector" ratio="27" rot="R90"/>
 </element>
 <element name="VR5_R2" library="SparkFun-Resistors" package="0603-RES" value="53.6k" x="28" y="10.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0805FR-0753K6L" x="28" y="10.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="26.762" y="11.389" size="0.5" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="27.484" y="12.357" size="0.4064" layer="27" font="vector"/>
+<attribute name="NAME" x="26.762" y="11.389" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="27.484" y="12.357" size="0.508" layer="27" font="vector" ratio="27"/>
 </element>
 <element name="VR5_L1" library="SparkFun-Passives" package="1210" value="6uH" x="23.5" y="3.5" smashed="yes">
 <attribute name="PARTNO" value="NRS5020T6R8MMGJ" x="23.5" y="3.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="22.2" y="1.5" size="0.5" layer="25"/>
-<attribute name="VALUE" x="20.7" y="1.6" size="0.4064" layer="27" rot="R90"/>
+<attribute name="NAME" x="22.2" y="1.5" size="0.508" layer="25" ratio="27"/>
+<attribute name="VALUE" x="20.7" y="1.6" size="0.508" layer="27" ratio="27" rot="R90"/>
 </element>
 <element name="VR5_C2" library="SparkFun-Passives" package="0805" value="10uF" x="20.5" y="6.5" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC" x="20.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="19.6745" y="5.738" size="0.5" layer="25" rot="R90"/>
-<attribute name="VALUE" x="21.016" y="4.897" size="0.4064" layer="27" rot="R180"/>
+<attribute name="NAME" x="19.7745" y="5.438" size="0.508" layer="25" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="21.016" y="4.897" size="0.508" layer="27" ratio="27" rot="R180"/>
 </element>
 <element name="VR5_C3" library="SparkFun-Passives" package="0805" value="10uF" x="18.5" y="6.5" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC" x="18.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="17.6745" y="5.738" size="0.5" layer="25" rot="R90"/>
-<attribute name="VALUE" x="19.016" y="4.897" size="0.4064" layer="27" rot="R180"/>
+<attribute name="NAME" x="17.6745" y="5.738" size="0.508" layer="25" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="19.016" y="4.897" size="0.508" layer="27" ratio="27" rot="R180"/>
 </element>
 <element name="VR3_C2" library="SparkFun-Passives" package="0805" value="10uF" x="21.5" y="24.5" smashed="yes">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC" x="21.5" y="24.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.738" y="25.3255" size="0.5" layer="25"/>
-<attribute name="VALUE" x="19.897" y="23.984" size="0.4064" layer="27" rot="R90"/>
+<attribute name="NAME" x="20.738" y="25.3255" size="0.508" layer="25" ratio="27"/>
+<attribute name="VALUE" x="19.897" y="23.984" size="0.508" layer="27" ratio="27" rot="R90"/>
 </element>
 <element name="VR3_C3" library="SparkFun-Passives" package="0805" value="10uF" x="21.5" y="23" smashed="yes">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC" x="21.5" y="23" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.238" y="22.5755" size="0.5" layer="25"/>
-<attribute name="VALUE" x="19.603" y="23.516" size="0.4064" layer="27" rot="R270"/>
+<attribute name="NAME" x="23.238" y="22.5755" size="0.508" layer="25" ratio="27"/>
+<attribute name="VALUE" x="19.503" y="23.516" size="0.508" layer="27" ratio="27" rot="R270"/>
 </element>
 <element name="CON_BAT" library="SparkFun-Connectors" package="JST-2-SMD" value="CON_BAT" x="22" y="34" locked="yes" smashed="yes">
 <attribute name="PROD_ID" value="CONN-08352" x="22" y="34" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="PARTNO" value="S2B-PH-SM4-TB(LF)(SN)" x="22" y="34" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.73" y="37.77" size="0.5" layer="25"/>
-<attribute name="VALUE" x="17.5" y="30.23" size="0.4064" layer="27" rot="R90"/>
+<attribute name="NAME" x="20.73" y="37.77" size="0.508" layer="25" ratio="27"/>
+<attribute name="VALUE" x="17.5" y="30.23" size="0.508" layer="27" ratio="27" rot="R90"/>
 </element>
 <element name="R_LED_CH" library="SparkFun-Passives" package="0603-RES" value="1.4k" x="12.5" y="57.5" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="RC0603FR-071K4L" x="12.5" y="57.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="11.738" y="56.611" size="0.5" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="13.643" y="56.484" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="NAME" x="11.738" y="56.611" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="13.643" y="56.484" size="0.508" layer="27" font="vector" ratio="27" rot="R90"/>
 </element>
 <element name="UR_R2" library="SparkFun-Passives" package="0603-RES" value="6.65k" x="32.5" y="48" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RC0603FR-076K65L " x="32.5" y="48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="33.389" y="46.738" size="0.5" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="33.389" y="46.738" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="VR_D1" library="Airbeam" package="SOD123_DIODE" value="DIODESOD123" x="25" y="52.5" smashed="yes">
 <attribute name="PARTNO" value="B130LAW-7-F" x="25" y="52.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.7" y="54" size="0.5" layer="25"/>
+<attribute name="NAME" x="23.7" y="54" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="VR_R1" library="SparkFun-Resistors" package="0603-RES" value="10k" x="15" y="58" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="RC0603JR-0710KL" x="15" y="58" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="14.238" y="57.111" size="0.5" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="16.143" y="56.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="NAME" x="14.238" y="57.111" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="16.143" y="56.984" size="0.508" layer="27" font="vector" ratio="27" rot="R90"/>
 </element>
 <element name="VDETECT" library="Airbeam" package="SOT23" value="VDETEC_APX" x="32" y="27" smashed="yes">
 <attribute name="PARTNO" value="APX809-31SAG-7" x="32" y="27" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="29.968" y="25.111" size="0.5" layer="25" rot="R90"/>
-<attribute name="VALUE" x="30.284" y="24.6095" size="0.4064" layer="27"/>
+<attribute name="NAME" x="29.968" y="25.111" size="0.508" layer="25" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="30.284" y="24.6095" size="0.508" layer="27" ratio="27"/>
 </element>
 <element name="U_ONOFF" library="Airbeam" package="PUSHBUTTON" value="PUSHBUTTON" x="36.195" y="58.13551875" locked="yes" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="LC2259EENP" x="36.195" y="58.13551875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="33.695" y="54.13551875" size="0.5" layer="21" rot="R90"/>
+<attribute name="NAME" x="33.695" y="54.13551875" size="0.508" layer="21" ratio="27" rot="R90"/>
 </element>
 <element name="VR_R2" library="SparkFun-Resistors" package="0603-RES" value="487k" x="29.5" y="30" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ERJ-3EKF4873V" x="29.5" y="30" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="30.389" y="29.238" size="0.5" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="30.516" y="31.143" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="30.389" y="29.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
+<attribute name="VALUE" x="30.516" y="31.143" size="0.508" layer="27" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="VR_R3" library="SparkFun-Resistors" package="0603-RES" value="DNP" x="20.5" y="53.5" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="20.5" y="53.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="19.738" y="52.611" size="0.5" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="21.984" y="53.857" size="0.4064" layer="27" font="vector"/>
+<attribute name="NAME" x="19.738" y="52.611" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="21.984" y="53.857" size="0.508" layer="27" font="vector" ratio="27"/>
 </element>
 <element name="CON_DUST" library="Airbeam" package="S4B-EH" value="CON_DUST" x="75.02" y="6.7" locked="yes" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="S4B-EH" x="75.02" y="6.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="75.52" y="10.2" size="0.5" layer="21" rot="R180"/>
+<attribute name="NAME" x="75.52" y="10.2" size="0.508" layer="21" ratio="27" rot="R180"/>
 </element>
 <element name="LED_CH" library="Airbeam" package="LED_550" value="LED" x="7.62" y="55.245" locked="yes" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="550-1307F" x="7.62" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="6.245" y="51.38" size="0.5" layer="21"/>
+<attribute name="NAME" x="6.245" y="51.38" size="0.508" layer="21" ratio="27"/>
 </element>
 <element name="UC_R3" library="SparkFun-Passives" package="0603-RES" value="DNP" x="47" y="27" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="47" y="27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="46.238" y="26.111" size="0.5" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="48.143" y="25.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="NAME" x="46.238" y="26.111" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="48.143" y="25.984" size="0.508" layer="27" font="vector" ratio="27" rot="R90"/>
 </element>
 <element name="UC_R1" library="SparkFun-Passives" package="0603-RES" value="1M" x="59.5" y="15.2" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RC0603FR-071ML" x="59.5" y="15.2" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="NAME" x="60.889" y="16.438" size="0.5" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="60.789" y="16.338" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="UC_R2" library="SparkFun-Passives" package="0603-RES" value="10k" x="50.3" y="13" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="RC0603JR-0710KL" x="50.3" y="13" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="NAME" x="49.538" y="12.111" size="0.5" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="49.538" y="12.111" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
 </element>
 <element name="U_C1" library="SparkFun-Passives" package="0805" value="10uF" x="21.29699375" y="49.24476875" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC" x="21.29699375" y="49.24476875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22.12249375" y="50.00676875" size="0.5" layer="25" rot="R270"/>
-<attribute name="VALUE" x="20.73923125" y="50.89999375" size="0.4064" layer="27"/>
+<attribute name="NAME" x="22.12249375" y="50.00676875" size="0.508" layer="25" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="20.73923125" y="50.89999375" size="0.508" layer="27" ratio="27"/>
 </element>
 <element name="U_C2" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="23.79699375" y="49.24476875" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA" x="23.79699375" y="49.24476875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="24.55899375" y="50.13376875" size="0.5" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="23.23923125" y="51.15399375" size="0.4064" layer="27" font="vector"/>
+<attribute name="NAME" x="24.55899375" y="50.13376875" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="23.23923125" y="51.15399375" size="0.508" layer="27" font="vector" ratio="27"/>
 </element>
 <element name="UC_C7" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="50" y="23" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C1608X5R1C105K080AA" x="50" y="23" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="50.889" y="22.238" size="0.5" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="51.016" y="24.143" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="50.889" y="22.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
+<attribute name="VALUE" x="51.016" y="24.143" size="0.508" layer="27" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="UC_C5" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="70.5" y="19" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="C1608X5R1C105K080AA" x="70.5" y="19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="71.262" y="19.889" size="0.5" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="69.357" y="19.516" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="71.262" y="19.889" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="69.357" y="19.516" size="0.508" layer="27" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="UC_C6" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="58.5" y="31.5" smashed="yes">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA" x="58.5" y="31.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="56.111" y="32.262" size="0.5" layer="25" font="vector"/>
-<attribute name="VALUE" x="57.484" y="30.357" size="0.4064" layer="27" font="vector"/>
+<attribute name="NAME" x="56.111" y="32.262" size="0.508" layer="25" font="vector" ratio="27"/>
+<attribute name="VALUE" x="57.484" y="30.357" size="0.508" layer="27" font="vector" ratio="27"/>
 </element>
 <element name="UC_C4" library="SparkFun-Passives" package="0603-CAP" value="20pF" x="61.5" y="13" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="CL10C200JB8NNNC" x="61.5" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="62.889" y="14.238" size="0.5" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="62.889" y="14.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="UC_C3" library="SparkFun-Passives" package="0603-CAP" value="20pF" x="57.5" y="13" smashed="yes">
 <attribute name="PARTNO" value="CL10C200JB8NNNC" x="57.5" y="13" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.611" y="13.762" size="0.5" layer="25" font="vector"/>
+<attribute name="NAME" x="57.611" y="13.762" size="0.508" layer="25" font="vector" ratio="27"/>
 </element>
 <element name="UC_R4" library="SparkFun-Passives" package="0603-RES" value="10k" x="66" y="29.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603JR-0710KL" x="66" y="29.5" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="NAME" x="66.762" y="30.389" size="0.5" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="64.857" y="30.516" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="66.762" y="30.389" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="64.857" y="30.516" size="0.508" layer="27" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="VR_R4" library="SparkFun-Resistors" package="0603-RES" value="0" x="31" y="12" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="31" y="12" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.762" y="12.889" size="0.5" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="29.857" y="13.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="31.762" y="12.889" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="29.857" y="13.016" size="0.508" layer="27" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="R_LED_BT" library="SparkFun-Passives" package="0603-RES" value="1.4k" x="60.5" y="70" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="RC0603FR-071K4L" x="60.5" y="70" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="59.738" y="69.111" size="0.5" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="61.643" y="68.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="NAME" x="59.738" y="69.111" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="61.643" y="68.984" size="0.508" layer="27" font="vector" ratio="27" rot="R90"/>
 </element>
 <element name="LED_BT" library="Airbeam" package="LED_550" value="LED" x="65.405" y="70.8025" locked="yes" smashed="yes">
 <attribute name="PARTNO" value="550-1107F " x="65.405" y="70.8025" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="62.905" y="65.8025" size="0.5" layer="21"/>
+<attribute name="NAME" x="62.905" y="65.8025" size="0.508" layer="21" ratio="27"/>
 </element>
 <element name="VR_MOS-P1" library="Airbeam" package="SOT23" value="MOSFET-P" x="15.5" y="53.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="IRLML2246TRPBF " x="15.5" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="17.889" y="55.968" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="17.889" y="55.968" size="0.508" layer="25" ratio="27" rot="R180"/>
 </element>
 <element name="UR_C1" library="SparkFun-Passives" package="0805" value="10uF" x="31.5" y="50.5" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC" x="31.5" y="50.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="30.6745" y="49.738" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="30.6745" y="49.738" size="0.508" layer="25" ratio="27" rot="R90"/>
 </element>
 <element name="CON_ADDON" library="Airbeam" package="CON_5_2MM" value="CON_1X52MM" x="2.8575" y="16.51" locked="yes" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="950505-5002-AR" x="2.8575" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="3.47" y="11.1025" size="0.5" layer="21"/>
+<attribute name="NAME" x="3.47" y="11.1025" size="0.508" layer="21" ratio="27"/>
 </element>
 <element name="U_BT_TX" library="Airbeam" package="SOT23-5" value="V_BUFFER" x="56.415" y="38.8225" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="SN74LVC1G125DBVR" x="56.415" y="38.8225" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="55.4335" y="40.744" size="0.5" layer="25"/>
+<attribute name="NAME" x="55.4335" y="40.744" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="U_BT_RX" library="Airbeam" package="SOT23-5" value="V_BUFFER" x="56.585" y="45.1775" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="SN74LVC1G125DBVR" x="56.585" y="45.1775" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="54.9335" y="46.744" size="0.5" layer="25"/>
+<attribute name="NAME" x="54.9335" y="46.744" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="VR3_0R1" library="SparkFun-Passives" package="0603-RES" value="0" x="32" y="21" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="32" y="21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="32.889" y="20.238" size="0.5" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="32.889" y="20.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="VR3_0R2" library="SparkFun-Passives" package="0603-RES" value="DNP" x="32" y="18.9" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="32" y="18.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="33.489" y="18.238" size="0.5" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="33.489" y="18.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="VR5_0R1" library="SparkFun-Passives" package="0603-RES" value="DNP" x="15" y="19.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="15" y="19.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.762" y="21.089" size="0.5" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="13.762" y="21.089" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="VR5_0R2" library="SparkFun-Passives" package="0603-RES" value="0" x="17" y="16.5" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="17" y="16.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="17.889" y="15.738" size="0.5" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="17.889" y="15.738" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="RESET_SWITCH" library="Airbeam" package="SWITCH_TACTILE" value="SWITCH" x="45.5" y="7.5" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="TL3315NF250Q" x="45.5" y="7.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U_Z3" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="6" y="12.5" smashed="yes">
 <attribute name="PARTNO" value="CG0603MLC-05E" x="6" y="12.5" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="NAME" x="4.4" y="13.3" size="0.5" layer="25"/>
+<attribute name="NAME" x="4.4" y="13.3" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="U_Z4" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="6" y="14.5" smashed="yes">
 <attribute name="PARTNO" value="CG0603MLC-05E" x="6" y="14.5" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="NAME" x="4.4" y="15.3" size="0.5" layer="25"/>
+<attribute name="NAME" x="4.4" y="15.3" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="U_VRUSB" library="Airbeam" package="UFDFN-8" value="VREG_MC34673" x="28" y="49" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="MC34673AEPR2" x="28" y="49" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25" y="50.8" size="0.5" layer="25"/>
+<attribute name="NAME" x="25" y="50.8" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="UC_C8" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="69.5" y="31" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="C1608X5R1C105K080AA" x="69.5" y="31" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="70.762" y="31.889" size="0.5" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="68.357" y="32.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="NAME" x="70.762" y="31.889" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="68.357" y="32.016" size="0.508" layer="27" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="U_Z5" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="6" y="16.5" smashed="yes">
 <attribute name="PARTNO" value="CG0603MLC-05E" x="6" y="16.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="4.4" y="17.3" size="0.5" layer="25"/>
+<attribute name="NAME" x="4.4" y="17.3" size="0.508" layer="25" ratio="27"/>
 </element>
 <element name="U_Z6" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="9" y="17.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CG0603MLC-05E" x="9" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10" y="18.2" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="10" y="18.2" size="0.508" layer="25" ratio="27" rot="R270"/>
 </element>
 <element name="DUST_SENSOR" library="Airbeam" package="EMPTY" value="OFF_BOARD" x="4.4" y="75.18" smashed="yes">
 <attribute name="PARTNO" value="PPD60PV-T2" x="4.4" y="75.18" size="1.778" layer="27" display="off"/>
@@ -14443,69 +14443,81 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="BT_C1" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="54" y="49" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C1608X5R1C105K080AA" x="54" y="49" size="0.5" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="52.738" y="48.111" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="52.738" y="48.111" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
 </element>
 <element name="BT_C2" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="51" y="40.5" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA" x="51" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="51.889" y="41.738" size="0.4064" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="52.516" y="39.643" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="51.889" y="41.738" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
+<attribute name="VALUE" x="52.516" y="39.643" size="0.508" layer="27" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="CE_C1" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="11.5" y="17" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="C1608X5R1C105K080AA" x="11.5" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.762" y="17.889" size="0.4064" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="10.984" y="14.857" size="0.4064" layer="27" font="vector"/>
+<attribute name="NAME" x="12.762" y="17.889" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="VALUE" x="10.984" y="14.857" size="0.508" layer="27" font="vector" ratio="27"/>
 </element>
 <element name="CD_C1" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="46" y="57" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C1608X5R1C105K080AA" x="46" y="57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="46.389" y="56.238" size="0.4064" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="46.016" y="58.143" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="46.389" y="56.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
+<attribute name="VALUE" x="46.016" y="58.143" size="0.508" layer="27" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="CTH_C1" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="80" y="11" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C1608X5R1C105K080AA" x="80" y="11" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="80.889" y="9.738" size="0.4064" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="81.016" y="12.143" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="80.889" y="9.738" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
+<attribute name="VALUE" x="81.016" y="12.143" size="0.508" layer="27" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="VR5_C4" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="21.5" y="12" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA" x="21.5" y="12" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.389" y="13.238" size="0.4064" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="22.516" y="13.143" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="22.389" y="13.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
+<attribute name="VALUE" x="22.516" y="13.143" size="0.508" layer="27" font="vector" ratio="27" rot="R180"/>
 </element>
 <element name="U_FB1" library="Airbeam" package="U_FB1" value="FERITE_BEAD" x="16" y="39" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="MH2029-300Y" x="16" y="39" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="15" y="37" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="15" y="37" size="0.508" layer="25" ratio="27" rot="R90"/>
 </element>
 <element name="CA_FB1" library="Airbeam" package="U_FB1" value="FERITE_BEAD" x="6.5" y="20.5" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="MH2029-300Y" x="6.5" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7.5" y="19.5" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="7.5" y="19.5" size="0.508" layer="25" ratio="27" rot="R180"/>
 </element>
 <element name="U_FB2" library="Airbeam" package="U_FB1" value="FERITE_BEAD" x="74" y="20" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="MH2029-300Y" x="74" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="75" y="19" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="75" y="19" size="0.508" layer="25" ratio="27" rot="R180"/>
 </element>
-<element name="U$1" library="Airbeam" package="SOT23" value="MOSFET-N" x="34" y="12" rot="R180">
+<element name="U$1" library="Airbeam" package="SOT23" value="MOSFET-N" x="34" y="12" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="NDS331N" x="34" y="12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="34.889" y="9.968" size="0.508" layer="25" ratio="27" rot="R180"/>
+<attribute name="VALUE" x="35.8095" y="13.416" size="0.508" layer="27" ratio="27" rot="R270"/>
 </element>
 <element name="U_ILIM" library="Airbeam" package="MSOP-8" value="USB-OVERCURRENT" x="15" y="48.5" smashed="yes">
 <attribute name="PARTNO" value="AP2161DM8G-13 " x="15" y="48.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13.55" y="50.95" size="0.5" layer="25"/>
+<attribute name="NAME" x="13.55" y="50.95" size="0.508" layer="25" ratio="27"/>
 </element>
-<element name="U_R3" library="SparkFun-Passives" package="0603-RES" value="10k" x="19" y="47" rot="R90">
+<element name="U_R3" library="SparkFun-Passives" package="0603-RES" value="10k" x="19" y="47" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="RC0603JR-0710KL" x="19" y="47" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="18.238" y="46.111" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="20.143" y="45.984" size="0.508" layer="27" font="vector" ratio="27" rot="R90"/>
 </element>
-<element name="U_C3" library="SparkFun-Passives" package="0805" value="10uF" x="8.5" y="49" rot="R90">
+<element name="U_C3" library="SparkFun-Passives" package="0805" value="10uF" x="8.5" y="49" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C2012X5R1C106K085AC" x="4.5" y="45.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="7.6745" y="48.238" size="0.508" layer="25" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="9.897" y="47.984" size="0.508" layer="27" ratio="27" rot="R90"/>
 </element>
-<element name="U_C4" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="11" y="49" rot="R90">
+<element name="U_C4" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="11" y="49" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA" x="7" y="45.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="10.238" y="48.111" size="0.508" layer="25" font="vector" ratio="27" rot="R90"/>
+<attribute name="VALUE" x="12.143" y="47.984" size="0.508" layer="27" font="vector" ratio="27" rot="R90"/>
 </element>
-<element name="VR_C1" library="Airbeam" package="2917_CAP" value="DNP" x="40" y="47" rot="R180">
+<element name="VR_C1" library="Airbeam" package="2917_CAP" value="DNP" x="40" y="47" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="T491D107K010AT " x="40" y="47" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="44.5" y="43.5" size="0.508" layer="25" ratio="27" rot="R180"/>
 </element>
-<element name="VR_FUSE" library="SparkFun-PowerIC" package="PTC-1206-WIDE" value="1A" x="30" y="55">
+<element name="VR_FUSE" library="SparkFun-PowerIC" package="PTC-1206-WIDE" value="1A" x="30" y="55" smashed="yes">
 <attribute name="PARTNO" value="0ZCJ0100FF2E" x="30" y="55" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="28.476" y="56.27" size="0.508" layer="25" ratio="27"/>
+<attribute name="VALUE" x="28.476" y="53.349" size="0.508" layer="27" ratio="27"/>
 </element>
-<element name="U$2" library="Airbeam" package="JST-0.8MM" value="SUR_2PIN" x="32.5" y="5.5" locked="yes">
+<element name="U$2" library="Airbeam" package="JST-0.8MM" value="SUR_2PIN" x="32.5" y="5.5" locked="yes" smashed="yes">
 <attribute name="PARTNO" value="SM02B-SURS-TF" x="32.5" y="5.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="29.1" y="5.2" size="0.54" layer="51" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -15952,18 +15964,13 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="2,20,b456629613a1bdc4"/>
 <approved hash="2,20,b6945c2ba9323b2a"/>
 <approved hash="18,29,9d14fa4ffa409d1b"/>
-<approved hash="18,29,401a3b903b9c4016"/>
 <approved hash="18,29,c657bdcdbdc1c65b"/>
-<approved hash="18,29,673712e66cec192d"/>
-<approved hash="18,29,3fbcba6f1475f1ba"/>
-<approved hash="18,29,4e5c38823688c05a"/>
-<approved hash="18,29,4e5c3bcf59d51d5a"/>
-<approved hash="18,29,fa3d8c357e35403b"/>
-<approved hash="18,29,f19b94823688c391"/>
+<approved hash="18,29,401a3b903b9c4016"/>
+<approved hash="18,29,95f2b8f1e58c87fc"/>
 <approved hash="18,29,b10078be78b9b107"/>
 <approved hash="18,29,337bfaf1faf6337c"/>
-<approved hash="18,29,dd07e6361b0b9261"/>
 <approved hash="18,29,77ce7d4d0c5cb2e8"/>
+<approved hash="18,29,dd07e6361b0b9261"/>
 <approved hash="18,29,9ea50a47ca415ea3"/>
 <approved hash="18,29,43e56787a78283e0"/>
 <approved hash="18,29,8d14b333ec9180ec"/>
@@ -15971,11 +15978,11 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,772a53cc93c9b72f"/>
 <approved hash="18,29,dacb1357e6d17b7b"/>
 <approved hash="18,29,3806616f616e3807"/>
-<approved hash="18,29,59e7950c453a81f6"/>
-<approved hash="18,29,98906a641c4f3268"/>
-<approved hash="18,29,9ae669089839b137"/>
-<approved hash="18,29,2c809d219895f19e"/>
-<approved hash="18,29,b5ce10361045b5bd"/>
+<approved hash="18,29,51e8e607aa25418b"/>
+<approved hash="18,29,94ac768ed1cf2e05"/>
+<approved hash="18,29,95e237f0b3244f84"/>
+<approved hash="18,29,555434e8b3134fe4"/>
+<approved hash="18,29,a2c0890e6cedb762"/>
 <approved hash="18,29,54dff4a6f4a654df"/>
 <approved hash="18,29,14bcb741374194bc"/>
 <approved hash="18,29,cfa86855e8544fa9"/>
@@ -15988,8 +15995,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,d4f2cab94ab954f2"/>
 <approved hash="18,29,429c1b1a1b1e4298"/>
 <approved hash="18,29,c0e999679963c0ed"/>
-<approved hash="18,29,e6eba961a96de6e7"/>
 <approved hash="18,29,60a42f1a2f1660a8"/>
+<approved hash="18,29,e6eba961a96de6e7"/>
 <approved hash="18,29,91d6d850d85491d2"/>
 <approved hash="18,29,14235dad5da91427"/>
 <approved hash="18,29,27963d51bd51a796"/>
@@ -15999,15 +16006,12 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,5c2e56a8674a95e9"/>
 <approved hash="18,29,bf8a2bc8abc23f80"/>
 <approved hash="18,29,f26e692de9277264"/>
-<approved hash="18,29,7d48fda17da0fd49"/>
 <approved hash="18,29,8990f1e971e90990"/>
-<approved hash="18,29,7b25037c837cfb25"/>
-<approved hash="18,29,93b4ea0d6a0d13b4"/>
 <approved hash="18,29,710109588958f101"/>
+<approved hash="18,29,93b4ea0d6a0d13b4"/>
+<approved hash="18,29,7b25037c837cfb25"/>
+<approved hash="18,29,7d48fda17da0fd49"/>
 <approved hash="18,29,876cf7c577c5076c"/>
-<approved hash="18,29,3a21d61bcd12234f"/>
-<approved hash="18,29,219ca33652243afb"/>
-<approved hash="18,29,53eb328cb42a9107"/>
 <approved hash="18,29,61b3cab6caad61a8"/>
 <approved hash="18,29,45a92eac2eab45ae"/>
 <approved hash="18,29,a9af12aa12a6a9a3"/>
@@ -16034,8 +16038,7 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,488db588b5844881"/>
 <approved hash="18,29,2c879182919e2c9b"/>
 <approved hash="18,29,109a7d9f7d98109d"/>
-<approved hash="18,29,754f83e88d824c46"/>
-<approved hash="18,29,5777d2fbd92e4342"/>
+<approved hash="18,29,a38592e3c6e297c4"/>
 <approved hash="4,1,4bfa0bc2114b5173"/>
 <approved hash="4,1,53ec99a7995ae41f"/>
 <approved hash="4,1,b2da28613c0b2555"/>
