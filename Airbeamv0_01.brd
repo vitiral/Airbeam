@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.0196850394" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="ReferenceLC" color="13" fill="1" visible="no" active="yes"/>
+<layer number="49" name="ReferenceLC" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="13" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="13" fill="1" visible="no" active="yes"/>
@@ -13254,14 +13254,16 @@
 <vertex x="86.5" y="33"/>
 <vertex x="77.5" y="33"/>
 </polygon>
-<wire x1="14.70025" y1="34.23285" x2="13.91285" y2="35.02025" width="0.025" layer="49" curve="90"/>
-<wire x1="4.54025" y1="23.10765" x2="5.32765" y2="22.32025" width="0.025" layer="49" curve="90"/>
 <wire x1="0" y1="3.5" x2="0" y2="-4.5" width="0.4064" layer="49"/>
 <wire x1="-5" y1="0" x2="4.5" y2="0" width="0.4064" layer="49"/>
-<wire x1="4.54025" y1="35.02025" x2="4.54025" y2="22.32025" width="0.025" layer="20"/>
-<wire x1="14.70025" y1="22.32025" x2="14.70025" y2="35.02025" width="0.025" layer="20"/>
-<wire x1="4.54025" y1="22.32025" x2="14.70025" y2="22.32025" width="0.025" layer="20"/>
-<wire x1="14.70025" y1="35.02025" x2="4.54025" y2="35.02025" width="0.025" layer="20"/>
+<wire x1="5.81025" y1="33.75025" x2="5.81025" y2="23.59025" width="2.54" layer="20"/>
+<wire x1="13.43025" y1="23.59025" x2="13.43025" y2="33.75025" width="2.54" layer="20"/>
+<wire x1="5.81025" y1="23.59025" x2="13.43025" y2="23.59025" width="2.54" layer="20"/>
+<wire x1="13.43025" y1="33.75025" x2="5.81025" y2="33.75025" width="2.54" layer="20"/>
+<wire x1="4.54025" y1="35.02025" x2="4.54025" y2="22.32025" width="0.025" layer="49"/>
+<wire x1="14.70025" y1="22.32025" x2="14.70025" y2="35.02025" width="0.025" layer="49"/>
+<wire x1="4.54025" y1="22.32025" x2="14.70025" y2="22.32025" width="0.025" layer="49"/>
+<wire x1="14.70025" y1="35.02025" x2="4.54025" y2="35.02025" width="0.025" layer="49"/>
 </plain>
 <libraries>
 <library name="SmartPrj">
