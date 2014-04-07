@@ -5396,7 +5396,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="VR5_L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="6uH">
-<attribute name="PARTNO" value="NRS5020T6R8MMGJ"/>
+<attribute name="PARTNO" value="RT6150BGQW"/>
 </part>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="VR5_C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF">
