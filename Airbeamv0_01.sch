@@ -5498,7 +5498,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="CON_ADDON" library="Airbeam" deviceset="CON_1X5" device="2MM">
-<attribute name="PARTNO" value="PPTC051LGBN-RC "/>
+<attribute name="PARTNO" value="950505-5002-AR"/>
 </part>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
@@ -5582,13 +5582,13 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </part>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="U_FB1" library="Airbeam" deviceset="FERITE_BEAD" device="">
-<attribute name="PARTNO" value="MH2029-300YCT-ND "/>
+<attribute name="PARTNO" value="MH2029-300Y"/>
 </part>
 <part name="CA_FB1" library="Airbeam" deviceset="FERITE_BEAD" device="">
-<attribute name="PARTNO" value="MH2029-300YCT-ND "/>
+<attribute name="PARTNO" value="MH2029-300Y"/>
 </part>
 <part name="U_FB2" library="Airbeam" deviceset="FERITE_BEAD" device="">
-<attribute name="PARTNO" value="MH2029-300YCT-ND "/>
+<attribute name="PARTNO" value="MH2029-300Y"/>
 </part>
 <part name="U$1" library="Airbeam" deviceset="MOSFET-N" device=""/>
 <part name="U_ILIM" library="Airbeam" deviceset="USB-OVERCURRENT" device=""/>
@@ -5607,7 +5607,9 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="SUPPLY6" library="supply2" deviceset="GND1" device="" value="UGND"/>
 <part name="VR_C1" library="Airbeam" deviceset="CAP_POL" device="120UF" value="DNP"/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="VR_FUSE" library="SparkFun-PowerIC" deviceset="PTC" device="SMD-W"/>
+<part name="VR_FUSE" library="SparkFun-PowerIC" deviceset="PTC" device="SMD-W" value="1A">
+<attribute name="PARTNO" value="0ZCJ0100FF2E"/>
+</part>
 <part name="U$2" library="Airbeam" deviceset="SUR_2PIN" device=""/>
 </parts>
 <sheets>
@@ -6040,7 +6042,9 @@ CON = connector</text>
 <instance part="SUPPLY6" gate="G$1" x="-96.52" y="-17.78"/>
 <instance part="VR_C1" gate="G$1" x="147.32" y="-25.4"/>
 <instance part="GND48" gate="1" x="147.32" y="-33.02"/>
-<instance part="VR_FUSE" gate="G$1" x="104.14" y="-22.86"/>
+<instance part="VR_FUSE" gate="G$1" x="104.14" y="-22.86">
+<attribute name="PARTNO" x="104.14" y="-22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$2" gate="G$1" x="-76.2" y="-167.64"/>
 </instances>
 <busses>
@@ -7728,6 +7732,7 @@ CON = connector</text>
 <wire x1="-91.44" y1="-162.56" x2="-78.74" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-162.56" x2="-78.74" y2="-165.1" width="0.1524" layer="91"/>
 <label x="-86.36" y="-162.56" size="1.778" layer="95"/>
+<junction x="-91.44" y="-162.56"/>
 </segment>
 </net>
 <net name="N$3" class="0">

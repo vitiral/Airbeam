@@ -1,4 +1,5 @@
 rm *#*
+rm Gerber/*
 mv *.tsp Gerber
 mv *.top Gerber
 mv *.smt Gerber
