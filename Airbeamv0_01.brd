@@ -14467,8 +14467,8 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="VR5_C4" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="21.5" y="12" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA" x="21.5" y="12" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.389" y="13.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
-<attribute name="VALUE" x="22.516" y="13.143" size="0.508" layer="27" font="vector" ratio="27" rot="R180"/>
+<attribute name="NAME" x="22.989" y="13.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
+<attribute name="VALUE" x="19.157" y="13.516" size="0.508" layer="27" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="U_FB1" library="Airbeam" package="U_FB1" value="FERITE_BEAD" x="16" y="39" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="MH2029-300Y" x="16" y="39" size="1.778" layer="27" rot="R90" display="off"/>
@@ -15967,8 +15967,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,c657bdcdbdc1c65b"/>
 <approved hash="18,29,401a3b903b9c4016"/>
 <approved hash="18,29,95f2b8f1e58c87fc"/>
-<approved hash="18,29,b10078be78b9b107"/>
 <approved hash="18,29,337bfaf1faf6337c"/>
+<approved hash="18,29,b10078be78b9b107"/>
 <approved hash="18,29,77ce7d4d0c5cb2e8"/>
 <approved hash="18,29,dd07e6361b0b9261"/>
 <approved hash="18,29,9ea50a47ca415ea3"/>
@@ -15980,8 +15980,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,3806616f616e3807"/>
 <approved hash="18,29,51e8e607aa25418b"/>
 <approved hash="18,29,94ac768ed1cf2e05"/>
-<approved hash="18,29,95e237f0b3244f84"/>
 <approved hash="18,29,555434e8b3134fe4"/>
+<approved hash="18,29,95e237f0b3244f84"/>
 <approved hash="18,29,a2c0890e6cedb762"/>
 <approved hash="18,29,54dff4a6f4a654df"/>
 <approved hash="18,29,14bcb741374194bc"/>
@@ -15989,8 +15989,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,7243a3e42210d5d3"/>
 <approved hash="18,29,40f999f4be7b411e"/>
 <approved hash="18,29,8fcb2bb22bb38fca"/>
-<approved hash="18,29,07f3fa6d14eed312"/>
 <approved hash="18,29,197fec4bb8b977e3"/>
+<approved hash="18,29,07f3fa6d14eed312"/>
 <approved hash="18,29,198f17c497c4998f"/>
 <approved hash="18,29,d4f2cab94ab954f2"/>
 <approved hash="18,29,429c1b1a1b1e4298"/>
