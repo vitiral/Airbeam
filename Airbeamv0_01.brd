@@ -14471,15 +14471,15 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="19.157" y="13.516" size="0.508" layer="27" font="vector" ratio="27" rot="R270"/>
 </element>
 <element name="U_FB1" library="Airbeam" package="U_FB1" value="FERITE_BEAD" x="16" y="39" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="MH2029-300Y" x="16" y="39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="MH2029-600Y" x="16" y="39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15" y="37" size="0.508" layer="25" ratio="27" rot="R90"/>
 </element>
 <element name="CA_FB1" library="Airbeam" package="U_FB1" value="FERITE_BEAD" x="6.5" y="20.5" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="MH2029-300Y" x="6.5" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="MH2029-600Y" x="6.5" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="7.5" y="19.5" size="0.508" layer="25" ratio="27" rot="R180"/>
 </element>
 <element name="U_FB2" library="Airbeam" package="U_FB1" value="FERITE_BEAD" x="74" y="20" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="MH2029-300Y" x="74" y="20" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="MH2029-600Y" x="74" y="20" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="75" y="19" size="0.508" layer="25" ratio="27" rot="R180"/>
 </element>
 <element name="U$1" library="Airbeam" package="SOT23" value="MOSFET-N" x="34" y="12" smashed="yes" rot="R180">
@@ -14518,6 +14518,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$2" library="Airbeam" package="JST-0.8MM" value="SUR_2PIN" x="32.5" y="5.5" locked="yes" smashed="yes">
 <attribute name="PARTNO" value="SM02B-SURS-TF" x="32.5" y="5.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.1" y="5.2" size="0.54" layer="51" rot="R90"/>
+</element>
+<element name="CONHEADER_FAN" library="Airbeam" package="EMPTY" value="OFF_BOARD" x="-5.2" y="-4.8">
+<attribute name="PARTNO" value="02SUR-32S" x="-5.2" y="-4.8" size="0.508" layer="27" ratio="27" display="off"/>
 </element>
 </elements>
 <signals>

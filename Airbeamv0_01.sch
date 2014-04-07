@@ -5582,13 +5582,13 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </part>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="U_FB1" library="Airbeam" deviceset="FERITE_BEAD" device="">
-<attribute name="PARTNO" value="MH2029-300Y"/>
+<attribute name="PARTNO" value="MH2029-600Y"/>
 </part>
 <part name="CA_FB1" library="Airbeam" deviceset="FERITE_BEAD" device="">
-<attribute name="PARTNO" value="MH2029-300Y"/>
+<attribute name="PARTNO" value="MH2029-600Y"/>
 </part>
 <part name="U_FB2" library="Airbeam" deviceset="FERITE_BEAD" device="">
-<attribute name="PARTNO" value="MH2029-300Y"/>
+<attribute name="PARTNO" value="MH2029-600Y"/>
 </part>
 <part name="U$1" library="Airbeam" deviceset="MOSFET-N" device=""/>
 <part name="U_ILIM" library="Airbeam" deviceset="USB-OVERCURRENT" device=""/>
@@ -5611,6 +5611,9 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="PARTNO" value="0ZCJ0100FF2E"/>
 </part>
 <part name="U$2" library="Airbeam" deviceset="SUR_2PIN" device=""/>
+<part name="CONHEADER_FAN" library="Airbeam" deviceset="PART_OFFBOARD" device="" value="OFF_BOARD">
+<attribute name="PARTNO" value="02SUR-32S"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6046,6 +6049,9 @@ CON = connector</text>
 <attribute name="PARTNO" x="104.14" y="-22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$2" gate="G$1" x="-76.2" y="-167.64"/>
+<instance part="CONHEADER_FAN" gate="G$1" x="276.86" y="-38.1">
+<attribute name="PARTNO" x="276.86" y="-38.1" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
