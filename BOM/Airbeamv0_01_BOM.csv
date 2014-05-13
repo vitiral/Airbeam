@@ -27,7 +27,7 @@ Qty-1,Part References,Value,Package,Mfg Part Num,Mfg Name,Description,Value,Pkg 
 1,"U_MEGA32U-Q",DNP,QFN44ML7X7,DNP,DO NOT POPULATE,DO NOT POPULATE,*,*,*,*,*,*,DO NOT POPULATE,REF62
 3,"UC_R3, VR3_0R2, VR5_0R1",DNP,0603-RES,RC0603JR-070RL,Yageo,Resistor,0,0603,*,311-0.0GRCT-ND,0.00294,*,http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622,REF50
 1,"VR_C1",DNP,2917_CAP,T491D107K010AT,Kernet,Capacitor ? Tantilum,100uF,2917,*,*,*,*,http://www.digikey.com/product-detail/en/T491D107K010AT/399-3769-1-ND/819094,REF48
-3,"CA_FB1, U_FB1, U_FB2",FERITE_BEAD,U_FB1,MH2029-600Y,Bourns Inc.,Ferite Bead,3A,*,*,MH2029-600YCT-ND,0.02324,*,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=147728399&uq=635324759172303876,REF37
+4,"CA_FB1, U_FB1, U_FB2, U_FB3",FERITE_BEAD,U_FB1,MH2029-600Y,Bourns Inc.,Ferite Bead,3A,*,*,MH2029-600YCT-ND,0.02324,*,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=147728399&uq=635324759172303876,REF37
 3,"FID1, FID2, FID3",FIDUCIALMOUNT,FIDUCIA-MOUNT,DNP,DO NOT POPULATE,DO NOT POPULATE,*,*,*,*,*,*,DO NOT POPULATE,REF62
 1,"CON_ICSP",ICSP,2X03,67997-206HLF,FCI,Connector ISP,*,*,*,609-3234-ND,0.17494,*,http://www.digikey.com/product-detail/en/67997-206HLF/609-3234-ND/1878491,REF3
 1,"LED_BT",LED,LED_550,550-1107F,Dialight,LED -  Red,Red,*,*,350-1620-ND,0.5202,*,http://www.digikey.com/product-detail/en/550-1107F/350-1620-ND/809018,REF6
