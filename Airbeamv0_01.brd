@@ -8,44 +8,44 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="14" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="2" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="5" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="2" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="5" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="ReferenceLC" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="13" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="13" fill="1" visible="no" active="yes"/>
+<layer number="50" name="ReferenceLS" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -80,15 +80,15 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="15" fill="1" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="no"/>
@@ -13148,7 +13148,7 @@
 <wire x1="5.768" y1="49.874" x2="4.308" y2="49.874" width="0.025" layer="49"/>
 <wire x1="4.058" y1="49.874" x2="3.358" y2="49.874" width="0.025" layer="49"/>
 <wire x1="46.355" y1="66.675" x2="46.53788125" y2="66.675" width="0.025" layer="49"/>
-<wire x1="69.37761875" y1="74.295" x2="46.53788125" y2="74.295" width="0.025" layer="20"/>
+<wire x1="69.37761875" y1="74.295" x2="46.355" y2="74.295" width="0.025" layer="20"/>
 <circle x="9.525" y="40.005" radius="1.8288" width="0.025" layer="49"/>
 <circle x="7.62" y="53.975" radius="0.5461" width="0.025" layer="49"/>
 <circle x="7.62" y="56.515" radius="0.5461" width="0.025" layer="49"/>
@@ -13173,11 +13173,11 @@
 <circle x="24.765" y="60.96" radius="4.1275" width="0.025" layer="49"/>
 <circle x="52.07" y="70.993" radius="4.1275" width="0.025" layer="49"/>
 <circle x="86.995" y="4.1275" radius="4.1275" width="0.025" layer="49"/>
-<hole x="9.5" y="40" drill="3.6576"/>
-<hole x="12.065" y="5.08" drill="3.6576"/>
-<hole x="24.765" y="60.96" drill="3.6576"/>
-<hole x="52.07" y="70.993" drill="3.6576"/>
-<hole x="86.995" y="4.1275" drill="3.6576"/>
+<hole x="9.5" y="40" drill="3.8608"/>
+<hole x="12.065" y="5.08" drill="3.8608"/>
+<hole x="24.765" y="60.96" drill="3.8608"/>
+<hole x="52.07" y="70.993" drill="3.8608"/>
+<hole x="86.995" y="4.1275" drill="3.8608"/>
 <wire x1="3.24" y1="76.14" x2="3.24" y2="65.88" width="0.2" layer="50"/>
 <wire x1="3.24" y1="65.88" x2="13.5" y2="65.88" width="0.2" layer="50"/>
 <wire x1="13.5" y1="65.88" x2="13.5" y2="76.14" width="0.2" layer="50"/>
@@ -13234,7 +13234,6 @@
 <wire x1="2.159" y1="50.15738125" x2="0" y2="50.15738125" width="0.025" layer="20"/>
 <wire x1="31.115" y1="66.675" x2="46.355" y2="66.675" width="0.025" layer="20"/>
 <wire x1="85.09" y1="58.58261875" x2="85.09" y2="20.12195" width="0.025" layer="20"/>
-<wire x1="46.53788125" y1="74.295" x2="46.355" y2="74.295" width="0.025" layer="20"/>
 <wire x1="69.37761875" y1="74.295" x2="85.09" y2="58.58261875" width="0.025" layer="20"/>
 <wire x1="91.44" y1="0" x2="91.44" y2="20.12195" width="0.025" layer="20"/>
 <circle x="12.065" y="5.08" radius="1.8288" width="0.025" layer="49"/>
@@ -14162,6 +14161,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="CON_ICSP" library="SmartPrj" package="2X03" value="ICSP" x="42.9" y="16.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.847" y="19.021" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
 <attribute name="PARTNO" value="67997-206HLF " x="42.9" y="16.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DNP" x="42.9" y="16.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="FID1" library="SmartPrj" package="FIDUCIA-MOUNT" value="FIDUCIALMOUNT" x="2.92" y="38.02" smashed="yes">
 <attribute name="PARTNO" value="DNP" x="2.92" y="38.02" size="1.778" layer="27" display="off"/>
@@ -14383,10 +14383,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="VR3_0R2" library="SparkFun-Passives" package="0603-RES" value="DNP" x="32" y="18.9" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="32" y="18.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="33.489" y="18.238" size="0.508" layer="25" font="vector" ratio="27" rot="R180"/>
+<attribute name="DNP" x="32" y="18.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="VR5_0R1" library="SparkFun-Passives" package="0603-RES" value="DNP" x="15" y="19.5" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="15" y="19.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.762" y="21.089" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
+<attribute name="DNP" x="15" y="19.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="VR5_0R2" library="SparkFun-Passives" package="0603-RES" value="0" x="17" y="16.5" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="17" y="16.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14394,6 +14396,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="RESET_SWITCH" library="Airbeam" package="SWITCH_TACTILE" value="SWITCH" x="45.5" y="7.5" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="TL3315NF250Q" x="45.5" y="7.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DNP" x="45.5" y="7.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U_Z3" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="11" y="11" smashed="yes">
 <attribute name="PARTNO" value="CG0603MLC-05E" x="11" y="11" size="1.778" layer="27" font="vector" display="off"/>
@@ -14469,6 +14472,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PARTNO" value="NDS331N" x="34" y="12" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="34.889" y="9.968" size="0.508" layer="25" ratio="27" rot="R180"/>
 <attribute name="VALUE" x="35.8095" y="13.416" size="0.508" layer="27" ratio="27" rot="R270"/>
+<attribute name="DNP" x="34" y="12" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U_C4" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="16.5" y="54.5" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104" x="12.5" y="51" size="1.778" layer="27" rot="R90" display="off"/>
@@ -14518,10 +14522,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="32.262" y="49.389" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
 <attribute name="VALUE" x="30.357" y="49.516" size="0.508" layer="27" font="vector" ratio="27" rot="R270"/>
 </element>
-<element name="U_C3" library="SparkFun-Passives" package="1206" value="10uF/50V" x="11" y="49" smashed="yes">
-<attribute name="PARTNO" value="CL31A106KBHNNNE " x="11" y="49" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.73" y="50.143" size="0.508" layer="25" ratio="27"/>
-<attribute name="VALUE" x="9.603" y="47.476" size="0.508" layer="27" ratio="27"/>
+<element name="U_C3" library="SparkFun-Passives" package="1206" value="10uF/50V" x="12" y="49" smashed="yes">
+<attribute name="PARTNO" value="CL31A106KBHNNNE " x="12" y="49" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="10.73" y="50.143" size="0.508" layer="25" ratio="27"/>
+<attribute name="VALUE" x="10.603" y="47.476" size="0.508" layer="27" ratio="27"/>
 </element>
 <element name="UC_NTC" library="Airbeam" package="0402" value="10k" x="31.5" y="52" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ERT-J0EM103J" x="31.5" y="52" size="1" layer="27" rot="R270" display="off"/>
@@ -14532,6 +14536,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PARTNO" value="RC0603JR-0710KL" x="52" y="55" size="0.508" layer="27" ratio="27" rot="R90" display="off"/>
 </element>
 <element name="U$4" library="Airbeam" package="TBLOCK_5" value="TBLOCK_5" x="5.3" y="14.75" locked="yes" rot="R90"/>
+<element name="U_FB3" library="Airbeam" package="U_FB1" value="FERITE_BEAD" x="8" y="49" smashed="yes" rot="R90">
+<attribute name="PARTNO" value="MH2029-600Y" x="8" y="49" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="NAME" x="7" y="47" size="0.5" layer="25" ratio="27" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="+5V" class="3">
@@ -14882,12 +14890,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U_USB_CH" pad="GND_PAD"/>
 <contactref element="UR_C2" pad="2"/>
 <contactref element="U_C4" pad="2"/>
-<via x="18" y="48.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="20.5" y="48.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="20.5" y="50.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="20.5" y="55.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="16" y="60.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="16.5" y="57" extent="1-16" drill="0.6" shape="square"/>
-<via x="20.5" y="47" extent="1-16" drill="0.6" shape="square"/>
+<via x="20.5" y="46.5" extent="1-16" drill="0.6" shape="square"/>
 <contactref element="VR3_R4" pad="2"/>
 <contactref element="VR3_R5" pad="2"/>
 <via x="14.5" y="57" extent="1-16" drill="0.6" shape="square"/>
@@ -14901,13 +14909,13 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="21.5" y="50.5"/>
 <vertex x="21.5" y="55"/>
 </polygon>
-<via x="15.5" y="49" extent="1-16" drill="0.6" shape="square"/>
+<via x="18.5" y="48.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="27" y="46.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="28" y="51.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="25" y="46.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="15.5" y="10" extent="1-16" drill="0.6" shape="square"/>
 <via x="13.5" y="10.5" extent="1-16" drill="0.6" shape="square"/>
-<via x="16.5" y="32.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="16" y="32.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="15.5" y="22" extent="1-16" drill="0.6" shape="square"/>
 </signal>
 <signal name="AREF" class="4">
@@ -15147,8 +15155,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U_FB1" pad="P$2"/>
 <via x="16.5" y="43" extent="1-16" drill="0.6" shape="square"/>
 </signal>
-<signal name="XUSB" class="3">
-<contactref element="CON_USB" pad="T1"/>
+<signal name="VUSB" class="3">
 <contactref element="U_C4" pad="1"/>
 <contactref element="U_USB_CH" pad="P$2"/>
 <contactref element="U_USB_CH" pad="P$6"/>
@@ -15173,8 +15180,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="31.5" y1="44.5" x2="20.5" y2="44.5" width="0.4" layer="1"/>
 <wire x1="20.5" y1="44.5" x2="19" y2="46" width="0.4" layer="1"/>
 <wire x1="19" y1="46" x2="15.774" y2="46" width="0.4" layer="1"/>
-<wire x1="14.5" y1="47.274" x2="8" y2="47.274" width="0.4" layer="1"/>
-<wire x1="8" y1="47.274" x2="4.805" y2="47.274" width="0.4" layer="1"/>
 <wire x1="18.8" y1="51.8" x2="18.3" y2="51.8" width="0.2" layer="1"/>
 <wire x1="18.3" y1="51.8" x2="17" y2="50.5" width="0.2" layer="1"/>
 <wire x1="17" y1="50.5" x2="15" y2="50.5" width="0.4" layer="1"/>
@@ -15188,21 +15193,25 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="15.774" y1="46" x2="14.5" y2="47.274" width="0.4" layer="1"/>
 <wire x1="15" y1="50.5" x2="10.9" y2="50.5" width="0.4" layer="1"/>
 <wire x1="31.5" y1="47.65" x2="31.5" y2="44.5" width="0.4" layer="1"/>
-<polygon width="0.4" layer="1" isolate="0.3">
-<vertex x="16.5" y="54.5"/>
-<vertex x="16.5" y="50.5"/>
-<vertex x="11.5" y="50.5"/>
-<vertex x="9" y="48"/>
-<vertex x="8.5" y="47.5"/>
-<vertex x="8.5" y="47.274"/>
-<vertex x="6.5" y="47.274"/>
-<vertex x="6.5" y="48.5"/>
-<vertex x="10.5" y="52.5"/>
-<vertex x="11.5" y="52.5"/>
-<vertex x="13.5" y="54.5"/>
+<contactref element="U_FB3" pad="P$2"/>
+<wire x1="10.6" y1="49" x2="10.6" y2="50.2" width="0.4" layer="1"/>
+<wire x1="10.6" y1="50.2" x2="10.9" y2="50.5" width="0.4" layer="1"/>
+<polygon width="0.4" layer="1" isolate="0.3" rank="2">
+<vertex x="8.5" y="51"/>
+<vertex x="8.5" y="47"/>
+<vertex x="12" y="47"/>
+<vertex x="12" y="50"/>
+<vertex x="17.5" y="50"/>
+<vertex x="17.5" y="54.5"/>
+<vertex x="14.5" y="54.5"/>
+<vertex x="14.5" y="51"/>
 </polygon>
-<wire x1="6" y1="51.5" x2="8" y2="49.5" width="0.4" layer="1"/>
-<wire x1="8" y1="49.5" x2="8" y2="47.274" width="0.4" layer="1"/>
+<wire x1="6" y1="51.5" x2="7.4" y2="50.1" width="0.4" layer="1"/>
+<wire x1="7.4" y1="50.1" x2="8" y2="50.1" width="0.4" layer="1"/>
+<wire x1="8" y1="50.1" x2="9.1" y2="49" width="0.4" layer="1"/>
+<wire x1="9.1" y1="49" x2="10.6" y2="49" width="0.4" layer="1"/>
+<wire x1="14.5" y1="47.274" x2="10.6" y2="47.274" width="0.4" layer="1"/>
+<wire x1="10.6" y1="47.274" x2="10.6" y2="49" width="0.4" layer="1"/>
 </signal>
 <signal name="D2/SDA">
 <contactref element="U_MEGA32U-Q" pad="19"/>
@@ -15920,24 +15929,30 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="18.8" y1="57.2" x2="17.5" y2="58.5" width="0.2" layer="1"/>
 <wire x1="17.5" y1="58.5" x2="16.35" y2="58.5" width="0.2" layer="1"/>
 </signal>
+<signal name="XUSB" class="3">
+<contactref element="CON_USB" pad="T1"/>
+<contactref element="U_FB3" pad="P$1"/>
+<wire x1="4.805" y1="47.274" x2="7.374" y2="47.274" width="0.4" layer="1"/>
+<wire x1="7.374" y1="47.274" x2="8" y2="47.9" width="0.4" layer="1"/>
+</signal>
 </signals>
 <errors>
-<approved hash="2,20,cc705d10b7835980"/>
 <approved hash="2,20,75e0df43b5b666b4"/>
-<approved hash="2,20,b456629613a1bdc4"/>
+<approved hash="2,20,cc705d10b7835980"/>
 <approved hash="2,20,b6945c2ba9323b2a"/>
+<approved hash="2,20,b456629613a1bdc4"/>
 <approved hash="18,29,95b9f110f11f95b6"/>
 <approved hash="18,29,c88acac34ac3488a"/>
 <approved hash="18,29,930c9d451d45130c"/>
 <approved hash="18,29,95f2b8f1e58c87fc"/>
 <approved hash="18,29,dd07e6361b0b9261"/>
 <approved hash="18,29,77ce7d4d0c5cb2e8"/>
-<approved hash="18,29,9ea50a47ca415ea3"/>
-<approved hash="18,29,43e56787a78283e0"/>
-<approved hash="18,29,8d14b333ec9180ec"/>
 <approved hash="18,29,aa6a3e0cfe0a6a6c"/>
 <approved hash="18,29,772a53cc93c9b72f"/>
 <approved hash="18,29,dacb1357e6d17b7b"/>
+<approved hash="18,29,9ea50a47ca415ea3"/>
+<approved hash="18,29,43e56787a78283e0"/>
+<approved hash="18,29,8d14b333ec9180ec"/>
 <approved hash="18,29,51e8e607aa25418b"/>
 <approved hash="18,29,94ac768ed1cf2e05"/>
 <approved hash="18,29,95e237f0b3244f84"/>
@@ -15955,23 +15970,23 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,d4f2cab94ab954f2"/>
 <approved hash="18,29,429c1b1a1b1e4298"/>
 <approved hash="18,29,c0e999679963c0ed"/>
-<approved hash="18,29,e6eba961a96de6e7"/>
 <approved hash="18,29,60a42f1a2f1660a8"/>
-<approved hash="18,29,14235dad5da91427"/>
+<approved hash="18,29,e6eba961a96de6e7"/>
 <approved hash="18,29,91d6d850d85491d2"/>
+<approved hash="18,29,14235dad5da91427"/>
 <approved hash="18,29,27963d51bd51a796"/>
-<approved hash="18,29,5fc7944d94495fc3"/>
 <approved hash="18,29,d01c1b9a1b9ed018"/>
+<approved hash="18,29,5fc7944d94495fc3"/>
 <approved hash="18,29,fc09f2ce72ce7c09"/>
 <approved hash="18,29,4355f82ff8234359"/>
 <approved hash="18,29,c1607afa7af6c16c"/>
 <approved hash="18,29,bf8a2bc8abc23f80"/>
 <approved hash="18,29,f26e692de9277264"/>
-<approved hash="18,29,710109588958f101"/>
 <approved hash="18,29,7b25037c837cfb25"/>
 <approved hash="18,29,876cf7c577c5076c"/>
 <approved hash="18,29,7d48fda17da0fd49"/>
 <approved hash="18,29,8990f1e971e90990"/>
+<approved hash="18,29,710109588958f101"/>
 <approved hash="18,29,93b4ea0d6a0d13b4"/>
 <approved hash="18,29,61b3cab6caad61a8"/>
 <approved hash="18,29,45a92eac2eab45ae"/>
@@ -16000,20 +16015,20 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,2c879182919e2c9b"/>
 <approved hash="18,29,109a7d9f7d98109d"/>
 <approved hash="18,29,a38592e3c6e297c4"/>
-<approved hash="4,1,4bfa0bc2114b5173"/>
-<approved hash="4,1,7bfcdbc4c14d6175"/>
 <approved hash="4,1,552c1514132b5313"/>
 <approved hash="4,1,652ac512c32d6315"/>
+<approved hash="4,1,4bfa0bc2114b5173"/>
+<approved hash="4,1,7bfcdbc4c14d6175"/>
 <approved hash="4,1,2ce5bc868817053c"/>
 <approved hash="4,1,6eba996f9be2623c"/>
 <approved hash="4,1,36cf8e9a80b93563"/>
-<approved hash="4,1,6d3692759ef96fb1"/>
 <approved hash="4,1,3c32bae4897816a6"/>
+<approved hash="4,1,6d3692759ef96fb1"/>
 <approved hash="4,1,35ab8fde84e235de"/>
+<approved hash="4,1,741772dbe681212b"/>
 <approved hash="4,1,572f25db899d6b90"/>
 <approved hash="4,1,106de62773bd4611"/>
 <approved hash="4,1,37c340f88b9662a8"/>
-<approved hash="4,1,741772dbe681212b"/>
 <approved hash="4,1,e1c9dd9cd3bfe265"/>
 <approved hash="4,1,e2addcd8d7e4e2d8"/>
 <approved hash="4,1,6534497a6db6ce50"/>

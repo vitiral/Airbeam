@@ -1,9 +1,9 @@
 Mfg Part Num	Mfg Name	Description	Value	Pkg Code	VID	Vendor Part Num	Price @ 500	Height	Link
-AtMega32U4-XUAU	Atmel	Microcontroller					3.51		http://www.mouser.com/ProductDetail/Atmel/ATMEGA32U4-MU/?qs=sGAEpiMZZMvAvBNgSS9LqtMxt75eRjif
+ATMEGA32U4-AU	Atmel	Microcontroller	16MHz			556-ATMEGA32U4-AU	3.51		http://www.mouser.com/ProductDetail/Atmel/ATMEGA32U4-AU/?qs=sGAEpiMZZMvAvBNgSS9Lqh1wBIpnYT9c
 TL3315NF250Q	E-Switch	Switch				EG4622CT-ND	0.14674		http://www.digikey.com/product-detail/en/TL3315NF250Q/EG4622CT-ND/1870402
 67997-206HLF	FCI	Connector ISP				609-3234-ND	0.17494		http://www.digikey.com/product-detail/en/67997-206HLF/609-3234-ND/1878491
 ECS-160-20-3X-TR	ECS	Crystal	16MHz			XC1776CT-ND	0.266	2.3	http://www.digikey.com/product-detail/en/ECS-160-20-3X-TR/XC1776CT-ND/2676640
-550-1307F	Dialight	LED â€“ Green	Green			350-1627-ND	0.5712		http://www.digikey.com/product-detail/en/550-1307F/350-1627-ND/809025
+550-1307F	Dialight	LED – Green	Green			350-1627-ND	0.5712		http://www.digikey.com/product-detail/en/550-1307F/350-1627-ND/809025
 550-1107F	Dialight	LED -  Red	Red			350-1620-ND	0.5202		http://www.digikey.com/product-detail/en/550-1107F/350-1620-ND/809018
 NVC-MDCS42A	iNova	BT Module				n/a			n/a
 SN74LVC1G125DBVR	Texas Instruments	Voltage Buffer	<5	SOT23-5		296-11603-1-ND	0.1482		http://www.digikey.com/product-detail/en/SN74LVC1G125DBVR/296-11603-1-ND/385742
@@ -13,6 +13,7 @@ PPD60PV-T2	SHINYEI	Sensor Dust 					25		n/a
 F16FB-05LLC/E	Copol	Fan Copol				563-1106-ND	6.46552		http://www.digikey.com/product-detail/en/F16EA-03LLC%20%2FE/563-1106-ND/1165500
 22-05-7025	Molex	Connector Fan	2 pin			538-22-05-7025	0.347		http://www.mouser.com/ProductDetail/Molex/22-05-7025/?qs=xrDmMQn67Z5jplgrvRQ%20IpQ==
 SM02B-SURS-TF	SUR	Connector Fan	2 pin			455-2039-1-ND	0.4066		http://www.digikey.com/product-detail/en/SM02B-SURS-TF(LF)(SN)%3B/455-2039-1-ND/1634927
+02SUR-32S	JST Sales America	Connector Fan (wire)				455-2176-ND			http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=147727180&uq=635324752046867637
 S4B-EH	JST Sales America	Connector (Dust Sensor)				455-1627-ND	0.09906		http://www.digikey.com/product-detail/en/S4B-EH(LF)(SN)/455-1627-ND/926535
 									
 950505-5002-AR	3M	Connector (addon board)	5 pin			3M9368-ND	0.72		http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&KeyWords=3M9368-ND
@@ -20,27 +21,32 @@ S4B-EH	JST Sales America	Connector (Dust Sensor)				455-1627-ND	0.09906		http://
 10103594-0001LF	FCI	Connector USB Micro				609-4050-1-ND	0.45232		http://www.digikey.com/product-detail/en/10103594-0001LF/609-4050-1-ND/2350357
 AP2161DM8G-13	Diodes Incorporated	USB Overcurrent protection		8-TSSOP, 8-MSOP		AP2161DM8G-13DICT-ND	0.2413		http://www.digikey.com/product-detail/en/AP2161DM8G-13/AP2161DM8G-13DICT-ND/3720121
 LC2259EENP	E-Switch	Power Button					0.535		http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=LC2259EENPESWITCH6265227&IM=0
-585460_2000mAh	UnionFortune	Battery â€“ Lion	2000mAh				11.16		http://www.jayconsystems.com/3-7-volt-rechargeable-lithium-battery-2000-mah.html
+585460_2000mAh	UnionFortune	Battery – Lion	2000mAh				11.16		http://www.jayconsystems.com/3-7-volt-rechargeable-lithium-battery-2000-mah.html
 S2B-PH-SM4-TB(LF)(SN)	JST Sales America	Conn Battery				455-1749-1-ND	0.34734		http://www.digikey.com/product-detail/en/S2B-PH-SM4-TB(LF)(SN)/455-1749-1-ND/926846
 RT6150BGQW	Richtek USA	Voltage Reg Buck-Boost				1028-1260-1-ND	0.57076		http://www.digikey.com/product-detail/en/RT6150BGQW/1028-1260-1-ND/4733184
 MC34673AEPR2	Freescale Semiconductor	Voltage Reg USB				MC34673AEPR2CT-ND	0.7		http://www.digikey.com/product-detail/en/MC34673AEPR2/MC34673AEPR2CT-ND/1867915
-BRL3225T2R2M	Taiyo Yuden	Inductor 2.2uH	2.2uH			609-4050-1-ND	0.13476		http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863
-NRS5020T6R8MMGJ	Taiyo Yuden	Inductor 6uH	6uH			587-2408-1-ND	0.315		http://www.digikey.com/product-detail/en/NRS5020T6R8MMGJ/587-2408-1-ND/2230274
+AAT3672IWO-4.2-1-T1	Skyworks Solutions	USB – Battery + Load	4.2V			863-1545-1-ND 	0.88		http://www.digikey.com/product-detail/en/AAT3672IWO-4.2-1-T1/863-1545-1-ND/4753079
+BRL3225T2R2M	Taiyo Yuden	Inductor 2.2uH	2.2uH	1210		609-4050-1-ND	0.13476		http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863
+CBC3225T4R7MR	Taiyo Yuden	Inductor 4.7uH	6uH	1210		587-1624-1-ND	0.12		http://www.digikey.com/product-detail/en/CBC3225T4R7MR/587-1624-1-ND/1008239
 RT9819C-26GV	Richtek	Low Voltage Detect	2.9V			1028-1023-1-ND	0.15412		http://www.digikey.com/product-detail/en/RT9819C-29GV/1028-1023-1-ND/2470082
 APX809-31SAG-7	Diodes Incorporated	Low Voltage Detect	3.08V			APX809-31SAGDICT-ND	0.1482		http://www.digikey.com/product-detail/en/APX809-31SAG-7/APX809-31SAGDICT-ND/1844722
 0ZCJ0100FF2E	Bel Fuse Inc.	Fuse Resetable	1A			507-1806-1-ND	0.09922		http://www.digikey.com/product-detail/en/0ZCJ0100FF2E/507-1806-1-ND/4156243
 CD0603-Z3V9	Bourns Inc.	Zener Vth	3.9V			CD0603-Z3V9CT-ND			http://www.digikey.com/product-detail/en/CD0603-Z3V9/CD0603-Z3V9CT-ND/3534233
 									
-IRLML2246TRPBF	International Rectifier	MOSFETâ€“P				IRLML2246TRPBFCT-ND	0.128		http://www.digikey.com/product-detail/en/IRLML2246TRPBF/IRLML2246TRPBFCT-ND/2639576
+IRLML2246TRPBF	International Rectifier	MOSFET–P				IRLML2246TRPBFCT-ND	0.128		http://www.digikey.com/product-detail/en/IRLML2246TRPBF/IRLML2246TRPBFCT-ND/2639576
 B130LAW-7-F	Diodes Incorporated	Diode Schottkey				B130LAW-FDICT-ND	0.16128		http://www.digikey.com/product-detail/en/B130LAW-7-F/B130LAW-FDICT-ND/725052
-MH2029-300Y	Bourns Inc.	Ferite Bead	3A			MH2029-300YCT-ND	0.02324		http://www.digikey.com/product-detail/en/MH2029-300Y/MH2029-300YCT-ND/3741761
+MH2029-600Y	Bourns Inc.	Ferite Bead	3A			MH2029-600YCT-ND	0.02324		http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=147728399&uq=635324759172303876
 CG0603MLC-05E	Bourns Inc.	Varistor				CG0603MLC-05ECT-ND	0.1092		http://www.digikey.com/product-detail/en/CG0603MLC-05E/CG0603MLC-05ECT-ND/3438061
+									
+ERT-J0EM103J	Panasonic	Thermister – NTC	10k	0603		P12985CT-ND 	0.07		http://www.digikey.com/product-detail/en/ERT-J0EM103J/P12985CT-ND/761196
 									
 CL10C200JB8NNNC	Samsung	Capacitor	20pF	0603		1276-1187-1-ND	0.00966		http://www.digikey.com/product-detail/en/CL10C200JB8NNNC/1276-1187-1-ND/3889273
 C1608X7R1E104K080AA	TDK	Capacitor	100nF	0603		445-1316-1-ND	0.0077		http://www.digikey.com/product-detail/en/C1608X7R1E104K080AA/445-1316-1-ND/567697
+CC0603ZRY5V9BB104	Yageo	Capacitor – 50V	100nF / 50V	0603		311-1343-1-ND 	0.00546		http://www.digikey.com/product-detail/en/CC0603ZRY5V9BB104/311-1343-1-ND/2103127
 C1608X5R1C105K080AA	TDK	Capacitor	1uF	0603		445-1416-1-ND	0.02356		http://www.digikey.com/product-detail/en/C1608X5R1C105K080AA/445-1416-1-ND/569082
 C2012X5R1C106K085AC	TDK	Capacitor	10uF	0805		445-7644-1-ND	0.07298		http://www.digikey.com/product-detail/en/C2012X5R1C106K085AC/445-7644-1-ND/2733716
-T491D107K010AT	Kernet	Capacitor â€“ Tantilum	100uF	2917					http://www.digikey.com/product-detail/en/T491D107K010AT/399-3769-1-ND/819094
+CL31A106KBHNNNE	Samsung	Capacitor – 50V	10uF / 50V	1206		1276-2876-1-ND 	0.12082		http://www.digikey.com/product-detail/en/CL31A106KBHNNNE/1276-2876-1-ND/3890962
+T491D107K010AT	Kernet	Capacitor – Tantilum	100uF	2917					http://www.digikey.com/product-detail/en/T491D107K010AT/399-3769-1-ND/819094
 									
 RC0603JR-070RL	Yageo	Resistor	0	0603		311-0.0GRCT-ND	0.00294		http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622
 RC0603JR-0722RL	Yageo	Resistor	22	0603		311-22GRCT-ND	0.00278		http://www.digikey.com/product-detail/en/RC0603JR-0722RL/311-22GRCT-ND/729690
@@ -53,7 +59,7 @@ ERJ-3EKF8662V	Panasonic	Resistor	86.6k	0603		P86.6KHCT-ND	0.00624		http://www.di
 ERJ-3EKF4873V	Panasonic	Resistor	487k	0603		P487KHCT-ND	0.00624		http://www.digikey.com/product-detail/en/ERJ-3EKF4873V/P487KHCT-ND/198411
 RC0603FR-071ML	Yageo	Resistor	1M	0603		311-1.00MHRCT-ND	0.00364		http://www.digikey.com/product-detail/en/RC0603FR-071ML/311-1.00MHRCT-ND/729791
 									
-NDS331N	Fairchild	MOSFET â€“ N				NDS331NCT-ND	0.1407		http://www.digikey.com/product-detail/en/NDS331N/NDS331NCT-ND/458997
+NDS331N	Fairchild	MOSFET – N				NDS331NCT-ND	0.1407		http://www.digikey.com/product-detail/en/NDS331N/NDS331NCT-ND/458997
 DNP	DO NOT POPULATE	DO NOT POPULATE							DO NOT POPULATE
 									
 Mechanical Parts									

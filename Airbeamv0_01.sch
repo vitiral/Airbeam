@@ -5068,6 +5068,7 @@ CONN-08352</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="DATABASE" value="./BOM/Airbeam-PARTSDB.csv"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -5090,6 +5091,7 @@ CONN-08352</description>
 </classes>
 <parts>
 <part name="CON_ICSP" library="SmartPrj" deviceset="PINHD-2X3" device="" value="ICSP">
+<attribute name="DNP" value=""/>
 <attribute name="PARTNO" value="67997-206HLF "/>
 </part>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -5276,10 +5278,12 @@ CONN-08352</description>
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
 <part name="VR3_0R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="DNP">
+<attribute name="DNP" value=""/>
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="VR5_0R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="DNP">
+<attribute name="DNP" value=""/>
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
 <part name="VR5_0R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0">
@@ -5287,7 +5291,9 @@ CONN-08352</description>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
-<part name="RESET_SWITCH" library="Airbeam" deviceset="SWITCH" device=""/>
+<part name="RESET_SWITCH" library="Airbeam" deviceset="SWITCH" device="">
+<attribute name="DNP" value=""/>
+</part>
 <part name="U_Z3" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E">
 <attribute name="PARTNO" value="CG0603MLC-05E"/>
 </part>
@@ -5350,7 +5356,9 @@ CONN-08352</description>
 <part name="U_FB2" library="Airbeam" deviceset="FERITE_BEAD" device="">
 <attribute name="PARTNO" value="MH2029-600Y"/>
 </part>
-<part name="U$1" library="Airbeam" deviceset="MOSFET-N" device=""/>
+<part name="U$1" library="Airbeam" deviceset="MOSFET-N" device="">
+<attribute name="DNP" value=""/>
+</part>
 <part name="U_C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100nF">
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
 </part>
@@ -5394,6 +5402,9 @@ CONN-08352</description>
 <attribute name="PARTNO" value="RC0603JR-0710KL"/>
 </part>
 <part name="U$4" library="Airbeam" deviceset="TBLOCK_5" device=""/>
+<part name="U_FB3" library="Airbeam" deviceset="FERITE_BEAD" device="">
+<attribute name="PARTNO" value="MH2029-600Y"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5497,6 +5508,7 @@ CON = connector</text>
 <attribute name="NAME" x="-64.77" y="170.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-54.61" y="170.18" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="-58.42" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="DNP" x="-58.42" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+1" gate="1" x="-43.18" y="177.8" smashed="yes">
 <attribute name="VALUE" x="-41.275" y="180.34" size="1.778" layer="96" rot="R180"/>
@@ -5703,17 +5715,21 @@ CON = connector</text>
 </instance>
 <instance part="VR3_0R2" gate="G$1" x="190.5" y="-55.88" rot="R90">
 <attribute name="PARTNO" x="190.5" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DNP" x="190.5" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND37" gate="1" x="180.34" y="-134.62"/>
 <instance part="VR5_0R1" gate="G$1" x="180.34" y="-121.92" rot="R90">
 <attribute name="PARTNO" x="180.34" y="-121.92" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DNP" x="180.34" y="-121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="VR5_0R2" gate="G$1" x="187.96" y="-121.92" rot="R90">
 <attribute name="PARTNO" x="187.96" y="-121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="190.5" y="-43.18"/>
 <instance part="GND38" gate="1" x="190.5" y="-109.22"/>
-<instance part="RESET_SWITCH" gate="G$1" x="-104.14" y="170.18"/>
+<instance part="RESET_SWITCH" gate="G$1" x="-104.14" y="170.18">
+<attribute name="DNP" x="-104.14" y="170.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U_Z3" gate="G$1" x="-149.86" y="-167.64" smashed="yes">
 <attribute name="NAME" x="-152.4" y="-165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-157.48" y="-172.72" size="1.778" layer="96"/>
@@ -5786,7 +5802,9 @@ CON = connector</text>
 <instance part="U_FB2" gate="G$1" x="-50.8" y="104.14" rot="R90">
 <attribute name="PARTNO" x="-50.8" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-96.52" y="-162.56" rot="R270"/>
+<instance part="U$1" gate="G$1" x="-96.52" y="-162.56" rot="R270">
+<attribute name="DNP" x="-96.52" y="-162.56" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="U_C4" gate="G$1" x="-20.32" y="-30.48">
 <attribute name="PARTNO" x="-20.32" y="-30.48" size="1.778" layer="96" display="off"/>
 </instance>
@@ -5828,6 +5846,9 @@ CON = connector</text>
 <attribute name="PARTNO" x="-114.3" y="-134.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U$4" gate="G$1" x="-127" y="-154.94"/>
+<instance part="U_FB3" gate="G$1" x="-53.34" y="-20.32" rot="R90">
+<attribute name="PARTNO" x="-53.34" y="-20.32" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6738,15 +6759,10 @@ CON = connector</text>
 <pinref part="U_FB1" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="XUSB" class="3">
+<net name="VUSB" class="3">
 <segment>
-<wire x1="-101.6" y1="-33.02" x2="-101.6" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="-20.32" x2="-35.56" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-20.32" x2="-20.32" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="-33.02" x2="-101.6" y2="-33.02" width="0.1524" layer="91"/>
-<label x="-104.14" y="-33.02" size="1.778" layer="95" rot="MR0"/>
 <label x="-25.4" y="-20.32" size="1.778" layer="95"/>
-<pinref part="CON_USB" gate="G$1" pin="T1"/>
 <wire x1="-35.56" y1="-25.4" x2="-35.56" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U_C4" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="-25.4" x2="-20.32" y2="-20.32" width="0.1524" layer="91"/>
@@ -6773,6 +6789,8 @@ CON = connector</text>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="5.08" y="-20.32"/>
 <pinref part="U_C3" gate="G$1" pin="1"/>
+<pinref part="U_FB3" gate="G$1" pin="P$2"/>
+<wire x1="-50.8" y1="-20.32" x2="-35.56" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-7.62" y1="71.12" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -7558,6 +7576,17 @@ CON = connector</text>
 <wire x1="17.78" y1="-35.56" x2="5.08" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-35.56" x2="5.08" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="VR3_R5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="XUSB" class="3">
+<segment>
+<pinref part="CON_USB" gate="G$1" pin="T1"/>
+<wire x1="-121.92" y1="-33.02" x2="-101.6" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-33.02" x2="-101.6" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-104.14" y="-33.02" size="1.778" layer="95" rot="MR0"/>
+<label x="-93.98" y="-20.32" size="1.778" layer="95"/>
+<pinref part="U_FB3" gate="G$1" pin="P$1"/>
+<wire x1="-101.6" y1="-20.32" x2="-55.88" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
