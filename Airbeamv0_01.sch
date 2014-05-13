@@ -1844,34 +1844,6 @@ Source: www.epcos.com .. 01430148.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply2">
-<packages>
-</packages>
-<symbols>
-<symbol name="GND1">
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<text x="-2.159" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND1" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND1" prefix="SUPPLY">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="GND1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Airbeam">
 <packages>
 <package name="BT_NVC-MDCS42A">
@@ -5113,7 +5085,6 @@ CONN-08352</description>
 <attribute name="PARTNO" value="CG0603MLC-05E"/>
 </part>
 <part name="U$25" library="MyPOW" deviceset="VUSB" device=""/>
-<part name="SUPPLY2" library="supply2" deviceset="GND1" device="" value="UGND"/>
 <part name="UC_C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100n">
 <attribute name="PARTNO" value="C1608X7R1E104K080AA"/>
 </part>
@@ -5127,7 +5098,6 @@ CONN-08352</description>
 <part name="ATMEGA32U4-T" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="AU">
 <attribute name="PARTNO" value="AtMega32U4-XUAU"/>
 </part>
-<part name="SUPPLY1" library="supply2" deviceset="GND1" device="" value="UGND"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
@@ -5460,8 +5430,8 @@ CONN-08352</description>
 - X Power switch has incorrect circuit diagram, fix
 - X Voltage output is 5.1V -- check out why
 - X Move Buffer away from BT module
-- Make dust connector holes slightly larger
-- Flip T+RH Sensor Connections</text>
+- X  Make dust connector holes slightly larger
+- X  Flip T+RH Sensor Connections</text>
 <text x="68.58" y="-55.88" size="3.81" layer="94" ratio="10" rot="MR180" align="top-left">BATTERY</text>
 <text x="-139.7" y="0" size="6.35" layer="94">POWER</text>
 <text x="-363.22" y="-132.08" size="6.35" layer="94">Key:
@@ -5535,7 +5505,6 @@ CON = connector</text>
 <attribute name="PARTNO" x="-86.36" y="-68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$25" gate="G$1" x="-38.1" y="66.04"/>
-<instance part="SUPPLY2" gate="G$1" x="-53.34" y="38.1"/>
 <instance part="UC_C2" gate="G$1" x="-40.64" y="134.62">
 <attribute name="PARTNO" x="-40.64" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
@@ -5549,7 +5518,6 @@ CON = connector</text>
 <instance part="ATMEGA32U4-T" gate="G$1" x="175.26" y="104.14">
 <attribute name="PARTNO" x="175.26" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="-111.76" y="-58.42"/>
 <instance part="GND4" gate="1" x="-38.1" y="43.18"/>
 <instance part="GND15" gate="1" x="-106.68" y="116.84" rot="R270"/>
 <instance part="GND16" gate="1" x="-106.68" y="106.68" rot="R270"/>
@@ -6432,6 +6400,7 @@ CON = connector</text>
 <wire x1="-25.4" y1="-38.1" x2="-25.4" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="U_C3" gate="G$1" pin="2"/>
+<junction x="-25.4" y="-38.1"/>
 </segment>
 <segment>
 <pinref part="VR3_R4" gate="G$1" pin="2"/>
@@ -6738,7 +6707,6 @@ CON = connector</text>
 <junction x="-53.34" y="73.66"/>
 <label x="-53.34" y="43.18" size="1.778" layer="95" rot="R90"/>
 <label x="-53.34" y="63.5" size="1.778" layer="95" rot="R90"/>
-<pinref part="SUPPLY2" gate="G$1" pin="GND1"/>
 <pinref part="U_MEGA32U-Q" gate="G$1" pin="UGND"/>
 <pinref part="UC_R3" gate="G$1" pin="2"/>
 <pinref part="UC_C7" gate="G$1" pin="2"/>
@@ -6751,9 +6719,7 @@ CON = connector</text>
 <segment>
 <wire x1="-127" y1="-55.88" x2="-111.76" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="-55.88" x2="-111.76" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-111.76" y="-55.88"/>
 <label x="-119.38" y="-55.88" size="1.778" layer="95"/>
-<pinref part="SUPPLY1" gate="G$1" pin="GND1"/>
 <pinref part="CON_USB" gate="G$1" pin="T5"/>
 <wire x1="-111.76" y1="-43.18" x2="-121.92" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="U_FB1" gate="G$1" pin="P$2"/>
@@ -7380,6 +7346,7 @@ CON = connector</text>
 <pinref part="U_USB_CH" gate="G$1" pin="BAT"/>
 <wire x1="30.48" y1="-17.78" x2="53.34" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="53.34" y="-17.78"/>
+<junction x="66.04" y="-17.78"/>
 </segment>
 </net>
 <net name="VREG_IN" class="0">
@@ -7428,6 +7395,8 @@ CON = connector</text>
 <wire x1="134.62" y1="-48.26" x2="116.84" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="116.84" y="-48.26"/>
 <junction x="134.62" y="-48.26"/>
+<junction x="147.32" y="-22.86"/>
+<junction x="116.84" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="VR3_0R2" gate="G$1" pin="1"/>
@@ -7593,12 +7562,7 @@ CON = connector</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,-53.34,40.64,GND1,UGND,,,,"/>
 <approved hash="102,1,-111.76,-55.88,GND1,UGND,,,,"/>
-<approved hash="102,1,-68.58,12.7,GND1,UGND,,,,"/>
-<approved hash="102,1,-71.12,0,GND1,UGND,,,,"/>
-<approved hash="102,1,-86.36,-15.24,GND1,UGND,,,,"/>
-<approved hash="102,1,-96.52,-15.24,GND1,UGND,,,,"/>
 <approved hash="104,1,-7.62,104.14,U_MEGA32U-Q,AVCC1,AVCC,,,"/>
 <approved hash="104,1,-7.62,88.9,U_MEGA32U-Q,GND1,GND,,,"/>
 <approved hash="104,1,-7.62,86.36,U_MEGA32U-Q,GND2,GND,,,"/>
@@ -7615,7 +7579,6 @@ CON = connector</text>
 <approved hash="104,1,149.86,81.28,ATMEGA32U4-T,UVCC,+5V,,,"/>
 <approved hash="104,1,149.86,93.98,ATMEGA32U4-T,VCC,+5V,,,"/>
 <approved hash="104,1,149.86,127,ATMEGA32U4-T,VCC1,+5V,,,"/>
-<approved hash="104,1,-63.5,7.62,U_ILIM,GND,UGND,,,"/>
 <approved hash="105,1,-110.49,-40.64,USBID,,,,,"/>
 <approved hash="105,1,154.94,-218.44,VIN,,,,,"/>
 </errors>
