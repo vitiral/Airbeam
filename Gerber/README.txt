@@ -1,0 +1,10 @@
+drd = Drill
+oln = Board Outline
+top = Solder Top (smt side)
+bot = Solder Bottom (cmp side)
+slk = Silkscreen Top
+bsk = Silkscreen Bottom
+smt = Soldermask Top
+smb = Soldermask Bottom
+tsp = Top Stencil
+bsp = Bottom Stencil

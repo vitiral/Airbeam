@@ -5063,7 +5063,6 @@ CONN-08352</description>
 </classes>
 <parts>
 <part name="CON_ICSP" library="SmartPrj" deviceset="PINHD-2X3" device="" value="ICSP">
-<attribute name="DNP" value=""/>
 <attribute name="PARTNO" value="67997-206HLF "/>
 </part>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -5096,7 +5095,7 @@ CONN-08352</description>
 <attribute name="PARTNO" value="DNP"/>
 </part>
 <part name="ATMEGA32U4-T" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="AU">
-<attribute name="PARTNO" value="AtMega32U4-XUAU"/>
+<attribute name="PARTNO" value="ATMEGA32U4-AU"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -5261,7 +5260,7 @@ CONN-08352</description>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
-<part name="RESET_SWITCH" library="Airbeam" deviceset="SWITCH" device="">
+<part name="RESET_SWITCH" library="Airbeam" deviceset="SWITCH" device="" value="DNP">
 <attribute name="DNP" value=""/>
 </part>
 <part name="U_Z3" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E">
@@ -5326,7 +5325,7 @@ CONN-08352</description>
 <part name="U_FB2" library="Airbeam" deviceset="FERITE_BEAD" device="">
 <attribute name="PARTNO" value="MH2029-600Y"/>
 </part>
-<part name="U$1" library="Airbeam" deviceset="MOSFET-N" device="">
+<part name="U_FANM" library="Airbeam" deviceset="MOSFET-N" device="" value="DNP">
 <attribute name="DNP" value=""/>
 </part>
 <part name="U_C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100nF">
@@ -5371,7 +5370,9 @@ CONN-08352</description>
 <part name="CTH_R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k">
 <attribute name="PARTNO" value="RC0603JR-0710KL"/>
 </part>
-<part name="U$4" library="Airbeam" deviceset="TBLOCK_5" device=""/>
+<part name="CON_EXTERN" library="Airbeam" deviceset="TBLOCK_5" device="">
+<attribute name="PARTNO" value="1770911"/>
+</part>
 <part name="U_FB3" library="Airbeam" deviceset="FERITE_BEAD" device="">
 <attribute name="PARTNO" value="MH2029-600Y"/>
 </part>
@@ -5478,7 +5479,6 @@ CON = connector</text>
 <attribute name="NAME" x="-64.77" y="170.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-54.61" y="170.18" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="-58.42" y="165.1" size="1.778" layer="96" display="off"/>
-<attribute name="DNP" x="-58.42" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+1" gate="1" x="-43.18" y="177.8" smashed="yes">
 <attribute name="VALUE" x="-41.275" y="180.34" size="1.778" layer="96" rot="R180"/>
@@ -5770,7 +5770,7 @@ CON = connector</text>
 <instance part="U_FB2" gate="G$1" x="-50.8" y="104.14" rot="R90">
 <attribute name="PARTNO" x="-50.8" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-96.52" y="-162.56" rot="R270">
+<instance part="U_FANM" gate="G$1" x="-96.52" y="-162.56" rot="R270">
 <attribute name="DNP" x="-96.52" y="-162.56" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U_C4" gate="G$1" x="-20.32" y="-30.48">
@@ -5813,7 +5813,9 @@ CON = connector</text>
 <instance part="CTH_R1" gate="G$1" x="-114.3" y="-134.62" rot="R90">
 <attribute name="PARTNO" x="-114.3" y="-134.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U$4" gate="G$1" x="-127" y="-154.94"/>
+<instance part="CON_EXTERN" gate="G$1" x="-127" y="-154.94">
+<attribute name="PARTNO" x="-127" y="-154.94" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U_FB3" gate="G$1" x="-53.34" y="-20.32" rot="R90">
 <attribute name="PARTNO" x="-53.34" y="-20.32" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -5927,9 +5929,9 @@ CON = connector</text>
 <pinref part="CE_C1" gate="G$1" pin="1"/>
 <wire x1="-134.62" y1="-205.74" x2="-144.78" y2="-205.74" width="0.1524" layer="91"/>
 <junction x="-134.62" y="-205.74"/>
-<pinref part="U$4" gate="G$1" pin="T_4"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="T_4"/>
 <junction x="-124.46" y="-157.48"/>
-<pinref part="U$4" gate="G$1" pin="B_4"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="B_4"/>
 </segment>
 <segment>
 <pinref part="U_BT_TX" gate="G$1" pin="VCC"/>
@@ -6555,7 +6557,7 @@ CON = connector</text>
 <wire x1="-106.68" y1="-162.56" x2="-106.68" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <junction x="-101.6" y="-162.56"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
+<pinref part="U_FANM" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
@@ -6565,9 +6567,9 @@ CON = connector</text>
 <wire x1="-127" y1="-193.04" x2="-144.78" y2="-193.04" width="0.1524" layer="91"/>
 <pinref part="U_Z5" gate="G$1" pin="1"/>
 <junction x="-127" y="-193.04"/>
-<pinref part="U$4" gate="G$1" pin="T_3"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="T_3"/>
 <junction x="-127" y="-157.48"/>
-<pinref part="U$4" gate="G$1" pin="B_3"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="B_3"/>
 </segment>
 <segment>
 <pinref part="U_BT_RX" gate="G$1" pin="VCC"/>
@@ -6954,9 +6956,9 @@ CON = connector</text>
 <wire x1="-129.54" y1="-152.4" x2="-129.54" y2="-157.48" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-157.48" x2="-129.54" y2="-180.34" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-180.34" x2="-144.78" y2="-180.34" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="T_2"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="T_2"/>
 <junction x="-129.54" y="-157.48"/>
-<pinref part="U$4" gate="G$1" pin="B_2"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="B_2"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="-205.74" x2="180.34" y2="-226.06" width="0.1524" layer="91"/>
@@ -6980,9 +6982,9 @@ CON = connector</text>
 <wire x1="-132.08" y1="-152.4" x2="-132.08" y2="-157.48" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="-157.48" x2="-132.08" y2="-167.64" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="-167.64" x2="-144.78" y2="-167.64" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="T_1"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="T_1"/>
 <junction x="-132.08" y="-157.48"/>
-<pinref part="U$4" gate="G$1" pin="B_1"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="B_1"/>
 </segment>
 <segment>
 <wire x1="182.88" y1="-205.74" x2="182.88" y2="-226.06" width="0.1524" layer="91"/>
@@ -7059,7 +7061,7 @@ CON = connector</text>
 <segment>
 <wire x1="-96.52" y1="-154.94" x2="-96.52" y2="-160.02" width="0.1524" layer="91"/>
 <label x="-96.52" y="-154.94" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="U_FANM" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <wire x1="172.72" y1="-190.5" x2="172.72" y2="-175.26" width="0.1524" layer="91"/>
@@ -7414,7 +7416,7 @@ CON = connector</text>
 <wire x1="-93.98" y1="-162.56" x2="-91.44" y2="-162.56" width="0.1524" layer="91"/>
 <pinref part="VR_R4" gate="G$1" pin="2"/>
 <wire x1="-91.44" y1="-162.56" x2="-91.44" y2="-172.72" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
+<pinref part="U_FANM" gate="G$1" pin="P$3"/>
 <pinref part="U$2" gate="G$1" pin="P1"/>
 <wire x1="-91.44" y1="-162.56" x2="-78.74" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-162.56" x2="-78.74" y2="-165.1" width="0.1524" layer="91"/>
@@ -7479,9 +7481,9 @@ CON = connector</text>
 <wire x1="-121.92" y1="-157.48" x2="-121.92" y2="-220.98" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="-220.98" x2="-147.32" y2="-220.98" width="0.1524" layer="91"/>
 <pinref part="CA_FB1" gate="G$1" pin="P$2"/>
-<pinref part="U$4" gate="G$1" pin="T_5"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="T_5"/>
 <junction x="-121.92" y="-157.48"/>
-<pinref part="U$4" gate="G$1" pin="B_5"/>
+<pinref part="CON_EXTERN" gate="G$1" pin="B_5"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -7562,7 +7564,6 @@ CON = connector</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,-111.76,-55.88,GND1,UGND,,,,"/>
 <approved hash="104,1,-7.62,104.14,U_MEGA32U-Q,AVCC1,AVCC,,,"/>
 <approved hash="104,1,-7.62,88.9,U_MEGA32U-Q,GND1,GND,,,"/>
 <approved hash="104,1,-7.62,86.36,U_MEGA32U-Q,GND2,GND,,,"/>

@@ -19,29 +19,29 @@ Qty-1,Part References,Value,Package,Mfg Part Num,Mfg Name,Description,Value,Pkg 
 4,"BT_C2, UC_C6, U_C1, VR5_C4",100nF,0603-CAP,C1608X7R1E104K080AA,TDK,Capacitor,100nF,0603,*,445-1316-1-ND,0.0077,*,http://www.digikey.com/product-detail/en/C1608X7R1E104K080AA/445-1316-1-ND/567697,REF43
 1,"U_C4",100nF,0603-CAP,CC0603ZRY5V9BB104,Yageo,Capacitor ? 50V,100nF / 50V,0603,*,311-1343-1-ND ,0.00546,*,http://www.digikey.com/product-detail/en/CC0603ZRY5V9BB104/311-1343-1-ND/2103127,REF44
 3,"VR3_R1, VR5_R1, VR_R2",487k,0603-RES,ERJ-3EKF4873V,Panasonic,Resistor,487k,0603,*,P487KHCT-ND,0.00624,*,http://www.digikey.com/product-detail/en/ERJ-3EKF4873V/P487KHCT-ND/198411,REF58
-1,"ATMEGA32U4-T",ATMEGA32U4-XUAU,TQFP44-PAD,***PART# 'ATMEGA32U4-XUAU' NOT FOUND***,*,*,*,*,*,*,*,*,*,*
+1,"ATMEGA32U4-T",ATMEGA32U4-XUAU,TQFP44-PAD,ATMEGA32U4-AU,Atmel,Microcontroller,16MHz,*,*,556-ATMEGA32U4-AU,3.51,*,http://www.mouser.com/ProductDetail/Atmel/ATMEGA32U4-AU/?qs=sGAEpiMZZMvAvBNgSS9Lqh1wBIpnYT9c,REF1
 1,"UBT",BT-NVC-MDCS42A,BT_NVC-MDCS42A,NVC-MDCS42A,iNova,BT Module,*,*,*,n/a,*,*,n/a,REF7
 6,"U_Z1, U_Z2, U_Z3, U_Z4, U_Z5, U_Z6",CG0603MLC-05E,CT/CN0603,CG0603MLC-05E,Bourns Inc.,Varistor,*,*,*,CG0603MLC-05ECT-ND,0.1092,*,http://www.digikey.com/product-detail/en/CG0603MLC-05E/CG0603MLC-05ECT-ND/3438061,REF38
 1,"CON_BAT",CON_BAT,JST-2-SMD,S2B-PH-SM4-TB(LF)(SN),JST Sales America,Conn Battery,*,*,*,455-1749-1-ND,0.34734,*,http://www.digikey.com/product-detail/en/S2B-PH-SM4-TB(LF)(SN)/455-1749-1-ND/926846,REF24
 1,"CON_DUST",CON_DUST,S4B-EH,S4B-EH,JST Sales America,Connector (Dust Sensor),*,*,*,455-1627-ND,0.09906,*,http://www.digikey.com/product-detail/en/S4B-EH(LF)(SN)/455-1627-ND/926535,REF16
 1,"U_MEGA32U-Q",DNP,QFN44ML7X7,DNP,DO NOT POPULATE,DO NOT POPULATE,*,*,*,*,*,*,DO NOT POPULATE,REF62
+1,"U_FANM",DNP,SOT23,NDS331N,Fairchild,MOSFET ? N,*,*,*,NDS331NCT-ND,0.1407,*,http://www.digikey.com/product-detail/en/NDS331N/NDS331NCT-ND/458997,REF61
 3,"UC_R3, VR3_0R2, VR5_0R1",DNP,0603-RES,RC0603JR-070RL,Yageo,Resistor,0,0603,*,311-0.0GRCT-ND,0.00294,*,http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622,REF50
 1,"VR_C1",DNP,2917_CAP,T491D107K010AT,Kernet,Capacitor ? Tantilum,100uF,2917,*,*,*,*,http://www.digikey.com/product-detail/en/T491D107K010AT/399-3769-1-ND/819094,REF48
+1,"RESET_SWITCH",DNP,SWITCH_TACTILE,TL3315NF250Q,E-Switch,Switch,*,*,*,EG4622CT-ND,0.14674,*,http://www.digikey.com/product-detail/en/TL3315NF250Q/EG4622CT-ND/1870402,REF2
 4,"CA_FB1, U_FB1, U_FB2, U_FB3",FERITE_BEAD,U_FB1,MH2029-600Y,Bourns Inc.,Ferite Bead,3A,*,*,MH2029-600YCT-ND,0.02324,*,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=147728399&uq=635324759172303876,REF37
 3,"FID1, FID2, FID3",FIDUCIALMOUNT,FIDUCIA-MOUNT,DNP,DO NOT POPULATE,DO NOT POPULATE,*,*,*,*,*,*,DO NOT POPULATE,REF62
 1,"CON_ICSP",ICSP,2X03,67997-206HLF,FCI,Connector ISP,*,*,*,609-3234-ND,0.17494,*,http://www.digikey.com/product-detail/en/67997-206HLF/609-3234-ND/1878491,REF3
 1,"LED_BT",LED,LED_550,550-1107F,Dialight,LED -  Red,Red,*,*,350-1620-ND,0.5202,*,http://www.digikey.com/product-detail/en/550-1107F/350-1620-ND/809018,REF6
 1,"LED_CH",LED,LED_550,550-1307F,Dialight,LED ? Green,Green,*,*,350-1627-ND,0.5712,*,http://www.digikey.com/product-detail/en/550-1307F/350-1627-ND/809025,REF5
-1,"U$1",MOSFET-N,SOT23,NDS331N,Fairchild,MOSFET ? N,*,*,*,NDS331NCT-ND,0.1407,*,http://www.digikey.com/product-detail/en/NDS331N/NDS331NCT-ND/458997,REF61
 1,"CONHEADER_FAN",OFF_BOARD,EMPTY,02SUR-32S,JST Sales America,Connector Fan (wire),*,*,*,455-2176-ND,*,*,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=147727180&uq=635324752046867637,REF15
-1,"LION_BATTERY",OFF_BOARD,EMPTY,***PART# '585460_2000MAH' NOT FOUND***,*,*,*,*,*,*,*,*,*,*
+1,"LION_BATTERY",OFF_BOARD,EMPTY,585460_2000MAH,UnionFortune,Battery ? Lion,2000mAh,*,*,*,11.16,*,http://www.jayconsystems.com/3-7-volt-rechargeable-lithium-battery-2000-mah.html,REF23
 1,"3_3V_FAN_COPOL",OFF_BOARD,EMPTY,F16FB-05LLC/E,Copol,Fan Copol,*,*,*,563-1106-ND,6.46552,*,http://www.digikey.com/product-detail/en/F16EA-03LLC%20%2FE/563-1106-ND/1165500,REF12
 1,"DUST_SENSOR",OFF_BOARD,EMPTY,PPD60PV-T2,SHINYEI,Sensor Dust ,*,*,*,*,25,*,n/a,REF11
 1,"U$3",PUSHBUTTON,PUSHBUTTON,LC2259EENP,E-Switch,Power Button,*,*,*,*,0.535,*,http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=LC2259EENPESWITCH6265227&IM=0,REF22
 1,"U_TEMP-HUM",RHT03,RHT03,RHT03,Maxdetect,Sensor Temp-Humidity ,*,*,*,*,6.55,*,http://www.ebay.com/itm/NEW-DHT22-AM2302-Digital-Temperature-Humidity-Sensor-Replace-SHT11-SHT15-Logger-/271175728425?pt=LH_DefaultDomain_0&hash=item3f23553d29,REF10
 1,"U$2",SUR_2PIN,JST-0.8MM,SM02B-SURS-TF,SUR,Connector Fan,2 pin,*,*,455-2039-1-ND,0.4066,*,http://www.digikey.com/product-detail/en/SM02B-SURS-TF(LF)(SN)%3B/455-2039-1-ND/1634927,REF14
-1,"RESET_SWITCH",SWITCH,SWITCH_TACTILE,TL3315NF250Q,E-Switch,Switch,*,*,*,EG4622CT-ND,0.14674,*,http://www.digikey.com/product-detail/en/TL3315NF250Q/EG4622CT-ND/1870402,REF2
-1,"U$4",TBLOCK_5,TBLOCK_5,***PART# '*' NOT FOUND***,*,*,*,*,*,*,*,*,*,*
+1,"CON_EXTERN",TBLOCK_5,TBLOCK_5,1770911,Phoenix,Connector (addon board),5 pin,*,DK,277-2082-1-ND ,0.77,*,http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&KeyWords=3M9368-ND,REF18
 1,"U_USB_CH",USB-BATTERY_LOAD,TDFN33-14,AAT3672IWO-4.2-1-T1,Skyworks Solutions,USB ? Battery + Load,4.2V,*,*,863-1545-1-ND ,0.88,*,http://www.digikey.com/product-detail/en/AAT3672IWO-4.2-1-T1/863-1545-1-ND/4753079,REF27
 1,"CON_USB",USB-FCI,USB-FCI,10103594-0001LF,FCI,Connector USB Micro,*,*,*,609-4050-1-ND,0.45232,*,http://www.digikey.com/product-detail/en/10103594-0001LF/609-4050-1-ND/2350357,REF20
 2,"U_VR3, U_VR5",VREG-RTEC6150,WFDFN-10,RT6150BGQW,Richtek USA,Voltage Reg Buck-Boost,*,*,*,1028-1260-1-ND,0.57076,*,http://www.digikey.com/product-detail/en/RT6150BGQW/1028-1260-1-ND/4733184,REF25
