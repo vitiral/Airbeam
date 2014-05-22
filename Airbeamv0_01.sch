@@ -5092,7 +5092,8 @@ CONN-08352</description>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="U_MEGA32U-Q" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="MU" value="DNP">
-<attribute name="PARTNO" value="DNP"/>
+<attribute name="PARTNO" value="ATMEGA32U4-MU
+"/>
 </part>
 <part name="ATMEGA32U4-T" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="AU">
 <attribute name="PARTNO" value="ATMEGA32U4-AU"/>
@@ -5333,11 +5334,11 @@ CONN-08352</description>
 </part>
 <part name="VR_C1" library="Airbeam" deviceset="CAP_POL" device="120UF" value="DNP"/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="U$2" library="Airbeam" deviceset="SUR_2PIN" device=""/>
+<part name="CON_FAN" library="Airbeam" deviceset="SUR_2PIN" device=""/>
 <part name="CONHEADER_FAN" library="Airbeam" deviceset="PART_OFFBOARD" device="" value="OFF_BOARD">
 <attribute name="PARTNO" value="02SUR-32S"/>
 </part>
-<part name="U$3" library="Airbeam" deviceset="PUSHBUTTON" device=""/>
+<part name="U_PUSHB" library="Airbeam" deviceset="PUSHBUTTON" device=""/>
 <part name="U_USB_CH" library="Airbeam" deviceset="USB-BATTERY_LOAD" device="">
 <attribute name="PARTNO" value="AAT3672IWO-4.2-1-T1"/>
 </part>
@@ -5513,7 +5514,7 @@ CON = connector</text>
 </instance>
 <instance part="GND3" gate="1" x="129.54" y="48.26"/>
 <instance part="U_MEGA32U-Q" gate="G$1" x="17.78" y="104.14">
-<attribute name="PARTNO" x="17.78" y="104.14" size="6.35" layer="96" display="off"/>
+<attribute name="PARTNO" x="17.78" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ATMEGA32U4-T" gate="G$1" x="175.26" y="104.14">
 <attribute name="PARTNO" x="175.26" y="104.14" size="1.778" layer="96" display="off"/>
@@ -5778,11 +5779,11 @@ CON = connector</text>
 </instance>
 <instance part="VR_C1" gate="G$1" x="147.32" y="-25.4"/>
 <instance part="GND48" gate="1" x="147.32" y="-33.02"/>
-<instance part="U$2" gate="G$1" x="-76.2" y="-167.64"/>
+<instance part="CON_FAN" gate="G$1" x="-76.2" y="-167.64"/>
 <instance part="CONHEADER_FAN" gate="G$1" x="276.86" y="-38.1">
 <attribute name="PARTNO" x="276.86" y="-38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$3" gate="G$1" x="137.16" y="-48.26" rot="R90"/>
+<instance part="U_PUSHB" gate="G$1" x="137.16" y="-48.26" rot="R90"/>
 <instance part="U_USB_CH" gate="G$1" x="22.86" y="-25.4">
 <attribute name="PARTNO" x="22.86" y="-25.4" size="1.778" layer="96" display="off"/>
 </instance>
@@ -6355,16 +6356,16 @@ CON = connector</text>
 <pinref part="GND48" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P2"/>
+<pinref part="CON_FAN" gate="G$1" pin="P2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="-73.66" y1="-165.1" x2="-73.66" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-162.56" x2="-63.5" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-162.56" x2="-63.5" y2="-180.34" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="PAD1"/>
+<pinref part="CON_FAN" gate="G$1" pin="PAD1"/>
 <wire x1="-63.5" y1="-180.34" x2="-63.5" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="-170.18" x2="-81.28" y2="-180.34" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="-180.34" x2="-71.12" y2="-180.34" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="PAD2"/>
+<pinref part="CON_FAN" gate="G$1" pin="PAD2"/>
 <wire x1="-71.12" y1="-180.34" x2="-71.12" y2="-170.18" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-180.34" x2="-63.5" y2="-180.34" width="0.1524" layer="91"/>
 <junction x="-71.12" y="-180.34"/>
@@ -7390,8 +7391,8 @@ CON = connector</text>
 <label x="149.86" y="-22.86" size="1.778" layer="95"/>
 <label x="165.1" y="-22.86" size="1.778" layer="95"/>
 <wire x1="147.32" y1="-22.86" x2="116.84" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="LS1"/>
-<pinref part="U$3" gate="G$1" pin="LS2"/>
+<pinref part="U_PUSHB" gate="G$1" pin="LS1"/>
+<pinref part="U_PUSHB" gate="G$1" pin="LS2"/>
 <wire x1="134.62" y1="-45.72" x2="134.62" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-48.26" x2="134.62" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-48.26" x2="116.84" y2="-48.26" width="0.1524" layer="91"/>
@@ -7417,7 +7418,7 @@ CON = connector</text>
 <pinref part="VR_R4" gate="G$1" pin="2"/>
 <wire x1="-91.44" y1="-162.56" x2="-91.44" y2="-172.72" width="0.1524" layer="91"/>
 <pinref part="U_FANM" gate="G$1" pin="P$3"/>
-<pinref part="U$2" gate="G$1" pin="P1"/>
+<pinref part="CON_FAN" gate="G$1" pin="P1"/>
 <wire x1="-91.44" y1="-162.56" x2="-78.74" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-162.56" x2="-78.74" y2="-165.1" width="0.1524" layer="91"/>
 <label x="-86.36" y="-162.56" size="1.778" layer="95"/>
@@ -7515,8 +7516,8 @@ CON = connector</text>
 <segment>
 <wire x1="157.48" y1="-48.26" x2="157.48" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="VR_R2" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="COM2"/>
-<pinref part="U$3" gate="G$1" pin="COM1"/>
+<pinref part="U_PUSHB" gate="G$1" pin="COM2"/>
+<pinref part="U_PUSHB" gate="G$1" pin="COM1"/>
 <wire x1="142.24" y1="-50.8" x2="142.24" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-48.26" x2="142.24" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-48.26" x2="157.48" y2="-48.26" width="0.1524" layer="91"/>
