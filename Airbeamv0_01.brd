@@ -14,9 +14,9 @@
 <layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -14251,8 +14251,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="26.762" y="11.389" size="0.508" layer="25" font="vector" ratio="27" rot="R270"/>
 <attribute name="VALUE" x="27.484" y="12.357" size="0.508" layer="27" font="vector" ratio="27"/>
 </element>
-<element name="VR5_L1" library="SparkFun-Passives" package="1210" value="6uH" x="23.5" y="3.5" smashed="yes">
-<attribute name="PARTNO" value="RT6150BGQW" x="23.5" y="3.5" size="1.778" layer="27" display="off"/>
+<element name="VR5_L1" library="SparkFun-Passives" package="1210" value="4.7uH" x="23.5" y="3.5" smashed="yes">
+<attribute name="PARTNO" value="CBC3225T4R7MR" x="23.5" y="3.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.2" y="1.5" size="0.508" layer="25" ratio="27"/>
 <attribute name="VALUE" x="20.7" y="1.6" size="0.508" layer="27" ratio="27" rot="R90"/>
 </element>

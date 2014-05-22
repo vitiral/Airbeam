@@ -5092,8 +5092,7 @@ CONN-08352</description>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="U_MEGA32U-Q" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="MU" value="DNP">
-<attribute name="PARTNO" value="ATMEGA32U4-MU
-"/>
+<attribute name="PARTNO" value="ATMEGA32U4-MU "/>
 </part>
 <part name="ATMEGA32U4-T" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="AU">
 <attribute name="PARTNO" value="ATMEGA32U4-AU"/>
@@ -5153,8 +5152,8 @@ CONN-08352</description>
 <attribute name="PARTNO" value="RC0805FR-0753K6L"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="VR5_L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="6uH">
-<attribute name="PARTNO" value="RT6150BGQW"/>
+<part name="VR5_L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="4.7uH">
+<attribute name="PARTNO" value="CBC3225T4R7MR"/>
 </part>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="VR5_C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF">
