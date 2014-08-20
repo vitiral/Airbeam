@@ -1,0 +1,48 @@
+Qty-1	Part References	Value	Package	Mfg Part Num	Mfg Name	Description	Value	Pkg Code	VID	Vendor Part Num	Price @20	Price @ 500	Height	Link	XREF
+1	VR_R4	0	0603-RES	RC0603JR-070RL	Yageo	Resistor	0	603	*	311-0.0GRCT-ND	0.0045	0.00294	*	http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622	REF51
+2	VR3_0R1, VR5_0R2	0	0603-RES	RC0603JR-070RL	Yageo	Resistor	0	603	*	311-0.0GRCT-ND	0.0045	0.00294	*	http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622	REF51
+2	R_LED_BT, R_LED_CH	1.4k	0603-RES	RC0603FR-071K4L	Yageo	Resistor	1.4k	603	*	311-1.40KHRCT-ND	0.0108	0.00364	*	http://www.digikey.com/product-detail/en/RC0603FR-071K4L/311-1.40KHRCT-ND/729808	REF53
+1	UC_R1	1M	0603-RES	RC0603FR-071ML	Yageo	Resistor	1M	603	*	311-1.00MHRCT-ND	0.015	0.00364	*	http://www.digikey.com/product-detail/en/RC0603FR-071ML/311-1.00MHRCT-ND/729791	REF60
+7	BT_C1, CD_C1, CE_C1, CTH_C1, UC_C5, UC_C7, UC_C8	1uF	0603-CAP	C1608X5R1C105K080AA	TDK	Capacitor	1uF	603	*	445-1416-1-ND	0.0337	0.02356	*	http://www.digikey.com/product-detail/en/C1608X5R1C105K080AA/445-1416-1-ND/569082	REF46
+1	VR3_L1	2.2uH	1210	BRL3225T2R2M	Taiyo Yuden	Inductor 2.2uH	2.2uH	1210	*	587-2165-1-ND 	0.196	0.13476	*	http://www.digikey.com/product-detail/en/BRL3225T2R2M/587-2165-1-ND/2002863	REF29
+1	VR5_L1	6uH	1210	RT6150BGQW	Richtek USA	Voltage Reg Buck-Boost	*	*	*	1028-1260-1-ND	0.8388	0.57076	*	http://www.digikey.com/product-detail/en/RT6150BGQW/1028-1260-1-ND/4733184	REF26
+1	UC_NTC	10k	402	ERT-J0EM103J	Panasonic	Thermister ? NTC	10k	603	*	P12985CT-ND 	0.143	0.07	*	http://www.digikey.com/product-detail/en/ERT-J0EM103J/P12985CT-ND/761196	REF41
+4	CTH_R1, UC_R2, UC_R4, UC_R6	10k	0603-RES	RC0603JR-0710KL	Yageo	Resistor	10k	603	*	311-10KGRCT-ND	0.008	0.00364	*	http://www.digikey.com/product-detail/en/RC0603JR-0710KL/311-10KGRCT-ND/729647	REF56
+8	UR_C1, UR_C2, VR3_C1, VR3_C2, VR3_C3, VR5_C1, VR5_C2, VR5_C3	10uF	805	C2012X5R1C106K085AC	TDK	Capacitor	10uF	805	*	445-7644-1-ND	0.1102	0.07298	*	http://www.digikey.com/product-detail/en/C2012X5R1C106K085AC/445-7644-1-ND/2733716	REF47
+1	U_C3	10uF/50V	1206	CL31A106KBHNNNE	Samsung	Capacitor ? 50V	10uF / 50V	1206	*	1276-2876-1-ND 	0.332	0.12082	*	http://www.digikey.com/product-detail/en/CL31A106KBHNNNE/1276-2876-1-ND/3890962	REF48
+1	UC_CRYSTAL	16MHz	HC49UP	ECS-160-20-3X-TR	ECS	Crystal	16MHz	*	*	XC1776CT-ND	0.455	0.266	2.3	http://www.digikey.com/product-detail/en/ECS-160-20-3X-TR/XC1776CT-ND/2676640	REF5
+2	UC_C3, UC_C4	20pF	0603-CAP	CL10C200JB8NNNC	Samsung	Capacitor	20pF	603	*	1276-1187-1-ND	0.0212	0.00966	*	http://www.digikey.com/product-detail/en/CL10C200JB8NNNC/1276-1187-1-ND/3889273	REF43
+2	U_R1, U_R2	22	0603-RES	RC0603JR-0722RL	Yageo	Resistor	22	603	*	311-22GRCT-ND	0.008	0.00278	*	http://www.digikey.com/product-detail/en/RC0603JR-0722RL/311-22GRCT-ND/729690	REF52
+1	VR5_R2	53.6k	0603-RES	RC0805FR-0753K6L	Yageo	Resistor	53.6k	603	*	311-53.6KCRCT-ND	0.021	0.00364	*	http://www.digikey.com/product-detail/en/RC0805FR-0753K6L/311-53.6KCRCT-ND/730972	REF57
+3	VR3_R2, VR3_R4, VR3_R5	86.6k	0603-RES	ERJ-3EKF8662V	Panasonic	Resistor	86.6k	603	*	P86.6KHCT-ND	0.015	0.00624	*	http://www.digikey.com/product-detail/en/ERJ-3EKF8662V/P86.6KHCT-ND/198534	REF58
+2	UC_C1, UC_C2	100n	0603-CAP	C1608X7R1E104K080AA	TDK	Capacitor	100nF	603	*	445-1316-1-ND	0.011	0.0077	*	http://www.digikey.com/product-detail/en/C1608X7R1E104K080AA/445-1316-1-ND/567697	REF44
+4	BT_C2, UC_C6, U_C1, VR5_C4	100nF	0603-CAP	C1608X7R1E104K080AA	TDK	Capacitor	100nF	603	*	445-1316-1-ND	0.011	0.0077	*	http://www.digikey.com/product-detail/en/C1608X7R1E104K080AA/445-1316-1-ND/567697	REF44
+1	U_C4	100nF	0603-CAP	CC0603ZRY5V9BB104	Yageo	Capacitor ? 50V	100nF / 50V	603	*	311-1343-1-ND 	0.017	0.00546	*	http://www.digikey.com/product-detail/en/CC0603ZRY5V9BB104/311-1343-1-ND/2103127	REF45
+3	VR3_R1, VR5_R1, VR_R2	487k	0603-RES	ERJ-3EKF4873V	Panasonic	Resistor	487k	603	*	P487KHCT-ND	0.015	0.00624	*	http://www.digikey.com/product-detail/en/ERJ-3EKF4873V/P487KHCT-ND/198411	REF59
+1	ATMEGA32U4-T	DNP	TQFP44-PAD	ATMEGA32U4-AU	Atmel	Microcontroller	DNP	*	*	556-ATMEGA32U4-AU	*	3.51	*	http://www.mouser.com/ProductDetail/Atmel/ATMEGA32U4-AU/?qs=sGAEpiMZZMvAvBNgSS9Lqh1wBIpnYT9c	REF1
+1	UBT	BT-NVC-MDCS42A	BT_NVC-MDCS42A	NVC-MDCS42A	iNova	BT Module	*	*	*	n/a	0	*	*	n/a	REF8
+6	U_Z1, U_Z2, U_Z3, U_Z4, U_Z5, U_Z6	CG0603MLC-05E	CT/CN0603	CG0603MLC-05E	Bourns Inc.	Varistor	*	*	*	CG0603MLC-05ECT-ND	0.1472	0.1092	*	http://www.digikey.com/product-detail/en/CG0603MLC-05E/CG0603MLC-05ECT-ND/3438061	REF39
+1	CON_BAT	CON_BAT	JST-2-SMD	S2B-PH-SM4-TB(LF)(SN)	JST Sales America	Conn Battery	*	*	*	455-1749-1-ND	0.521	0.34734	*	http://www.digikey.com/product-detail/en/S2B-PH-SM4-TB(LF)(SN)/455-1749-1-ND/926846	REF25
+1	CON_DUST	CON_DUST	S4B-EH	S4B-EH	JST Sales America	Connector (Dust Sensor)	*	*	*	455-1627-ND	0.169	0.09906	*	http://www.digikey.com/product-detail/en/S4B-EH(LF)(SN)/455-1627-ND/926535	REF17
+1	U_MEGA32U-Q	ATMEGA32U4-MU	QFN44ML7X7	ATMEGA32U4-MU	Atmel	Microcontroller	16MHz	*	*	ATMEGA32U4RC-MU-ND 	5.741	3.95492	*	http://www.digikey.com/product-search/en?lang=en&site=us&vendor=0&WT.z_cid=ref_findchips0311_dkc_buynow&mpart=ATMEGA32U4RC-MU	REF2
+1	U_FANM	DNP	SOT23	NDS331N	Fairchild	MOSFET ? N	*	*	*	NDS331NCT-ND	0.362	0.1407	*	http://www.digikey.com/product-detail/en/NDS331N/NDS331NCT-ND/458997	REF62
+3	UC_R3, VR3_0R2, VR5_0R1	DNP	0603-RES	RC0603JR-070RL	Yageo	Resistor	0	603	*	311-0.0GRCT-ND	0.0045	0.00294	*	http://www.digikey.com/product-detail/en/RC0603JR-070RL/311-0.0GRCT-ND/729622	REF51
+1	VR_C1	DNP	2917_CAP	T491D107K010AT	Kernet	Capacitor ? Tantilum	100uF	2917	*	*	*	*	*	http://www.digikey.com/product-detail/en/T491D107K010AT/399-3769-1-ND/819094	REF49
+1	RESET_SWITCH	DNP	SWITCH_TACTILE	TL3315NF250Q	E-Switch	Switch	*	*	*	EG4622CT-ND	0.185	0.14674	*	http://www.digikey.com/product-detail/en/TL3315NF250Q/EG4622CT-ND/1870402	REF3
+4	CA_FB1, U_FB1, U_FB2, U_FB3	FERITE_BEAD	U_FB1	MH2029-600Y	Bourns Inc.	Ferite Bead	3A	*	*	MH2029-600YCT-ND	0.0476	0.02324	*	http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=147728399&uq=635324759172303876	REF38
+3	FID1, FID2, FID3	FIDUCIALMOUNT	FIDUCIA-MOUNT	DNP	DO NOT POPULATE	DO NOT POPULATE	*	*	*	*	*	*	*	DO NOT POPULATE	REF63
+1	CON_ICSP	ICSP	2X03	67997-206HLF	FCI	Connector ISP	*	*	*	609-3234-ND	0.292	0.17494	*	http://www.digikey.com/product-detail/en/67997-206HLF/609-3234-ND/1878491	REF4
+1	LED_BT	LED	LED_550	550-1107F	Dialight	LED -  Red	Red	*	*	350-1620-ND	0.995	0.5202	*	http://www.digikey.com/product-detail/en/550-1107F/350-1620-ND/809018	REF7
+1	LED_CH	LED	LED_550	550-1307F	Dialight	LED ? Green	Green	*	*	350-1627-ND	1.09	0.5712	*	http://www.digikey.com/product-detail/en/550-1307F/350-1627-ND/809025	REF6
+															
+1	LION_BATTERY	OFF_BOARD	EMPTY	585460_2000MAH	UnionFortune	Battery ? Lion	2000mAh	*	*	*	12.55	11.16	*	http://www.jayconsystems.com/3-7-volt-rechargeable-lithium-battery-2000-mah.html	REF24
+1	3_3V_FAN_COPOL	OFF_BOARD	EMPTY	F16FB-05LLC/E	Copol	Fan Copol	*	*	*	563-1106-ND	10.11	6.46552	*	http://www.digikey.com/product-detail/en/F16EA-03LLC%20%2FE/563-1106-ND/1165500	REF13
+1	DUST_SENSOR	OFF_BOARD	EMPTY	PPD60PV-T2	SHINYEI	Sensor Dust 	*	*	*	*	0	25	*	n/a	REF12
+1	U_PUSHB	PUSHBUTTON	PUSHBUTTON	LC2259EENP	E-Switch	Power Button	*	*	*	*	0.655	0.535	*	http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=LC2259EENPESWITCH6265227&IM=0	REF23
+1	U_TEMP-HUM	RHT03	RHT03	RHT03	Maxdetect	Sensor Temp-Humidity 	*	*	*	*	8.96	7.96	*	https://www.sparkfun.com/products/10167 	REF11
+1	CON_FAN	SUR_2PIN	JST-0.8MM	SM02B-SURS-TF	SUR	Connector Fan	2 pin	*	*	455-2039-1-ND	0.581	0.4066	*	http://www.digikey.com/product-detail/en/SM02B-SURS-TF(LF)(SN)%3B/455-2039-1-ND/1634927	REF15
+1	CON_EXTERN	TBLOCK_5	TBLOCK_5	1770911	Phoenix	Connector (addon board)	5 pin	*	DK	277-2082-1-ND 	0.869	0.77	*	http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&KeyWords=3M9368-ND	REF19
+1	U_USB_CH	USB-BATTERY_LOAD	TDFN33-14	AAT3672IWO-4.2-1-T1	Skyworks Solutions	USB ? Battery + Load	4.2V	*	*	863-1545-1-ND 	1.06	0.88	*	http://www.digikey.com/product-detail/en/AAT3672IWO-4.2-1-T1/863-1545-1-ND/4753079	REF28
+1	CON_USB	USB-FCI	USB-FCI	10103594-0001LF	FCI	Connector USB Micro	*	*	*	609-4050-1-ND	0.678	0.45232	*	http://www.digikey.com/product-detail/en/10103594-0001LF/609-4050-1-ND/2350357	REF21
+2	U_VR3, U_VR5	VREG-RTEC6150	WFDFN-10	RT6150BGQW	Richtek USA	Voltage Reg Buck-Boost	*	*	*	1028-1260-1-ND	0.8388	0.57076	*	http://www.digikey.com/product-detail/en/RT6150BGQW/1028-1260-1-ND/4733184	REF26
+2	U_BT_RX, U_BT_TX	V_BUFFER	SOT23-5	SN74LVC1G125DBVR	Texas Instruments	Voltage Buffer	<5	SOT23-5	*	296-11603-1-ND	0.266	0.1482	*	http://www.digikey.com/product-detail/en/SN74LVC1G125DBVR/296-11603-1-ND/385742	REF9
